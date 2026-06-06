@@ -1,0 +1,17 @@
+# This is a generated public archive. Keep it clean.
+.DS_Store
+*.tmp
+*.swp
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+# Never allow secret-bearing files into the public archive.
+.env
+.env.*
+*.pem
+*.key
+*.token
+*.pat
+secrets/

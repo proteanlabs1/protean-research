@@ -1,0 +1,38 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) Protean Labs.
+
+The research content in this repository — discovery logs, frontier reports,
+research notes, candidate-family journals, the contradiction ledger,
+runtime-audit summaries, weekly reviews, indexes, and accompanying documentation
+— is licensed under the Creative Commons Attribution 4.0 International License.
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format.
+  - Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  - Attribution — You must give appropriate credit to Protean Labs, provide a
+    link to this license, and indicate if changes were made. You may do so in
+    any reasonable manner, but not in any way that suggests Protean Labs
+    endorses you or your use.
+  - No additional restrictions — You may not apply legal terms or technological
+    measures that legally restrict others from doing anything the license
+    permits.
+
+Notices:
+  - Computational rankings and observations in this archive are research-
+    prioritization signals, not biological proof, validated results, clinical
+    claims, or investment/governance promises. See BOUNDARY.md.
+  - The canonical scientific record is the Protean Ledger on Base mainnet; this
+    archive is a supplemental public mirror.
+
+The full license text is available at:
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+A human-readable summary is available at:
+  https://creativecommons.org/licenses/by/4.0/
+
+The verification script under scripts/ is provided as-is, without warranty of
+any kind, for the purpose of independently checking this archive.

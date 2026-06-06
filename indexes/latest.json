@@ -1,0 +1,78 @@
+{
+  "artifact_count": 6,
+  "generated_at": "2026-06-06T12:00:00+00:00",
+  "latest_by_kind": {
+    "candidate-family": {
+      "content_hash": "sha256:f210b31788e5f620f35356fd2366ff2bf276307930e22ef7f4a475990cc08410",
+      "generated_at": "2026-06-06T12:00:00+00:00",
+      "kind": "candidate-family",
+      "path": "candidate-families/unassigned.md",
+      "slug": "unassigned",
+      "title": "Candidate family journal — unassigned",
+      "topics": [
+        "candidate-family",
+        "unassigned"
+      ]
+    },
+    "discovery-log": {
+      "content_hash": "sha256:c59fddbe8cb893a4a3e1801ee8f8fbb8ef9ebadb6e0864f1f9facb8c89d2dbf1",
+      "generated_at": "2026-06-06T12:00:00+00:00",
+      "kind": "discovery-log",
+      "path": "discovery-logs/2026/2026-06-06.md",
+      "slug": "discovery-2026-06-06",
+      "title": "Discovery log — 2026-06-06",
+      "topics": [
+        "discovery",
+        "daily-log"
+      ]
+    },
+    "frontier-report": {
+      "content_hash": "sha256:f89a67f1ea77b8de95eea2d8e33f864264dacb060f2fca6cd3e813bd38ad4682",
+      "generated_at": "2026-06-06T12:00:00+00:00",
+      "kind": "frontier-report",
+      "path": "frontier-reports/2026/2026-06-06-frontier.md",
+      "slug": "frontier-2026-06-06",
+      "title": "Frontier health report — 2026-06-06",
+      "topics": [
+        "frontier",
+        "diversity",
+        "health"
+      ]
+    },
+    "runtime-audit": {
+      "content_hash": "sha256:967198697b4f9cd6d06eb98cb78c5bb389e622bf4ef4af0211e677a7ceb4dc7c",
+      "generated_at": "2026-06-06T12:00:00+00:00",
+      "kind": "runtime-audit",
+      "path": "runtime-audits/2026/2026-06-06-runtime.md",
+      "slug": "runtime-2026-06-06",
+      "title": "Runtime audit summary — 2026-06-06",
+      "topics": [
+        "runtime-audit",
+        "operations"
+      ]
+    },
+    "weekly-review": {
+      "content_hash": "sha256:095b8b44f1e124c3faf68fd6d4fe178473de08f27511b8280677550676af2adc",
+      "generated_at": "2026-06-06T12:00:00+00:00",
+      "kind": "weekly-review",
+      "path": "weekly-reviews/2026/2026-W23-state-of-protean.md",
+      "slug": "2026-W23-state-of-protean",
+      "title": "State of Protean — 2026-W23",
+      "topics": [
+        "weekly",
+        "state-of-protean"
+      ]
+    },
+    "wetlab-rationale": {
+      "content_hash": "sha256:a71c2a7aa204c614ca21fee09376fd3ef429cef2969f90e2fb992027dcf2d11b",
+      "generated_at": null,
+      "kind": "wetlab-rationale",
+      "path": "wetlab-rationale/README.md",
+      "slug": "README",
+      "title": "README",
+      "topics": []
+    }
+  },
+  "manifest_hash": "sha256:c5ca3dc67dcefe028bcbc7254e7cba2367f35c4844a5e2fb47e34a083c9402d3",
+  "schema_version": "protean.public-research-manifest.v1"
+}

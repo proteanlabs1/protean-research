@@ -1,0 +1,1830 @@
+{
+  "body": {
+    "frontier_audit": {
+      "alignment": {
+        "archive_count": 350,
+        "generated_count": 50,
+        "ranked_count": 50,
+        "ranked_in_archive_overlap": 50,
+        "ranked_in_generated_overlap": 50
+      },
+      "cutoffs": {
+        "top_100": {
+          "collapse_flags": [
+            {
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.86,
+              "message": "source frontier concentration is 0.86",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
+            },
+            {
+              "code": "lineage_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 0.8,
+              "message": "lineage is dominated by 'unknown' (0.8) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "generation_method_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.8,
+              "message": "generation_method frontier concentration is 0.8",
+              "severity": "review_required",
+              "top_value": "deterministic_constraint_recombination"
+            },
+            {
+              "code": "campaign_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 1.0,
+              "message": "campaign frontier concentration is 1.0",
+              "severity": "warning",
+              "top_value": "phenotype_first_unknown_target"
+            },
+            {
+              "code": "hypothesis_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 1.0,
+              "message": "hypothesis is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "hypothesis_linkage_missing",
+              "message": "hypothesis linkage is missing for most frontier candidates",
+              "missing_rate": 1.0,
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_neighborhood_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 0.8,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.8) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "taxonomy_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 1.0,
+              "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "count": 39,
+              "message": "Most frontier candidates carry suspected embedding compression",
+              "severity": "warning",
+              "share": 0.78
+            }
+          ],
+          "count": 50,
+          "dimensions": {
+            "campaign": {
+              "counts": {
+                "phenotype_first_unknown_target": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "phenotype_first_unknown_target",
+              "unique": 1
+            },
+            "family": {
+              "counts": {
+                "seqfam:0047b729": 1,
+                "seqfam:02156838": 1,
+                "seqfam:0428263c": 1,
+                "seqfam:113f2055": 1,
+                "seqfam:1d06061d": 1,
+                "seqfam:1e39e10a": 1,
+                "seqfam:22f38764": 1,
+                "seqfam:24e2db8b": 1,
+                "seqfam:2a2f887d": 1,
+                "seqfam:37aa86bf": 1,
+                "seqfam:3b0b7d74": 1,
+                "seqfam:3b928efc": 1,
+                "seqfam:3fac366e": 1,
+                "seqfam:3fba3d13": 1,
+                "seqfam:42f16bf1": 1,
+                "seqfam:45c907e1": 1,
+                "seqfam:4e63470d": 2,
+                "seqfam:5af4a721": 1,
+                "seqfam:64c22ddd": 2,
+                "seqfam:6d9b93c3": 1,
+                "seqfam:70d708c6": 1,
+                "seqfam:789bf706": 1,
+                "seqfam:7ef2b621": 1,
+                "seqfam:801f3b02": 1,
+                "seqfam:83d7b1ed": 1,
+                "seqfam:8808474e": 1,
+                "seqfam:8af305de": 1,
+                "seqfam:941c40cd": 1,
+                "seqfam:96353a5d": 1,
+                "seqfam:a6c676bd": 1,
+                "seqfam:a6ff4b6a": 1,
+                "seqfam:b7359806": 1,
+                "seqfam:b9736b2b": 1,
+                "seqfam:bc770cb2": 1,
+                "seqfam:cbe3404a": 2,
+                "seqfam:cf2dd465": 1,
+                "seqfam:d64d22f0": 1,
+                "seqfam:d7237cbe": 2,
+                "seqfam:d7e320d6": 1,
+                "seqfam:da217211": 1,
+                "seqfam:e5575b16": 1,
+                "seqfam:e6f88295": 1,
+                "seqfam:ea67f6a8": 1,
+                "seqfam:edccab69": 1,
+                "seqfam:fb311d38": 1,
+                "seqfam:fc2d92aa": 1
+              },
+              "effective_count": 44.7513,
+              "entropy": 3.8011,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9928,
+              "top_count": 2,
+              "top_value": "seqfam:4e63470d",
+              "unique": 46
+            },
+            "generation_method": {
+              "counts": {
+                "deterministic_constraint_recombination": 40,
+                "persistent_evolutionary_constrained_mutation": 1,
+                "persistent_evolutionary_motif_preserving_mutation": 4,
+                "persistent_evolutionary_novelty_biased_mutation": 2,
+                "persistent_evolutionary_recombination": 3
+              },
+              "effective_count": 2.1305,
+              "entropy": 0.7564,
+              "max_share": 0.8,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.47,
+              "top_count": 40,
+              "top_value": "deterministic_constraint_recombination",
+              "unique": 5
+            },
+            "hypothesis": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            },
+            "lineage": {
+              "counts": {
+                "20260606t031123z-001": 1,
+                "20260606t042615z-001": 1,
+                "20260606t042615z-010_20260606t031123z-001": 2,
+                "20260606t042615z-028": 2,
+                "20260606t042615z-035_20260606t112622z-010": 1,
+                "20260606t112622z-008": 1,
+                "20260606t112622z-010": 1,
+                "cycle-20260526t020837z-02-005": 1,
+                "unknown": 40
+              },
+              "effective_count": 2.4731,
+              "entropy": 0.9055,
+              "max_share": 0.8,
+              "missing_count": 40,
+              "missing_rate": 0.8,
+              "normalized_entropy": 0.4121,
+              "top_count": 40,
+              "top_value": "unknown",
+              "unique": 9
+            },
+            "motif_signature": {
+              "counts": {
+                "cggc": 1,
+                "cgsq": 1,
+                "cgvq": 1,
+                "cpgc": 1,
+                "cppc": 1,
+                "dcdq": 1,
+                "dlpa": 1,
+                "eecf": 1,
+                "fpcc": 1,
+                "gcgr": 1,
+                "geae": 1,
+                "gedv": 1,
+                "gehq": 1,
+                "geqe": 1,
+                "gese": 1,
+                "ggqq": 1,
+                "ghfp": 2,
+                "gtqg": 1,
+                "gypc": 2,
+                "hasp": 2,
+                "hfpt": 1,
+                "hkms": 1,
+                "hkps": 1,
+                "kphf": 1,
+                "kphg": 1,
+                "kpih": 1,
+                "kpsi": 1,
+                "pglp": 1,
+                "picc": 1,
+                "qhcd": 2,
+                "qhqc": 1,
+                "qqhs": 1,
+                "riwq": 1,
+                "rpyc": 1,
+                "sgpg": 1,
+                "tnpp": 1,
+                "vlpe": 1,
+                "vlph": 1,
+                "vlpn": 1,
+                "vlpp": 1,
+                "vlpr": 1,
+                "vlps": 1,
+                "wpcs": 1,
+                "wpds": 1,
+                "wpep": 1,
+                "wpqh": 1
+              },
+              "effective_count": 44.7513,
+              "entropy": 3.8011,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9928,
+              "top_count": 2,
+              "top_value": "qhcd",
+              "unique": 46
+            },
+            "source": {
+              "counts": {
+                "chembl_peptide_databases": 3,
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 43
+              },
+              "effective_count": 1.6497,
+              "entropy": 0.5006,
+              "max_share": 0.86,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.4556,
+              "top_count": 43,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "taxonomy": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            }
+          },
+          "motifs": {
+            "markers": {
+              "CG": 17,
+              "CPPC": 1,
+              "QGQ": 1
+            },
+            "top_kmers": [
+              {
+                "count": 8,
+                "motif": "QHC",
+                "share": 0.16
+              },
+              {
+                "count": 7,
+                "motif": "VLP",
+                "share": 0.14
+              },
+              {
+                "count": 6,
+                "motif": "PHQ",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "DKA",
+                "share": 0.12
+              },
+              {
+                "count": 5,
+                "motif": "QHQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CDD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DDQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HCD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DQH",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CDDQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "QHCD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DDQH",
+                "share": 0.1
+              }
+            ],
+            "top_marker": "CG",
+            "top_marker_share": 0.34
+          }
+        },
+        "top_20": {
+          "collapse_flags": [
+            {
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.95,
+              "message": "source frontier concentration is 0.95",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
+            },
+            {
+              "code": "lineage_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 0.55,
+              "message": "lineage is dominated by 'unknown' (0.55) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "generation_method_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.55,
+              "message": "generation_method frontier concentration is 0.55",
+              "severity": "review_required",
+              "top_value": "deterministic_constraint_recombination"
+            },
+            {
+              "code": "campaign_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 1.0,
+              "message": "campaign frontier concentration is 1.0",
+              "severity": "warning",
+              "top_value": "phenotype_first_unknown_target"
+            },
+            {
+              "code": "hypothesis_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 1.0,
+              "message": "hypothesis is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "hypothesis_linkage_missing",
+              "message": "hypothesis linkage is missing for most frontier candidates",
+              "missing_rate": 1.0,
+              "severity": "warning"
+            },
+            {
+              "code": "taxonomy_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 1.0,
+              "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "motif_marker_collapse",
+              "max_share": 0.4,
+              "message": "A recurring motif marker dominates the frontier",
+              "severity": "warning",
+              "top_marker": "CG"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "count": 18,
+              "message": "Most frontier candidates carry suspected embedding compression",
+              "severity": "warning",
+              "share": 0.9
+            }
+          ],
+          "count": 20,
+          "dimensions": {
+            "campaign": {
+              "counts": {
+                "phenotype_first_unknown_target": 20
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.0,
+              "top_count": 20,
+              "top_value": "phenotype_first_unknown_target",
+              "unique": 1
+            },
+            "family": {
+              "counts": {
+                "seqfam:1d06061d": 1,
+                "seqfam:37aa86bf": 1,
+                "seqfam:4e63470d": 2,
+                "seqfam:5af4a721": 1,
+                "seqfam:64c22ddd": 1,
+                "seqfam:6d9b93c3": 1,
+                "seqfam:789bf706": 1,
+                "seqfam:8af305de": 1,
+                "seqfam:a6c676bd": 1,
+                "seqfam:bc770cb2": 1,
+                "seqfam:cbe3404a": 2,
+                "seqfam:cf2dd465": 1,
+                "seqfam:d64d22f0": 1,
+                "seqfam:d7237cbe": 2,
+                "seqfam:da217211": 1,
+                "seqfam:e6f88295": 1,
+                "seqfam:edccab69": 1
+              },
+              "effective_count": 16.245,
+              "entropy": 2.7878,
+              "max_share": 0.1,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.984,
+              "top_count": 2,
+              "top_value": "seqfam:4e63470d",
+              "unique": 17
+            },
+            "generation_method": {
+              "counts": {
+                "deterministic_constraint_recombination": 11,
+                "persistent_evolutionary_constrained_mutation": 1,
+                "persistent_evolutionary_motif_preserving_mutation": 4,
+                "persistent_evolutionary_novelty_biased_mutation": 2,
+                "persistent_evolutionary_recombination": 2
+              },
+              "effective_count": 3.529,
+              "entropy": 1.261,
+              "max_share": 0.55,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.7835,
+              "top_count": 11,
+              "top_value": "deterministic_constraint_recombination",
+              "unique": 5
+            },
+            "hypothesis": {
+              "counts": {
+                "unassigned": 20
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 20,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 20,
+              "top_value": "unassigned",
+              "unique": 1
+            },
+            "lineage": {
+              "counts": {
+                "20260606t031123z-001": 1,
+                "20260606t042615z-001": 1,
+                "20260606t042615z-010_20260606t031123z-001": 2,
+                "20260606t042615z-028": 2,
+                "20260606t112622z-008": 1,
+                "20260606t112622z-010": 1,
+                "cycle-20260526t020837z-02-005": 1,
+                "unknown": 11
+              },
+              "effective_count": 4.6565,
+              "entropy": 1.5383,
+              "max_share": 0.55,
+              "missing_count": 11,
+              "missing_rate": 0.55,
+              "normalized_entropy": 0.7397,
+              "top_count": 11,
+              "top_value": "unknown",
+              "unique": 8
+            },
+            "motif_signature": {
+              "counts": {
+                "dcdq": 1,
+                "geae": 1,
+                "gehq": 1,
+                "geqe": 1,
+                "ghfp": 2,
+                "gypc": 2,
+                "hasp": 1,
+                "hfpt": 1,
+                "hkms": 1,
+                "kphg": 1,
+                "picc": 1,
+                "qhcd": 2,
+                "qhqc": 1,
+                "qqhs": 1,
+                "sgpg": 1,
+                "vlpe": 1,
+                "wpep": 1
+              },
+              "effective_count": 16.245,
+              "entropy": 2.7878,
+              "max_share": 0.1,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.984,
+              "top_count": 2,
+              "top_value": "qhcd",
+              "unique": 17
+            },
+            "source": {
+              "counts": {
+                "chembl_peptide_databases": 1,
+                "chembl_rcsb_pdb": 19
+              },
+              "effective_count": 1.2196,
+              "entropy": 0.1985,
+              "max_share": 0.95,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.2864,
+              "top_count": 19,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 2
+            },
+            "taxonomy": {
+              "counts": {
+                "unassigned": 20
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 20,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 20,
+              "top_value": "unassigned",
+              "unique": 1
+            }
+          },
+          "motifs": {
+            "markers": {
+              "CG": 8
+            },
+            "top_kmers": [
+              {
+                "count": 6,
+                "motif": "QHC",
+                "share": 0.3
+              },
+              {
+                "count": 5,
+                "motif": "CDD",
+                "share": 0.25
+              },
+              {
+                "count": 5,
+                "motif": "DDQ",
+                "share": 0.25
+              },
+              {
+                "count": 5,
+                "motif": "HCD",
+                "share": 0.25
+              },
+              {
+                "count": 5,
+                "motif": "DQH",
+                "share": 0.25
+              },
+              {
+                "count": 5,
+                "motif": "CDDQ",
+                "share": 0.25
+              },
+              {
+                "count": 5,
+                "motif": "QHCD",
+                "share": 0.25
+              },
+              {
+                "count": 5,
+                "motif": "DDQH",
+                "share": 0.25
+              },
+              {
+                "count": 4,
+                "motif": "QHQ",
+                "share": 0.2
+              },
+              {
+                "count": 4,
+                "motif": "DKA",
+                "share": 0.2
+              },
+              {
+                "count": 4,
+                "motif": "DQHC",
+                "share": 0.2
+              },
+              {
+                "count": 4,
+                "motif": "HCDD",
+                "share": 0.2
+              }
+            ],
+            "top_marker": "CG",
+            "top_marker_share": 0.4
+          }
+        },
+        "top_250": {
+          "collapse_flags": [
+            {
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.86,
+              "message": "source frontier concentration is 0.86",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
+            },
+            {
+              "code": "lineage_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 0.8,
+              "message": "lineage is dominated by 'unknown' (0.8) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "generation_method_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.8,
+              "message": "generation_method frontier concentration is 0.8",
+              "severity": "review_required",
+              "top_value": "deterministic_constraint_recombination"
+            },
+            {
+              "code": "campaign_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 1.0,
+              "message": "campaign frontier concentration is 1.0",
+              "severity": "warning",
+              "top_value": "phenotype_first_unknown_target"
+            },
+            {
+              "code": "hypothesis_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 1.0,
+              "message": "hypothesis is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "hypothesis_linkage_missing",
+              "message": "hypothesis linkage is missing for most frontier candidates",
+              "missing_rate": 1.0,
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_neighborhood_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 0.8,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.8) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "taxonomy_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 1.0,
+              "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "count": 39,
+              "message": "Most frontier candidates carry suspected embedding compression",
+              "severity": "warning",
+              "share": 0.78
+            }
+          ],
+          "count": 50,
+          "dimensions": {
+            "campaign": {
+              "counts": {
+                "phenotype_first_unknown_target": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "phenotype_first_unknown_target",
+              "unique": 1
+            },
+            "family": {
+              "counts": {
+                "seqfam:0047b729": 1,
+                "seqfam:02156838": 1,
+                "seqfam:0428263c": 1,
+                "seqfam:113f2055": 1,
+                "seqfam:1d06061d": 1,
+                "seqfam:1e39e10a": 1,
+                "seqfam:22f38764": 1,
+                "seqfam:24e2db8b": 1,
+                "seqfam:2a2f887d": 1,
+                "seqfam:37aa86bf": 1,
+                "seqfam:3b0b7d74": 1,
+                "seqfam:3b928efc": 1,
+                "seqfam:3fac366e": 1,
+                "seqfam:3fba3d13": 1,
+                "seqfam:42f16bf1": 1,
+                "seqfam:45c907e1": 1,
+                "seqfam:4e63470d": 2,
+                "seqfam:5af4a721": 1,
+                "seqfam:64c22ddd": 2,
+                "seqfam:6d9b93c3": 1,
+                "seqfam:70d708c6": 1,
+                "seqfam:789bf706": 1,
+                "seqfam:7ef2b621": 1,
+                "seqfam:801f3b02": 1,
+                "seqfam:83d7b1ed": 1,
+                "seqfam:8808474e": 1,
+                "seqfam:8af305de": 1,
+                "seqfam:941c40cd": 1,
+                "seqfam:96353a5d": 1,
+                "seqfam:a6c676bd": 1,
+                "seqfam:a6ff4b6a": 1,
+                "seqfam:b7359806": 1,
+                "seqfam:b9736b2b": 1,
+                "seqfam:bc770cb2": 1,
+                "seqfam:cbe3404a": 2,
+                "seqfam:cf2dd465": 1,
+                "seqfam:d64d22f0": 1,
+                "seqfam:d7237cbe": 2,
+                "seqfam:d7e320d6": 1,
+                "seqfam:da217211": 1,
+                "seqfam:e5575b16": 1,
+                "seqfam:e6f88295": 1,
+                "seqfam:ea67f6a8": 1,
+                "seqfam:edccab69": 1,
+                "seqfam:fb311d38": 1,
+                "seqfam:fc2d92aa": 1
+              },
+              "effective_count": 44.7513,
+              "entropy": 3.8011,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9928,
+              "top_count": 2,
+              "top_value": "seqfam:4e63470d",
+              "unique": 46
+            },
+            "generation_method": {
+              "counts": {
+                "deterministic_constraint_recombination": 40,
+                "persistent_evolutionary_constrained_mutation": 1,
+                "persistent_evolutionary_motif_preserving_mutation": 4,
+                "persistent_evolutionary_novelty_biased_mutation": 2,
+                "persistent_evolutionary_recombination": 3
+              },
+              "effective_count": 2.1305,
+              "entropy": 0.7564,
+              "max_share": 0.8,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.47,
+              "top_count": 40,
+              "top_value": "deterministic_constraint_recombination",
+              "unique": 5
+            },
+            "hypothesis": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            },
+            "lineage": {
+              "counts": {
+                "20260606t031123z-001": 1,
+                "20260606t042615z-001": 1,
+                "20260606t042615z-010_20260606t031123z-001": 2,
+                "20260606t042615z-028": 2,
+                "20260606t042615z-035_20260606t112622z-010": 1,
+                "20260606t112622z-008": 1,
+                "20260606t112622z-010": 1,
+                "cycle-20260526t020837z-02-005": 1,
+                "unknown": 40
+              },
+              "effective_count": 2.4731,
+              "entropy": 0.9055,
+              "max_share": 0.8,
+              "missing_count": 40,
+              "missing_rate": 0.8,
+              "normalized_entropy": 0.4121,
+              "top_count": 40,
+              "top_value": "unknown",
+              "unique": 9
+            },
+            "motif_signature": {
+              "counts": {
+                "cggc": 1,
+                "cgsq": 1,
+                "cgvq": 1,
+                "cpgc": 1,
+                "cppc": 1,
+                "dcdq": 1,
+                "dlpa": 1,
+                "eecf": 1,
+                "fpcc": 1,
+                "gcgr": 1,
+                "geae": 1,
+                "gedv": 1,
+                "gehq": 1,
+                "geqe": 1,
+                "gese": 1,
+                "ggqq": 1,
+                "ghfp": 2,
+                "gtqg": 1,
+                "gypc": 2,
+                "hasp": 2,
+                "hfpt": 1,
+                "hkms": 1,
+                "hkps": 1,
+                "kphf": 1,
+                "kphg": 1,
+                "kpih": 1,
+                "kpsi": 1,
+                "pglp": 1,
+                "picc": 1,
+                "qhcd": 2,
+                "qhqc": 1,
+                "qqhs": 1,
+                "riwq": 1,
+                "rpyc": 1,
+                "sgpg": 1,
+                "tnpp": 1,
+                "vlpe": 1,
+                "vlph": 1,
+                "vlpn": 1,
+                "vlpp": 1,
+                "vlpr": 1,
+                "vlps": 1,
+                "wpcs": 1,
+                "wpds": 1,
+                "wpep": 1,
+                "wpqh": 1
+              },
+              "effective_count": 44.7513,
+              "entropy": 3.8011,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9928,
+              "top_count": 2,
+              "top_value": "qhcd",
+              "unique": 46
+            },
+            "source": {
+              "counts": {
+                "chembl_peptide_databases": 3,
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 43
+              },
+              "effective_count": 1.6497,
+              "entropy": 0.5006,
+              "max_share": 0.86,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.4556,
+              "top_count": 43,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "taxonomy": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            }
+          },
+          "motifs": {
+            "markers": {
+              "CG": 17,
+              "CPPC": 1,
+              "QGQ": 1
+            },
+            "top_kmers": [
+              {
+                "count": 8,
+                "motif": "QHC",
+                "share": 0.16
+              },
+              {
+                "count": 7,
+                "motif": "VLP",
+                "share": 0.14
+              },
+              {
+                "count": 6,
+                "motif": "PHQ",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "DKA",
+                "share": 0.12
+              },
+              {
+                "count": 5,
+                "motif": "QHQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CDD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DDQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HCD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DQH",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CDDQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "QHCD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DDQH",
+                "share": 0.1
+              }
+            ],
+            "top_marker": "CG",
+            "top_marker_share": 0.34
+          }
+        },
+        "top_50": {
+          "collapse_flags": [
+            {
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.86,
+              "message": "source frontier concentration is 0.86",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
+            },
+            {
+              "code": "lineage_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 0.8,
+              "message": "lineage is dominated by 'unknown' (0.8) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "generation_method_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.8,
+              "message": "generation_method frontier concentration is 0.8",
+              "severity": "review_required",
+              "top_value": "deterministic_constraint_recombination"
+            },
+            {
+              "code": "campaign_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 1.0,
+              "message": "campaign frontier concentration is 1.0",
+              "severity": "warning",
+              "top_value": "phenotype_first_unknown_target"
+            },
+            {
+              "code": "hypothesis_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 1.0,
+              "message": "hypothesis is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "hypothesis_linkage_missing",
+              "message": "hypothesis linkage is missing for most frontier candidates",
+              "missing_rate": 1.0,
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_neighborhood_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 0.8,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.8) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "taxonomy_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 1.0,
+              "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "count": 39,
+              "message": "Most frontier candidates carry suspected embedding compression",
+              "severity": "warning",
+              "share": 0.78
+            }
+          ],
+          "count": 50,
+          "dimensions": {
+            "campaign": {
+              "counts": {
+                "phenotype_first_unknown_target": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "phenotype_first_unknown_target",
+              "unique": 1
+            },
+            "family": {
+              "counts": {
+                "seqfam:0047b729": 1,
+                "seqfam:02156838": 1,
+                "seqfam:0428263c": 1,
+                "seqfam:113f2055": 1,
+                "seqfam:1d06061d": 1,
+                "seqfam:1e39e10a": 1,
+                "seqfam:22f38764": 1,
+                "seqfam:24e2db8b": 1,
+                "seqfam:2a2f887d": 1,
+                "seqfam:37aa86bf": 1,
+                "seqfam:3b0b7d74": 1,
+                "seqfam:3b928efc": 1,
+                "seqfam:3fac366e": 1,
+                "seqfam:3fba3d13": 1,
+                "seqfam:42f16bf1": 1,
+                "seqfam:45c907e1": 1,
+                "seqfam:4e63470d": 2,
+                "seqfam:5af4a721": 1,
+                "seqfam:64c22ddd": 2,
+                "seqfam:6d9b93c3": 1,
+                "seqfam:70d708c6": 1,
+                "seqfam:789bf706": 1,
+                "seqfam:7ef2b621": 1,
+                "seqfam:801f3b02": 1,
+                "seqfam:83d7b1ed": 1,
+                "seqfam:8808474e": 1,
+                "seqfam:8af305de": 1,
+                "seqfam:941c40cd": 1,
+                "seqfam:96353a5d": 1,
+                "seqfam:a6c676bd": 1,
+                "seqfam:a6ff4b6a": 1,
+                "seqfam:b7359806": 1,
+                "seqfam:b9736b2b": 1,
+                "seqfam:bc770cb2": 1,
+                "seqfam:cbe3404a": 2,
+                "seqfam:cf2dd465": 1,
+                "seqfam:d64d22f0": 1,
+                "seqfam:d7237cbe": 2,
+                "seqfam:d7e320d6": 1,
+                "seqfam:da217211": 1,
+                "seqfam:e5575b16": 1,
+                "seqfam:e6f88295": 1,
+                "seqfam:ea67f6a8": 1,
+                "seqfam:edccab69": 1,
+                "seqfam:fb311d38": 1,
+                "seqfam:fc2d92aa": 1
+              },
+              "effective_count": 44.7513,
+              "entropy": 3.8011,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9928,
+              "top_count": 2,
+              "top_value": "seqfam:4e63470d",
+              "unique": 46
+            },
+            "generation_method": {
+              "counts": {
+                "deterministic_constraint_recombination": 40,
+                "persistent_evolutionary_constrained_mutation": 1,
+                "persistent_evolutionary_motif_preserving_mutation": 4,
+                "persistent_evolutionary_novelty_biased_mutation": 2,
+                "persistent_evolutionary_recombination": 3
+              },
+              "effective_count": 2.1305,
+              "entropy": 0.7564,
+              "max_share": 0.8,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.47,
+              "top_count": 40,
+              "top_value": "deterministic_constraint_recombination",
+              "unique": 5
+            },
+            "hypothesis": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            },
+            "lineage": {
+              "counts": {
+                "20260606t031123z-001": 1,
+                "20260606t042615z-001": 1,
+                "20260606t042615z-010_20260606t031123z-001": 2,
+                "20260606t042615z-028": 2,
+                "20260606t042615z-035_20260606t112622z-010": 1,
+                "20260606t112622z-008": 1,
+                "20260606t112622z-010": 1,
+                "cycle-20260526t020837z-02-005": 1,
+                "unknown": 40
+              },
+              "effective_count": 2.4731,
+              "entropy": 0.9055,
+              "max_share": 0.8,
+              "missing_count": 40,
+              "missing_rate": 0.8,
+              "normalized_entropy": 0.4121,
+              "top_count": 40,
+              "top_value": "unknown",
+              "unique": 9
+            },
+            "motif_signature": {
+              "counts": {
+                "cggc": 1,
+                "cgsq": 1,
+                "cgvq": 1,
+                "cpgc": 1,
+                "cppc": 1,
+                "dcdq": 1,
+                "dlpa": 1,
+                "eecf": 1,
+                "fpcc": 1,
+                "gcgr": 1,
+                "geae": 1,
+                "gedv": 1,
+                "gehq": 1,
+                "geqe": 1,
+                "gese": 1,
+                "ggqq": 1,
+                "ghfp": 2,
+                "gtqg": 1,
+                "gypc": 2,
+                "hasp": 2,
+                "hfpt": 1,
+                "hkms": 1,
+                "hkps": 1,
+                "kphf": 1,
+                "kphg": 1,
+                "kpih": 1,
+                "kpsi": 1,
+                "pglp": 1,
+                "picc": 1,
+                "qhcd": 2,
+                "qhqc": 1,
+                "qqhs": 1,
+                "riwq": 1,
+                "rpyc": 1,
+                "sgpg": 1,
+                "tnpp": 1,
+                "vlpe": 1,
+                "vlph": 1,
+                "vlpn": 1,
+                "vlpp": 1,
+                "vlpr": 1,
+                "vlps": 1,
+                "wpcs": 1,
+                "wpds": 1,
+                "wpep": 1,
+                "wpqh": 1
+              },
+              "effective_count": 44.7513,
+              "entropy": 3.8011,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9928,
+              "top_count": 2,
+              "top_value": "qhcd",
+              "unique": 46
+            },
+            "source": {
+              "counts": {
+                "chembl_peptide_databases": 3,
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 43
+              },
+              "effective_count": 1.6497,
+              "entropy": 0.5006,
+              "max_share": 0.86,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.4556,
+              "top_count": 43,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "taxonomy": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            }
+          },
+          "motifs": {
+            "markers": {
+              "CG": 17,
+              "CPPC": 1,
+              "QGQ": 1
+            },
+            "top_kmers": [
+              {
+                "count": 8,
+                "motif": "QHC",
+                "share": 0.16
+              },
+              {
+                "count": 7,
+                "motif": "VLP",
+                "share": 0.14
+              },
+              {
+                "count": 6,
+                "motif": "PHQ",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "DKA",
+                "share": 0.12
+              },
+              {
+                "count": 5,
+                "motif": "QHQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CDD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DDQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HCD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DQH",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CDDQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "QHCD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DDQH",
+                "share": 0.1
+              }
+            ],
+            "top_marker": "CG",
+            "top_marker_share": 0.34
+          }
+        },
+        "top_500": {
+          "collapse_flags": [
+            {
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.86,
+              "message": "source frontier concentration is 0.86",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
+            },
+            {
+              "code": "lineage_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 0.8,
+              "message": "lineage is dominated by 'unknown' (0.8) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "generation_method_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.8,
+              "message": "generation_method frontier concentration is 0.8",
+              "severity": "review_required",
+              "top_value": "deterministic_constraint_recombination"
+            },
+            {
+              "code": "campaign_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 1.0,
+              "message": "campaign frontier concentration is 1.0",
+              "severity": "warning",
+              "top_value": "phenotype_first_unknown_target"
+            },
+            {
+              "code": "hypothesis_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 1.0,
+              "message": "hypothesis is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "hypothesis_linkage_missing",
+              "message": "hypothesis linkage is missing for most frontier candidates",
+              "missing_rate": 1.0,
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_neighborhood_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 0.8,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.8) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "taxonomy_attribution_incomplete",
+              "collapse_class": "metadata_collapse",
+              "max_share": 1.0,
+              "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "count": 39,
+              "message": "Most frontier candidates carry suspected embedding compression",
+              "severity": "warning",
+              "share": 0.78
+            }
+          ],
+          "count": 50,
+          "dimensions": {
+            "campaign": {
+              "counts": {
+                "phenotype_first_unknown_target": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "phenotype_first_unknown_target",
+              "unique": 1
+            },
+            "family": {
+              "counts": {
+                "seqfam:0047b729": 1,
+                "seqfam:02156838": 1,
+                "seqfam:0428263c": 1,
+                "seqfam:113f2055": 1,
+                "seqfam:1d06061d": 1,
+                "seqfam:1e39e10a": 1,
+                "seqfam:22f38764": 1,
+                "seqfam:24e2db8b": 1,
+                "seqfam:2a2f887d": 1,
+                "seqfam:37aa86bf": 1,
+                "seqfam:3b0b7d74": 1,
+                "seqfam:3b928efc": 1,
+                "seqfam:3fac366e": 1,
+                "seqfam:3fba3d13": 1,
+                "seqfam:42f16bf1": 1,
+                "seqfam:45c907e1": 1,
+                "seqfam:4e63470d": 2,
+                "seqfam:5af4a721": 1,
+                "seqfam:64c22ddd": 2,
+                "seqfam:6d9b93c3": 1,
+                "seqfam:70d708c6": 1,
+                "seqfam:789bf706": 1,
+                "seqfam:7ef2b621": 1,
+                "seqfam:801f3b02": 1,
+                "seqfam:83d7b1ed": 1,
+                "seqfam:8808474e": 1,
+                "seqfam:8af305de": 1,
+                "seqfam:941c40cd": 1,
+                "seqfam:96353a5d": 1,
+                "seqfam:a6c676bd": 1,
+                "seqfam:a6ff4b6a": 1,
+                "seqfam:b7359806": 1,
+                "seqfam:b9736b2b": 1,
+                "seqfam:bc770cb2": 1,
+                "seqfam:cbe3404a": 2,
+                "seqfam:cf2dd465": 1,
+                "seqfam:d64d22f0": 1,
+                "seqfam:d7237cbe": 2,
+                "seqfam:d7e320d6": 1,
+                "seqfam:da217211": 1,
+                "seqfam:e5575b16": 1,
+                "seqfam:e6f88295": 1,
+                "seqfam:ea67f6a8": 1,
+                "seqfam:edccab69": 1,
+                "seqfam:fb311d38": 1,
+                "seqfam:fc2d92aa": 1
+              },
+              "effective_count": 44.7513,
+              "entropy": 3.8011,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9928,
+              "top_count": 2,
+              "top_value": "seqfam:4e63470d",
+              "unique": 46
+            },
+            "generation_method": {
+              "counts": {
+                "deterministic_constraint_recombination": 40,
+                "persistent_evolutionary_constrained_mutation": 1,
+                "persistent_evolutionary_motif_preserving_mutation": 4,
+                "persistent_evolutionary_novelty_biased_mutation": 2,
+                "persistent_evolutionary_recombination": 3
+              },
+              "effective_count": 2.1305,
+              "entropy": 0.7564,
+              "max_share": 0.8,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.47,
+              "top_count": 40,
+              "top_value": "deterministic_constraint_recombination",
+              "unique": 5
+            },
+            "hypothesis": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            },
+            "lineage": {
+              "counts": {
+                "20260606t031123z-001": 1,
+                "20260606t042615z-001": 1,
+                "20260606t042615z-010_20260606t031123z-001": 2,
+                "20260606t042615z-028": 2,
+                "20260606t042615z-035_20260606t112622z-010": 1,
+                "20260606t112622z-008": 1,
+                "20260606t112622z-010": 1,
+                "cycle-20260526t020837z-02-005": 1,
+                "unknown": 40
+              },
+              "effective_count": 2.4731,
+              "entropy": 0.9055,
+              "max_share": 0.8,
+              "missing_count": 40,
+              "missing_rate": 0.8,
+              "normalized_entropy": 0.4121,
+              "top_count": 40,
+              "top_value": "unknown",
+              "unique": 9
+            },
+            "motif_signature": {
+              "counts": {
+                "cggc": 1,
+                "cgsq": 1,
+                "cgvq": 1,
+                "cpgc": 1,
+                "cppc": 1,
+                "dcdq": 1,
+                "dlpa": 1,
+                "eecf": 1,
+                "fpcc": 1,
+                "gcgr": 1,
+                "geae": 1,
+                "gedv": 1,
+                "gehq": 1,
+                "geqe": 1,
+                "gese": 1,
+                "ggqq": 1,
+                "ghfp": 2,
+                "gtqg": 1,
+                "gypc": 2,
+                "hasp": 2,
+                "hfpt": 1,
+                "hkms": 1,
+                "hkps": 1,
+                "kphf": 1,
+                "kphg": 1,
+                "kpih": 1,
+                "kpsi": 1,
+                "pglp": 1,
+                "picc": 1,
+                "qhcd": 2,
+                "qhqc": 1,
+                "qqhs": 1,
+                "riwq": 1,
+                "rpyc": 1,
+                "sgpg": 1,
+                "tnpp": 1,
+                "vlpe": 1,
+                "vlph": 1,
+                "vlpn": 1,
+                "vlpp": 1,
+                "vlpr": 1,
+                "vlps": 1,
+                "wpcs": 1,
+                "wpds": 1,
+                "wpep": 1,
+                "wpqh": 1
+              },
+              "effective_count": 44.7513,
+              "entropy": 3.8011,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9928,
+              "top_count": 2,
+              "top_value": "qhcd",
+              "unique": 46
+            },
+            "source": {
+              "counts": {
+                "chembl_peptide_databases": 3,
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 43
+              },
+              "effective_count": 1.6497,
+              "entropy": 0.5006,
+              "max_share": 0.86,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.4556,
+              "top_count": 43,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "taxonomy": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            }
+          },
+          "motifs": {
+            "markers": {
+              "CG": 17,
+              "CPPC": 1,
+              "QGQ": 1
+            },
+            "top_kmers": [
+              {
+                "count": 8,
+                "motif": "QHC",
+                "share": 0.16
+              },
+              {
+                "count": 7,
+                "motif": "VLP",
+                "share": 0.14
+              },
+              {
+                "count": 6,
+                "motif": "PHQ",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "DKA",
+                "share": 0.12
+              },
+              {
+                "count": 5,
+                "motif": "QHQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CDD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DDQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HCD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DQH",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CDDQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "QHCD",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "DDQH",
+                "share": 0.1
+              }
+            ],
+            "top_marker": "CG",
+            "top_marker_share": 0.34
+          }
+        }
+      },
+      "discovery_health": {
+        "alignment": {
+          "archive_count": 350,
+          "generated_count": 50,
+          "ranked_count": 50,
+          "ranked_in_archive_overlap": 50,
+          "ranked_in_generated_overlap": 50
+        },
+        "metrics": {
+          "effective_family_count": 16.245,
+          "effective_lineage_count": 4.6565,
+          "effective_motif_count": 16.245,
+          "effective_source_count": 1.2196,
+          "effective_taxonomy_count": 1.0,
+          "frontier_family_entropy": 0.984,
+          "frontier_lineage_entropy": 0.7397,
+          "frontier_motif_entropy": 0.984,
+          "frontier_source_entropy": 0.2864,
+          "frontier_taxonomy_entropy": 0.0,
+          "largest_family_share": 0.1,
+          "largest_generation_method_share": 0.55,
+          "largest_lineage_share": 0.55,
+          "largest_motif_share": 0.1,
+          "largest_source_share": 0.95,
+          "largest_taxonomy_share": 1.0,
+          "top_motif_marker_share": 0.4
+        },
+        "schema": "protean.discovery-health.v1",
+        "status": "review_required",
+        "thresholds": {
+          "family": 0.25,
+          "generation_method": 0.5,
+          "lineage": 0.2,
+          "motif_signature": 0.25,
+          "source": 0.25,
+          "taxonomy": 0.25
+        },
+        "warning_codes": [
+          "campaign_collapse",
+          "embedding_compression_collapse",
+          "generation_method_collapse",
+          "hypothesis_attribution_incomplete",
+          "hypothesis_linkage_missing",
+          "lineage_attribution_incomplete",
+          "motif_marker_collapse",
+          "source_collapse",
+          "taxonomy_attribution_incomplete"
+        ]
+      },
+      "generated_at": "2026-06-06T16:35:30.635734+00:00"
+    },
+    "status": "ok"
+  },
+  "boundary": "Boundary — Computational rankings and the observations in this archive are research-prioritization signals, not biological proof. Nothing here is a clinical claim, a validated therapeutic, a wet-lab result unless an explicit reviewed assay label is cited, an investment or governance promise, or a wet-lab order. The Protean Ledger on Base mainnet is the source of truth; this archive is a supplemental public mirror.",
+  "date": "2026-06-06",
+  "generated_at": "2026-06-06T12:00:00+00:00",
+  "kind": "frontier-report",
+  "schema_version": "protean.public-research-artifact.v1",
+  "slug": "frontier-2026-06-06",
+  "title": "Frontier health report — 2026-06-06",
+  "topics": [
+    "frontier",
+    "diversity",
+    "health"
+  ]
+}

@@ -2,11 +2,11 @@
 
 _Protean Labs — peptide discovery, under provenance._
 
-Generated 2026-06-06T12:00:00+00:00 · maintained by **Galen**, the operational auditor and narrator for Protean. This is a public research notebook, not a source of truth.
+Generated 2026-06-07T16:00:06+00:00 · maintained by **Galen**, the operational auditor and narrator for Protean. This is a public research notebook, not a source of truth.
 
 ## Week 2026-W23
 
-A public, calibrated snapshot of Protean's research frontier for the week ending 2026-06-06.
+A public, calibrated snapshot of Protean's research frontier for the week ending 2026-06-07.
 
 ## New public artifacts
 

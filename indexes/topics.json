@@ -5,25 +5,32 @@
       "candidate-families/unassigned.md"
     ],
     "daily-log": [
-      "discovery-logs/2026/2026-06-06.md"
+      "discovery-logs/2026/2026-06-06.md",
+      "discovery-logs/2026/2026-06-07.md"
     ],
     "discovery": [
-      "discovery-logs/2026/2026-06-06.md"
+      "discovery-logs/2026/2026-06-06.md",
+      "discovery-logs/2026/2026-06-07.md"
     ],
     "diversity": [
-      "frontier-reports/2026/2026-06-06-frontier.md"
+      "frontier-reports/2026/2026-06-06-frontier.md",
+      "frontier-reports/2026/2026-06-07-frontier.md"
     ],
     "frontier": [
-      "frontier-reports/2026/2026-06-06-frontier.md"
+      "frontier-reports/2026/2026-06-06-frontier.md",
+      "frontier-reports/2026/2026-06-07-frontier.md"
     ],
     "health": [
-      "frontier-reports/2026/2026-06-06-frontier.md"
+      "frontier-reports/2026/2026-06-06-frontier.md",
+      "frontier-reports/2026/2026-06-07-frontier.md"
     ],
     "operations": [
-      "runtime-audits/2026/2026-06-06-runtime.md"
+      "runtime-audits/2026/2026-06-06-runtime.md",
+      "runtime-audits/2026/2026-06-07-runtime.md"
     ],
     "runtime-audit": [
-      "runtime-audits/2026/2026-06-06-runtime.md"
+      "runtime-audits/2026/2026-06-06-runtime.md",
+      "runtime-audits/2026/2026-06-07-runtime.md"
     ],
     "state-of-protean": [
       "weekly-reviews/2026/2026-W23-state-of-protean.md"

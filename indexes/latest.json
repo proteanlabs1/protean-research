@@ -1,10 +1,10 @@
 {
-  "artifact_count": 9,
-  "generated_at": "2026-06-07T16:00:06+00:00",
+  "artifact_count": 12,
+  "generated_at": "2026-06-08T01:00:14+00:00",
   "latest_by_kind": {
     "candidate-family": {
-      "content_hash": "sha256:11df0548e51fbdec6dc4966c2938a4d2c4208c7c0a3174b95ade0d80f06d5950",
-      "generated_at": "2026-06-07T01:00:07+00:00",
+      "content_hash": "sha256:3ad9e5ea9bb97a9398c1b2a2f2282d540854af57f716f138baeb44a126463732",
+      "generated_at": "2026-06-08T01:00:14+00:00",
       "kind": "candidate-family",
       "path": "candidate-families/unassigned.md",
       "slug": "unassigned",
@@ -15,24 +15,24 @@
       ]
     },
     "discovery-log": {
-      "content_hash": "sha256:7be47de57b353607bebfd173334c6fb13652ab708381f809ace992297aaf7779",
-      "generated_at": "2026-06-07T01:00:07+00:00",
+      "content_hash": "sha256:1de7fc7c179619bddc89536204ad2c6d0a99309b48918dacd86f04f89e3ccab0",
+      "generated_at": "2026-06-08T01:00:14+00:00",
       "kind": "discovery-log",
-      "path": "discovery-logs/2026/2026-06-07.md",
-      "slug": "discovery-2026-06-07",
-      "title": "Discovery log — 2026-06-07",
+      "path": "discovery-logs/2026/2026-06-08.md",
+      "slug": "discovery-2026-06-08",
+      "title": "Discovery log — 2026-06-08",
       "topics": [
         "discovery",
         "daily-log"
       ]
     },
     "frontier-report": {
-      "content_hash": "sha256:239afc68b9841d51e43357578388a5d16f21f28ef52f9d8aed5190ea5ec73df1",
-      "generated_at": "2026-06-07T01:00:07+00:00",
+      "content_hash": "sha256:1c0bef1b6230d2b5d34bebce6d4fb26810caf8cf769a4155fa6fc6f0e682f093",
+      "generated_at": "2026-06-08T01:00:14+00:00",
       "kind": "frontier-report",
-      "path": "frontier-reports/2026/2026-06-07-frontier.md",
-      "slug": "frontier-2026-06-07",
-      "title": "Frontier health report — 2026-06-07",
+      "path": "frontier-reports/2026/2026-06-08-frontier.md",
+      "slug": "frontier-2026-06-08",
+      "title": "Frontier health report — 2026-06-08",
       "topics": [
         "frontier",
         "diversity",
@@ -40,12 +40,12 @@
       ]
     },
     "runtime-audit": {
-      "content_hash": "sha256:53e8690645990beba0c2c7de9f452cc6b68b4706647a63aae2858fd479db40f7",
-      "generated_at": "2026-06-07T01:00:07+00:00",
+      "content_hash": "sha256:a490cb9a6b105428a9fec6d0a0170da4b2aa541470b140cbdb8fe4802a25d05c",
+      "generated_at": "2026-06-08T01:00:14+00:00",
       "kind": "runtime-audit",
-      "path": "runtime-audits/2026/2026-06-07-runtime.md",
-      "slug": "runtime-2026-06-07",
-      "title": "Runtime audit summary — 2026-06-07",
+      "path": "runtime-audits/2026/2026-06-08-runtime.md",
+      "slug": "runtime-2026-06-08",
+      "title": "Runtime audit summary — 2026-06-08",
       "topics": [
         "runtime-audit",
         "operations"
@@ -73,6 +73,6 @@
       "topics": []
     }
   },
-  "manifest_hash": "sha256:98ba964e721f3608c8151202fcc4b47f8bc14b37a1696cdb3c4bcb6b162db97a",
+  "manifest_hash": "sha256:df23eda21942f3c52e6b7c8226c907f11c6e409028332500a79efa5afe52a577",
   "schema_version": "protean.public-research-manifest.v1"
 }

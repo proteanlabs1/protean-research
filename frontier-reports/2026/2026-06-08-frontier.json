@@ -2,7 +2,7 @@
   "body": {
     "frontier_audit": {
       "alignment": {
-        "archive_count": 1274,
+        "archive_count": 1716,
         "generated_count": 50,
         "ranked_count": 50,
         "ranked_in_archive_overlap": 50,
@@ -12,26 +12,26 @@
         "top_100": {
           "collapse_flags": [
             {
-              "code": "source_attribution_incomplete",
-              "collapse_class": "source_attribution_failure",
-              "max_share": 1.0,
-              "message": "source is dominated by 'unknown' (1.0) — metadata gap, not scientific collapse",
-              "severity": "warning",
-              "top_value": "unknown"
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.88,
+              "message": "source frontier concentration is 0.88",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
             },
             {
               "code": "lineage_attribution_incomplete",
               "collapse_class": "metadata_collapse",
-              "max_share": 0.76,
-              "message": "lineage is dominated by 'unknown' (0.76) — metadata gap, not scientific collapse",
+              "max_share": 0.82,
+              "message": "lineage is dominated by 'unknown' (0.82) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unknown"
             },
             {
               "code": "generation_method_collapse",
               "collapse_class": "real_scientific_collapse",
-              "max_share": 0.76,
-              "message": "generation_method frontier concentration is 0.76",
+              "max_share": 0.82,
+              "message": "generation_method frontier concentration is 0.82",
               "severity": "review_required",
               "top_value": "deterministic_constraint_recombination"
             },
@@ -52,8 +52,8 @@
             {
               "code": "embedding_neighborhood_attribution_incomplete",
               "collapse_class": "metadata_collapse",
-              "max_share": 0.76,
-              "message": "embedding_neighborhood is dominated by 'unknown' (0.76) — metadata gap, not scientific collapse",
+              "max_share": 0.82,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.82) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unknown"
             },
@@ -64,6 +64,13 @@
               "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unassigned"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "count": 37,
+              "message": "Most frontier candidates carry suspected embedding compression",
+              "severity": "warning",
+              "share": 0.74
             }
           ],
           "count": 50,
@@ -72,110 +79,112 @@
               "counts": {
                 "antimicrobial_peptide": 1,
                 "gpcr_peptide": 11,
-                "immune_modulator": 19,
-                "phenotype_first_unknown_target": 5,
-                "receptor_ligand": 14
+                "immune_modulator": 17,
+                "phenotype_first_unknown_target": 10,
+                "receptor_ligand": 11
               },
-              "effective_count": 3.9185,
-              "entropy": 1.3657,
-              "max_share": 0.38,
+              "effective_count": 4.1918,
+              "entropy": 1.4331,
+              "max_share": 0.34,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.8486,
-              "top_count": 19,
+              "normalized_entropy": 0.8905,
+              "top_count": 17,
               "top_value": "immune_modulator",
               "unique": 5
             },
             "evidence_source": {
               "counts": {
                 "chembl_peptide_databases": 2,
-                "chembl_peptide_databases_rcsb_pdb": 5,
-                "chembl_rcsb_pdb": 43
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 44
               },
-              "effective_count": 1.6302,
-              "entropy": 0.4887,
-              "max_share": 0.86,
+              "effective_count": 1.5579,
+              "entropy": 0.4433,
+              "max_share": 0.88,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.4449,
-              "top_count": 43,
+              "normalized_entropy": 0.4035,
+              "top_count": 44,
               "top_value": "chembl_rcsb_pdb",
               "unique": 3
             },
             "family": {
               "counts": {
-                "seqfam:033c23dc": 1,
-                "seqfam:09643bc2": 1,
-                "seqfam:1000b550": 1,
-                "seqfam:1e3c62f4": 1,
-                "seqfam:21d0d333": 1,
-                "seqfam:22208ea6": 1,
-                "seqfam:2777c7ef": 1,
-                "seqfam:2b772ff2": 1,
-                "seqfam:2d0bcda0": 1,
-                "seqfam:2d88dd24": 1,
-                "seqfam:2ef036fe": 1,
-                "seqfam:377243af": 2,
-                "seqfam:3a920c1c": 1,
-                "seqfam:41eaf549": 1,
-                "seqfam:43dfc17b": 1,
+                "seqfam:083c7381": 1,
+                "seqfam:0854cf0d": 1,
+                "seqfam:0e9ab9bf": 1,
+                "seqfam:12447362": 1,
+                "seqfam:1b20b64c": 1,
+                "seqfam:1cd89ce8": 1,
+                "seqfam:2034d15c": 1,
+                "seqfam:21d0d333": 2,
+                "seqfam:2332601a": 1,
+                "seqfam:24a266d1": 1,
+                "seqfam:2892a8f2": 1,
+                "seqfam:29c54fd8": 1,
+                "seqfam:398bea9b": 1,
+                "seqfam:3a3994e0": 1,
+                "seqfam:3d26744a": 1,
                 "seqfam:4e57da74": 2,
-                "seqfam:558274df": 1,
-                "seqfam:58907a6e": 1,
-                "seqfam:5ee6e8c9": 1,
-                "seqfam:5f802564": 1,
+                "seqfam:5469ce62": 1,
                 "seqfam:6153ed07": 1,
-                "seqfam:62a1ac22": 1,
-                "seqfam:64b6824c": 1,
-                "seqfam:64b7c496": 1,
-                "seqfam:694e1542": 1,
-                "seqfam:6d36bfa2": 1,
-                "seqfam:6e1acba5": 1,
-                "seqfam:6eb36fcb": 1,
+                "seqfam:61f74f83": 1,
+                "seqfam:67d1ba13": 1,
+                "seqfam:6acc077f": 1,
+                "seqfam:6e80bb2b": 1,
                 "seqfam:7239ae0a": 1,
-                "seqfam:787d0cbf": 1,
-                "seqfam:7b5cb30f": 2,
-                "seqfam:7b6ca74c": 1,
+                "seqfam:7301bfa4": 1,
+                "seqfam:7c3ba661": 1,
+                "seqfam:7d24e10b": 1,
                 "seqfam:7d29af0f": 1,
-                "seqfam:8ebdeee2": 1,
-                "seqfam:90e4019f": 1,
-                "seqfam:94fe15c2": 1,
-                "seqfam:97e9e225": 1,
-                "seqfam:acf71348": 1,
-                "seqfam:c2436c1c": 1,
-                "seqfam:d582e92c": 1,
-                "seqfam:d696265b": 2,
+                "seqfam:7eafe096": 1,
+                "seqfam:848d426d": 1,
+                "seqfam:852c7590": 1,
+                "seqfam:882cebeb": 1,
+                "seqfam:8d0ae74a": 1,
+                "seqfam:ae9e1545": 1,
+                "seqfam:c72e48a6": 1,
+                "seqfam:c8fa6f6a": 1,
+                "seqfam:cb69969b": 1,
+                "seqfam:cbbe39b3": 1,
+                "seqfam:d1888223": 1,
+                "seqfam:d5d56630": 1,
+                "seqfam:d902ab4d": 1,
+                "seqfam:daccb1e8": 1,
+                "seqfam:dc087ffe": 1,
                 "seqfam:ddc86031": 1,
-                "seqfam:deb25cba": 1,
-                "seqfam:e59c4b4e": 1,
-                "seqfam:e786ed5c": 1,
-                "seqfam:f5bd51ed": 1
+                "seqfam:de4fece9": 1,
+                "seqfam:e33dcadd": 1,
+                "seqfam:e93ba0b9": 1,
+                "seqfam:f6d98542": 1,
+                "seqfam:f7f266a1": 1
               },
-              "effective_count": 44.7513,
-              "entropy": 3.8011,
+              "effective_count": 47.3029,
+              "entropy": 3.8566,
               "max_share": 0.04,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.9928,
+              "normalized_entropy": 0.9962,
               "top_count": 2,
-              "top_value": "seqfam:7b5cb30f",
-              "unique": 46
+              "top_value": "seqfam:21d0d333",
+              "unique": 48
             },
             "generation_method": {
               "counts": {
-                "deterministic_constraint_recombination": 38,
+                "deterministic_constraint_recombination": 41,
                 "persistent_evolutionary_constrained_mutation": 2,
                 "persistent_evolutionary_motif_preserving_mutation": 4,
-                "persistent_evolutionary_novelty_biased_mutation": 2,
-                "persistent_evolutionary_recombination": 4
+                "persistent_evolutionary_novelty_biased_mutation": 1,
+                "persistent_evolutionary_recombination": 2
               },
-              "effective_count": 2.3874,
-              "entropy": 0.8702,
-              "max_share": 0.76,
+              "effective_count": 2.0148,
+              "entropy": 0.7005,
+              "max_share": 0.82,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.5407,
-              "top_count": 38,
+              "normalized_entropy": 0.4353,
+              "top_count": 41,
               "top_value": "deterministic_constraint_recombination",
               "unique": 5
             },
@@ -195,99 +204,103 @@
             },
             "lineage": {
               "counts": {
-                "20260607t043309z-005": 1,
-                "20260607t053729z-004": 1,
-                "20260607t073755z-001": 2,
-                "20260607t093833z-001": 1,
-                "20260607t154216z-001": 2,
-                "cycle-20260526t020837z-02-001": 2,
+                "20260607t154216z-001": 1,
+                "20260607t234331z-001": 1,
+                "20260608t134846z-001": 1,
+                "cycle-20260526t020837z-02-001": 1,
+                "cycle-20260526t020837z-02-001_cycle-20260526t020837z-02-005": 1,
                 "cycle-20260526t020837z-02-002": 1,
-                "cycle-20260526t020837z-02-005": 1,
                 "cycle-20260526t020837z-02-010": 1,
-                "unknown": 38
+                "cycle-20260526t020837z-02-010_20260607t154216z-001": 1,
+                "cycle-20260526t020837z-02-013": 1,
+                "unknown": 41
               },
-              "effective_count": 2.8988,
-              "entropy": 1.0643,
-              "max_share": 0.76,
-              "missing_count": 38,
-              "missing_rate": 0.76,
-              "normalized_entropy": 0.4622,
-              "top_count": 38,
+              "effective_count": 2.3795,
+              "entropy": 0.8669,
+              "max_share": 0.82,
+              "missing_count": 41,
+              "missing_rate": 0.82,
+              "normalized_entropy": 0.3765,
+              "top_count": 41,
               "top_value": "unknown",
               "unique": 10
             },
             "motif_signature": {
               "counts": {
-                "aehq": 2,
-                "aehw": 1,
-                "afpq": 1,
-                "cgpp": 1,
-                "cgsl": 1,
-                "ckpg": 1,
-                "dcdw": 1,
-                "demg": 1,
-                "dlpd": 1,
-                "dlpg": 1,
-                "dlpl": 1,
+                "afpa": 1,
+                "afpc": 1,
+                "ckpd": 1,
+                "cpps": 1,
+                "depi": 1,
+                "deqp": 1,
+                "deqw": 1,
+                "dlph": 1,
+                "dlpi": 1,
+                "dlpq": 1,
+                "dnnn": 1,
                 "ehqp": 1,
-                "ekph": 1,
-                "etqr": 1,
                 "fpsq": 1,
-                "fpwq": 1,
-                "gaeh": 1,
-                "ghhp": 1,
                 "ghqm": 2,
-                "hkpt": 1,
+                "hddr": 1,
                 "hqma": 1,
                 "iehq": 1,
-                "ilpy": 1,
-                "iwpp": 2,
-                "kpad": 1,
-                "kpcs": 1,
-                "lpcd": 1,
-                "lpvh": 1,
-                "maae": 1,
-                "mggh": 1,
-                "nfpc": 1,
-                "qhaq": 1,
-                "qhcg": 1,
-                "qhdp": 1,
-                "qhgy": 1,
-                "qhig": 1,
-                "qhpc": 1,
-                "qhpe": 1,
-                "qhph": 2,
-                "qhpr": 1,
-                "qhqp": 1,
-                "qpnh": 1,
-                "qspl": 1,
-                "sisq": 1,
-                "tnfp": 1,
-                "wpph": 1
+                "iehs": 1,
+                "ilpg": 1,
+                "ilpm": 1,
+                "ilpn": 1,
+                "ilpp": 1,
+                "ilpq": 1,
+                "kpad": 2,
+                "lpmk": 1,
+                "maie": 1,
+                "nsic": 1,
+                "nsiw": 1,
+                "pcpp": 1,
+                "pphq": 1,
+                "prpr": 1,
+                "pypc": 1,
+                "qhhn": 1,
+                "qhlp": 1,
+                "rpai": 1,
+                "rpcp": 1,
+                "rppa": 1,
+                "sggv": 1,
+                "sqpp": 1,
+                "tsci": 1,
+                "tscp": 1,
+                "tsic": 1,
+                "tsqp": 1,
+                "vlpm": 1,
+                "vlpq": 1,
+                "wpiw": 1,
+                "wpnc": 1,
+                "ypet": 1
               },
-              "effective_count": 44.7513,
-              "entropy": 3.8011,
+              "effective_count": 47.3029,
+              "entropy": 3.8566,
               "max_share": 0.04,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.9928,
+              "normalized_entropy": 0.9962,
               "top_count": 2,
-              "top_value": "aehq",
-              "unique": 46
+              "top_value": "kpad",
+              "unique": 48
             },
             "source": {
               "counts": {
-                "unknown": 50
+                "chembl_peptide_databases": 2,
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 44
               },
-              "effective_count": 1.0,
-              "entropy": -0.0,
-              "max_share": 1.0,
-              "missing_count": 50,
-              "missing_rate": 1.0,
-              "normalized_entropy": 0.0,
-              "top_count": 50,
-              "top_value": "unknown",
-              "unique": 1
+              "effective_count": 1.5579,
+              "entropy": 0.4433,
+              "max_share": 0.88,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.4035,
+              "top_count": 44,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
             },
             "taxonomy": {
               "counts": {
@@ -306,31 +319,10 @@
           },
           "motifs": {
             "markers": {
-              "CG": 10,
-              "CPPC": 3,
-              "CPPG": 2
+              "CG": 7,
+              "CPPG": 3
             },
             "top_kmers": [
-              {
-                "count": 9,
-                "motif": "QQD",
-                "share": 0.18
-              },
-              {
-                "count": 9,
-                "motif": "QDP",
-                "share": 0.18
-              },
-              {
-                "count": 8,
-                "motif": "PHM",
-                "share": 0.16
-              },
-              {
-                "count": 8,
-                "motif": "HQQ",
-                "share": 0.16
-              },
               {
                 "count": 8,
                 "motif": "PHQ",
@@ -338,23 +330,18 @@
               },
               {
                 "count": 7,
-                "motif": "HQQD",
+                "motif": "QQD",
                 "share": 0.14
               },
               {
                 "count": 7,
-                "motif": "QQDP",
+                "motif": "HQP",
                 "share": 0.14
               },
               {
-                "count": 6,
-                "motif": "DPH",
-                "share": 0.12
-              },
-              {
-                "count": 6,
-                "motif": "QPP",
-                "share": 0.12
+                "count": 7,
+                "motif": "QHH",
+                "share": 0.14
               },
               {
                 "count": 6,
@@ -363,28 +350,53 @@
               },
               {
                 "count": 6,
-                "motif": "PHQQ",
+                "motif": "IEH",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "EHQ",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "ILP",
                 "share": 0.12
               },
               {
                 "count": 5,
-                "motif": "HQP",
+                "motif": "DPH",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HQQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CPP",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HQM",
                 "share": 0.1
               }
             ],
             "top_marker": "CG",
-            "top_marker_share": 0.2
+            "top_marker_share": 0.14
           }
         },
         "top_20": {
           "collapse_flags": [
             {
-              "code": "source_attribution_incomplete",
-              "collapse_class": "source_attribution_failure",
-              "max_share": 1.0,
-              "message": "source is dominated by 'unknown' (1.0) — metadata gap, not scientific collapse",
-              "severity": "warning",
-              "top_value": "unknown"
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.9,
+              "message": "source frontier concentration is 0.9",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
             },
             {
               "code": "lineage_attribution_incomplete",
@@ -423,89 +435,98 @@
               "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unassigned"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "count": 14,
+              "message": "Most frontier candidates carry suspected embedding compression",
+              "severity": "warning",
+              "share": 0.7
             }
           ],
           "count": 20,
           "dimensions": {
             "campaign": {
               "counts": {
-                "gpcr_peptide": 2,
-                "immune_modulator": 9,
-                "phenotype_first_unknown_target": 2,
-                "receptor_ligand": 7
+                "gpcr_peptide": 3,
+                "immune_modulator": 10,
+                "phenotype_first_unknown_target": 1,
+                "receptor_ligand": 6
               },
-              "effective_count": 3.2782,
-              "entropy": 1.1873,
-              "max_share": 0.45,
+              "effective_count": 3.1334,
+              "entropy": 1.1421,
+              "max_share": 0.5,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.8564,
-              "top_count": 9,
+              "normalized_entropy": 0.8239,
+              "top_count": 10,
               "top_value": "immune_modulator",
               "unique": 4
             },
             "evidence_source": {
               "counts": {
-                "chembl_rcsb_pdb": 20
+                "chembl_peptide_databases": 1,
+                "chembl_peptide_databases_rcsb_pdb": 1,
+                "chembl_rcsb_pdb": 18
               },
-              "effective_count": 1.0,
-              "entropy": -0.0,
-              "max_share": 1.0,
+              "effective_count": 1.4835,
+              "entropy": 0.3944,
+              "max_share": 0.9,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.0,
-              "top_count": 20,
+              "normalized_entropy": 0.359,
+              "top_count": 18,
               "top_value": "chembl_rcsb_pdb",
-              "unique": 1
+              "unique": 3
             },
             "family": {
               "counts": {
-                "seqfam:09643bc2": 1,
-                "seqfam:21d0d333": 1,
-                "seqfam:2b772ff2": 1,
-                "seqfam:2d88dd24": 1,
-                "seqfam:377243af": 1,
-                "seqfam:4e57da74": 1,
-                "seqfam:58907a6e": 1,
-                "seqfam:694e1542": 1,
-                "seqfam:6d36bfa2": 1,
+                "seqfam:1b20b64c": 1,
+                "seqfam:1cd89ce8": 1,
+                "seqfam:2034d15c": 1,
+                "seqfam:21d0d333": 2,
+                "seqfam:2332601a": 1,
+                "seqfam:24a266d1": 1,
+                "seqfam:3a3994e0": 1,
+                "seqfam:4e57da74": 2,
+                "seqfam:6153ed07": 1,
                 "seqfam:7239ae0a": 1,
-                "seqfam:7b5cb30f": 2,
                 "seqfam:7d29af0f": 1,
-                "seqfam:94fe15c2": 1,
-                "seqfam:97e9e225": 1,
-                "seqfam:acf71348": 1,
-                "seqfam:c2436c1c": 1,
+                "seqfam:848d426d": 1,
+                "seqfam:882cebeb": 1,
+                "seqfam:8d0ae74a": 1,
+                "seqfam:c72e48a6": 1,
+                "seqfam:d902ab4d": 1,
                 "seqfam:ddc86031": 1,
-                "seqfam:deb25cba": 1,
-                "seqfam:e59c4b4e": 1
+                "seqfam:f7f266a1": 1
               },
-              "effective_count": 18.6607,
-              "entropy": 2.9264,
+              "effective_count": 17.411,
+              "entropy": 2.8571,
               "max_share": 0.1,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.9939,
+              "normalized_entropy": 0.9885,
               "top_count": 2,
-              "top_value": "seqfam:7b5cb30f",
-              "unique": 19
+              "top_value": "seqfam:21d0d333",
+              "unique": 18
             },
             "generation_method": {
               "counts": {
                 "deterministic_constraint_recombination": 11,
                 "persistent_evolutionary_constrained_mutation": 2,
                 "persistent_evolutionary_motif_preserving_mutation": 4,
-                "persistent_evolutionary_recombination": 3
+                "persistent_evolutionary_novelty_biased_mutation": 1,
+                "persistent_evolutionary_recombination": 2
               },
-              "effective_count": 3.2076,
-              "entropy": 1.1655,
+              "effective_count": 3.529,
+              "entropy": 1.261,
               "max_share": 0.55,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.8407,
+              "normalized_entropy": 0.7835,
               "top_count": 11,
               "top_value": "deterministic_constraint_recombination",
-              "unique": 4
+              "unique": 5
             },
             "hypothesis": {
               "counts": {
@@ -523,71 +544,73 @@
             },
             "lineage": {
               "counts": {
-                "20260607t043309z-005": 1,
-                "20260607t053729z-004": 1,
-                "20260607t073755z-001": 1,
-                "20260607t093833z-001": 1,
-                "20260607t154216z-001": 2,
+                "20260607t154216z-001": 1,
+                "20260607t234331z-001": 1,
+                "20260608t134846z-001": 1,
                 "cycle-20260526t020837z-02-001": 1,
+                "cycle-20260526t020837z-02-001_cycle-20260526t020837z-02-005": 1,
                 "cycle-20260526t020837z-02-002": 1,
                 "cycle-20260526t020837z-02-010": 1,
+                "cycle-20260526t020837z-02-010_20260607t154216z-001": 1,
+                "cycle-20260526t020837z-02-013": 1,
                 "unknown": 11
               },
-              "effective_count": 4.9907,
-              "entropy": 1.6076,
+              "effective_count": 5.3489,
+              "entropy": 1.6769,
               "max_share": 0.55,
               "missing_count": 11,
               "missing_rate": 0.55,
-              "normalized_entropy": 0.7316,
+              "normalized_entropy": 0.7283,
               "top_count": 11,
               "top_value": "unknown",
-              "unique": 9
+              "unique": 10
             },
             "motif_signature": {
               "counts": {
-                "aehq": 2,
-                "cgpp": 1,
-                "demg": 1,
+                "cpps": 1,
+                "depi": 1,
+                "deqw": 1,
                 "ehqp": 1,
-                "ghhp": 1,
-                "ghqm": 1,
-                "hkpt": 1,
+                "fpsq": 1,
+                "ghqm": 2,
+                "hddr": 1,
                 "hqma": 1,
                 "iehq": 1,
-                "kpad": 1,
-                "lpcd": 1,
-                "mggh": 1,
-                "qhig": 1,
-                "qhpc": 1,
-                "qhpe": 1,
-                "qhph": 1,
-                "qhqp": 1,
-                "qpnh": 1,
-                "sisq": 1
+                "iehs": 1,
+                "ilpp": 1,
+                "kpad": 2,
+                "maie": 1,
+                "pphq": 1,
+                "tscp": 1,
+                "tsic": 1,
+                "tsqp": 1,
+                "wpiw": 1
               },
-              "effective_count": 18.6607,
-              "entropy": 2.9264,
+              "effective_count": 17.411,
+              "entropy": 2.8571,
               "max_share": 0.1,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.9939,
+              "normalized_entropy": 0.9885,
               "top_count": 2,
-              "top_value": "aehq",
-              "unique": 19
+              "top_value": "kpad",
+              "unique": 18
             },
             "source": {
               "counts": {
-                "unknown": 20
+                "chembl_peptide_databases": 1,
+                "chembl_peptide_databases_rcsb_pdb": 1,
+                "chembl_rcsb_pdb": 18
               },
-              "effective_count": 1.0,
-              "entropy": -0.0,
-              "max_share": 1.0,
-              "missing_count": 20,
-              "missing_rate": 1.0,
-              "normalized_entropy": 0.0,
-              "top_count": 20,
-              "top_value": "unknown",
-              "unique": 1
+              "effective_count": 1.4835,
+              "entropy": 0.3944,
+              "max_share": 0.9,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.359,
+              "top_count": 18,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
             },
             "taxonomy": {
               "counts": {
@@ -606,54 +629,28 @@
           },
           "motifs": {
             "markers": {
-              "CG": 3,
-              "CPPC": 2,
+              "CG": 5,
               "CPPG": 1
             },
             "top_kmers": [
               {
-                "count": 6,
-                "motif": "QQD",
-                "share": 0.3
-              },
-              {
-                "count": 6,
-                "motif": "HQQ",
-                "share": 0.3
-              },
-              {
-                "count": 6,
+                "count": 5,
                 "motif": "PHQ",
-                "share": 0.3
-              },
-              {
-                "count": 6,
-                "motif": "HQQD",
-                "share": 0.3
-              },
-              {
-                "count": 5,
-                "motif": "HQP",
                 "share": 0.25
               },
               {
                 "count": 5,
-                "motif": "QDP",
-                "share": 0.25
-              },
-              {
-                "count": 5,
-                "motif": "PHQQ",
-                "share": 0.25
-              },
-              {
-                "count": 5,
-                "motif": "QQDP",
+                "motif": "QHH",
                 "share": 0.25
               },
               {
                 "count": 4,
-                "motif": "PHM",
+                "motif": "IEH",
+                "share": 0.2
+              },
+              {
+                "count": 4,
+                "motif": "QQD",
                 "share": 0.2
               },
               {
@@ -663,42 +660,67 @@
               },
               {
                 "count": 4,
-                "motif": "QPP",
+                "motif": "DPH",
                 "share": 0.2
               },
               {
                 "count": 4,
-                "motif": "PPH",
+                "motif": "PHM",
+                "share": 0.2
+              },
+              {
+                "count": 4,
+                "motif": "HQQ",
+                "share": 0.2
+              },
+              {
+                "count": 4,
+                "motif": "HQP",
+                "share": 0.2
+              },
+              {
+                "count": 4,
+                "motif": "HQQD",
+                "share": 0.2
+              },
+              {
+                "count": 4,
+                "motif": "DPHM",
+                "share": 0.2
+              },
+              {
+                "count": 4,
+                "motif": "HQM",
                 "share": 0.2
               }
             ],
             "top_marker": "CG",
-            "top_marker_share": 0.15
+            "top_marker_share": 0.25
           }
         },
         "top_250": {
           "collapse_flags": [
             {
-              "code": "source_attribution_incomplete",
-              "collapse_class": "source_attribution_failure",
-              "max_share": 1.0,
-              "message": "source is dominated by 'unknown' (1.0) — metadata gap, not scientific collapse",
-              "severity": "warning",
-              "top_value": "unknown"
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.88,
+              "message": "source frontier concentration is 0.88",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
             },
             {
               "code": "lineage_attribution_incomplete",
               "collapse_class": "metadata_collapse",
-              "max_share": 0.76,
-              "message": "lineage is dominated by 'unknown' (0.76) — metadata gap, not scientific collapse",
+              "max_share": 0.82,
+              "message": "lineage is dominated by 'unknown' (0.82) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unknown"
             },
             {
               "code": "generation_method_collapse",
               "collapse_class": "real_scientific_collapse",
-              "max_share": 0.76,
-              "message": "generation_method frontier concentration is 0.76",
+              "max_share": 0.82,
+              "message": "generation_method frontier concentration is 0.82",
               "severity": "review_required",
               "top_value": "deterministic_constraint_recombination"
             },
@@ -719,8 +741,8 @@
             {
               "code": "embedding_neighborhood_attribution_incomplete",
               "collapse_class": "metadata_collapse",
-              "max_share": 0.76,
-              "message": "embedding_neighborhood is dominated by 'unknown' (0.76) — metadata gap, not scientific collapse",
+              "max_share": 0.82,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.82) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unknown"
             },
@@ -731,6 +753,13 @@
               "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unassigned"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "count": 37,
+              "message": "Most frontier candidates carry suspected embedding compression",
+              "severity": "warning",
+              "share": 0.74
             }
           ],
           "count": 50,
@@ -739,110 +768,112 @@
               "counts": {
                 "antimicrobial_peptide": 1,
                 "gpcr_peptide": 11,
-                "immune_modulator": 19,
-                "phenotype_first_unknown_target": 5,
-                "receptor_ligand": 14
+                "immune_modulator": 17,
+                "phenotype_first_unknown_target": 10,
+                "receptor_ligand": 11
               },
-              "effective_count": 3.9185,
-              "entropy": 1.3657,
-              "max_share": 0.38,
+              "effective_count": 4.1918,
+              "entropy": 1.4331,
+              "max_share": 0.34,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.8486,
-              "top_count": 19,
+              "normalized_entropy": 0.8905,
+              "top_count": 17,
               "top_value": "immune_modulator",
               "unique": 5
             },
             "evidence_source": {
               "counts": {
                 "chembl_peptide_databases": 2,
-                "chembl_peptide_databases_rcsb_pdb": 5,
-                "chembl_rcsb_pdb": 43
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 44
               },
-              "effective_count": 1.6302,
-              "entropy": 0.4887,
-              "max_share": 0.86,
+              "effective_count": 1.5579,
+              "entropy": 0.4433,
+              "max_share": 0.88,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.4449,
-              "top_count": 43,
+              "normalized_entropy": 0.4035,
+              "top_count": 44,
               "top_value": "chembl_rcsb_pdb",
               "unique": 3
             },
             "family": {
               "counts": {
-                "seqfam:033c23dc": 1,
-                "seqfam:09643bc2": 1,
-                "seqfam:1000b550": 1,
-                "seqfam:1e3c62f4": 1,
-                "seqfam:21d0d333": 1,
-                "seqfam:22208ea6": 1,
-                "seqfam:2777c7ef": 1,
-                "seqfam:2b772ff2": 1,
-                "seqfam:2d0bcda0": 1,
-                "seqfam:2d88dd24": 1,
-                "seqfam:2ef036fe": 1,
-                "seqfam:377243af": 2,
-                "seqfam:3a920c1c": 1,
-                "seqfam:41eaf549": 1,
-                "seqfam:43dfc17b": 1,
+                "seqfam:083c7381": 1,
+                "seqfam:0854cf0d": 1,
+                "seqfam:0e9ab9bf": 1,
+                "seqfam:12447362": 1,
+                "seqfam:1b20b64c": 1,
+                "seqfam:1cd89ce8": 1,
+                "seqfam:2034d15c": 1,
+                "seqfam:21d0d333": 2,
+                "seqfam:2332601a": 1,
+                "seqfam:24a266d1": 1,
+                "seqfam:2892a8f2": 1,
+                "seqfam:29c54fd8": 1,
+                "seqfam:398bea9b": 1,
+                "seqfam:3a3994e0": 1,
+                "seqfam:3d26744a": 1,
                 "seqfam:4e57da74": 2,
-                "seqfam:558274df": 1,
-                "seqfam:58907a6e": 1,
-                "seqfam:5ee6e8c9": 1,
-                "seqfam:5f802564": 1,
+                "seqfam:5469ce62": 1,
                 "seqfam:6153ed07": 1,
-                "seqfam:62a1ac22": 1,
-                "seqfam:64b6824c": 1,
-                "seqfam:64b7c496": 1,
-                "seqfam:694e1542": 1,
-                "seqfam:6d36bfa2": 1,
-                "seqfam:6e1acba5": 1,
-                "seqfam:6eb36fcb": 1,
+                "seqfam:61f74f83": 1,
+                "seqfam:67d1ba13": 1,
+                "seqfam:6acc077f": 1,
+                "seqfam:6e80bb2b": 1,
                 "seqfam:7239ae0a": 1,
-                "seqfam:787d0cbf": 1,
-                "seqfam:7b5cb30f": 2,
-                "seqfam:7b6ca74c": 1,
+                "seqfam:7301bfa4": 1,
+                "seqfam:7c3ba661": 1,
+                "seqfam:7d24e10b": 1,
                 "seqfam:7d29af0f": 1,
-                "seqfam:8ebdeee2": 1,
-                "seqfam:90e4019f": 1,
-                "seqfam:94fe15c2": 1,
-                "seqfam:97e9e225": 1,
-                "seqfam:acf71348": 1,
-                "seqfam:c2436c1c": 1,
-                "seqfam:d582e92c": 1,
-                "seqfam:d696265b": 2,
+                "seqfam:7eafe096": 1,
+                "seqfam:848d426d": 1,
+                "seqfam:852c7590": 1,
+                "seqfam:882cebeb": 1,
+                "seqfam:8d0ae74a": 1,
+                "seqfam:ae9e1545": 1,
+                "seqfam:c72e48a6": 1,
+                "seqfam:c8fa6f6a": 1,
+                "seqfam:cb69969b": 1,
+                "seqfam:cbbe39b3": 1,
+                "seqfam:d1888223": 1,
+                "seqfam:d5d56630": 1,
+                "seqfam:d902ab4d": 1,
+                "seqfam:daccb1e8": 1,
+                "seqfam:dc087ffe": 1,
                 "seqfam:ddc86031": 1,
-                "seqfam:deb25cba": 1,
-                "seqfam:e59c4b4e": 1,
-                "seqfam:e786ed5c": 1,
-                "seqfam:f5bd51ed": 1
+                "seqfam:de4fece9": 1,
+                "seqfam:e33dcadd": 1,
+                "seqfam:e93ba0b9": 1,
+                "seqfam:f6d98542": 1,
+                "seqfam:f7f266a1": 1
               },
-              "effective_count": 44.7513,
-              "entropy": 3.8011,
+              "effective_count": 47.3029,
+              "entropy": 3.8566,
               "max_share": 0.04,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.9928,
+              "normalized_entropy": 0.9962,
               "top_count": 2,
-              "top_value": "seqfam:7b5cb30f",
-              "unique": 46
+              "top_value": "seqfam:21d0d333",
+              "unique": 48
             },
             "generation_method": {
               "counts": {
-                "deterministic_constraint_recombination": 38,
+                "deterministic_constraint_recombination": 41,
                 "persistent_evolutionary_constrained_mutation": 2,
                 "persistent_evolutionary_motif_preserving_mutation": 4,
-                "persistent_evolutionary_novelty_biased_mutation": 2,
-                "persistent_evolutionary_recombination": 4
+                "persistent_evolutionary_novelty_biased_mutation": 1,
+                "persistent_evolutionary_recombination": 2
               },
-              "effective_count": 2.3874,
-              "entropy": 0.8702,
-              "max_share": 0.76,
+              "effective_count": 2.0148,
+              "entropy": 0.7005,
+              "max_share": 0.82,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.5407,
-              "top_count": 38,
+              "normalized_entropy": 0.4353,
+              "top_count": 41,
               "top_value": "deterministic_constraint_recombination",
               "unique": 5
             },
@@ -862,99 +893,103 @@
             },
             "lineage": {
               "counts": {
-                "20260607t043309z-005": 1,
-                "20260607t053729z-004": 1,
-                "20260607t073755z-001": 2,
-                "20260607t093833z-001": 1,
-                "20260607t154216z-001": 2,
-                "cycle-20260526t020837z-02-001": 2,
+                "20260607t154216z-001": 1,
+                "20260607t234331z-001": 1,
+                "20260608t134846z-001": 1,
+                "cycle-20260526t020837z-02-001": 1,
+                "cycle-20260526t020837z-02-001_cycle-20260526t020837z-02-005": 1,
                 "cycle-20260526t020837z-02-002": 1,
-                "cycle-20260526t020837z-02-005": 1,
                 "cycle-20260526t020837z-02-010": 1,
-                "unknown": 38
+                "cycle-20260526t020837z-02-010_20260607t154216z-001": 1,
+                "cycle-20260526t020837z-02-013": 1,
+                "unknown": 41
               },
-              "effective_count": 2.8988,
-              "entropy": 1.0643,
-              "max_share": 0.76,
-              "missing_count": 38,
-              "missing_rate": 0.76,
-              "normalized_entropy": 0.4622,
-              "top_count": 38,
+              "effective_count": 2.3795,
+              "entropy": 0.8669,
+              "max_share": 0.82,
+              "missing_count": 41,
+              "missing_rate": 0.82,
+              "normalized_entropy": 0.3765,
+              "top_count": 41,
               "top_value": "unknown",
               "unique": 10
             },
             "motif_signature": {
               "counts": {
-                "aehq": 2,
-                "aehw": 1,
-                "afpq": 1,
-                "cgpp": 1,
-                "cgsl": 1,
-                "ckpg": 1,
-                "dcdw": 1,
-                "demg": 1,
-                "dlpd": 1,
-                "dlpg": 1,
-                "dlpl": 1,
+                "afpa": 1,
+                "afpc": 1,
+                "ckpd": 1,
+                "cpps": 1,
+                "depi": 1,
+                "deqp": 1,
+                "deqw": 1,
+                "dlph": 1,
+                "dlpi": 1,
+                "dlpq": 1,
+                "dnnn": 1,
                 "ehqp": 1,
-                "ekph": 1,
-                "etqr": 1,
                 "fpsq": 1,
-                "fpwq": 1,
-                "gaeh": 1,
-                "ghhp": 1,
                 "ghqm": 2,
-                "hkpt": 1,
+                "hddr": 1,
                 "hqma": 1,
                 "iehq": 1,
-                "ilpy": 1,
-                "iwpp": 2,
-                "kpad": 1,
-                "kpcs": 1,
-                "lpcd": 1,
-                "lpvh": 1,
-                "maae": 1,
-                "mggh": 1,
-                "nfpc": 1,
-                "qhaq": 1,
-                "qhcg": 1,
-                "qhdp": 1,
-                "qhgy": 1,
-                "qhig": 1,
-                "qhpc": 1,
-                "qhpe": 1,
-                "qhph": 2,
-                "qhpr": 1,
-                "qhqp": 1,
-                "qpnh": 1,
-                "qspl": 1,
-                "sisq": 1,
-                "tnfp": 1,
-                "wpph": 1
+                "iehs": 1,
+                "ilpg": 1,
+                "ilpm": 1,
+                "ilpn": 1,
+                "ilpp": 1,
+                "ilpq": 1,
+                "kpad": 2,
+                "lpmk": 1,
+                "maie": 1,
+                "nsic": 1,
+                "nsiw": 1,
+                "pcpp": 1,
+                "pphq": 1,
+                "prpr": 1,
+                "pypc": 1,
+                "qhhn": 1,
+                "qhlp": 1,
+                "rpai": 1,
+                "rpcp": 1,
+                "rppa": 1,
+                "sggv": 1,
+                "sqpp": 1,
+                "tsci": 1,
+                "tscp": 1,
+                "tsic": 1,
+                "tsqp": 1,
+                "vlpm": 1,
+                "vlpq": 1,
+                "wpiw": 1,
+                "wpnc": 1,
+                "ypet": 1
               },
-              "effective_count": 44.7513,
-              "entropy": 3.8011,
+              "effective_count": 47.3029,
+              "entropy": 3.8566,
               "max_share": 0.04,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.9928,
+              "normalized_entropy": 0.9962,
               "top_count": 2,
-              "top_value": "aehq",
-              "unique": 46
+              "top_value": "kpad",
+              "unique": 48
             },
             "source": {
               "counts": {
-                "unknown": 50
+                "chembl_peptide_databases": 2,
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 44
               },
-              "effective_count": 1.0,
-              "entropy": -0.0,
-              "max_share": 1.0,
-              "missing_count": 50,
-              "missing_rate": 1.0,
-              "normalized_entropy": 0.0,
-              "top_count": 50,
-              "top_value": "unknown",
-              "unique": 1
+              "effective_count": 1.5579,
+              "entropy": 0.4433,
+              "max_share": 0.88,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.4035,
+              "top_count": 44,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
             },
             "taxonomy": {
               "counts": {
@@ -973,31 +1008,10 @@
           },
           "motifs": {
             "markers": {
-              "CG": 10,
-              "CPPC": 3,
-              "CPPG": 2
+              "CG": 7,
+              "CPPG": 3
             },
             "top_kmers": [
-              {
-                "count": 9,
-                "motif": "QQD",
-                "share": 0.18
-              },
-              {
-                "count": 9,
-                "motif": "QDP",
-                "share": 0.18
-              },
-              {
-                "count": 8,
-                "motif": "PHM",
-                "share": 0.16
-              },
-              {
-                "count": 8,
-                "motif": "HQQ",
-                "share": 0.16
-              },
               {
                 "count": 8,
                 "motif": "PHQ",
@@ -1005,23 +1019,18 @@
               },
               {
                 "count": 7,
-                "motif": "HQQD",
+                "motif": "QQD",
                 "share": 0.14
               },
               {
                 "count": 7,
-                "motif": "QQDP",
+                "motif": "HQP",
                 "share": 0.14
               },
               {
-                "count": 6,
-                "motif": "DPH",
-                "share": 0.12
-              },
-              {
-                "count": 6,
-                "motif": "QPP",
-                "share": 0.12
+                "count": 7,
+                "motif": "QHH",
+                "share": 0.14
               },
               {
                 "count": 6,
@@ -1030,42 +1039,67 @@
               },
               {
                 "count": 6,
-                "motif": "PHQQ",
+                "motif": "IEH",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "EHQ",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "ILP",
                 "share": 0.12
               },
               {
                 "count": 5,
-                "motif": "HQP",
+                "motif": "DPH",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HQQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CPP",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HQM",
                 "share": 0.1
               }
             ],
             "top_marker": "CG",
-            "top_marker_share": 0.2
+            "top_marker_share": 0.14
           }
         },
         "top_50": {
           "collapse_flags": [
             {
-              "code": "source_attribution_incomplete",
-              "collapse_class": "source_attribution_failure",
-              "max_share": 1.0,
-              "message": "source is dominated by 'unknown' (1.0) — metadata gap, not scientific collapse",
-              "severity": "warning",
-              "top_value": "unknown"
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.88,
+              "message": "source frontier concentration is 0.88",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
             },
             {
               "code": "lineage_attribution_incomplete",
               "collapse_class": "metadata_collapse",
-              "max_share": 0.76,
-              "message": "lineage is dominated by 'unknown' (0.76) — metadata gap, not scientific collapse",
+              "max_share": 0.82,
+              "message": "lineage is dominated by 'unknown' (0.82) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unknown"
             },
             {
               "code": "generation_method_collapse",
               "collapse_class": "real_scientific_collapse",
-              "max_share": 0.76,
-              "message": "generation_method frontier concentration is 0.76",
+              "max_share": 0.82,
+              "message": "generation_method frontier concentration is 0.82",
               "severity": "review_required",
               "top_value": "deterministic_constraint_recombination"
             },
@@ -1086,8 +1120,8 @@
             {
               "code": "embedding_neighborhood_attribution_incomplete",
               "collapse_class": "metadata_collapse",
-              "max_share": 0.76,
-              "message": "embedding_neighborhood is dominated by 'unknown' (0.76) — metadata gap, not scientific collapse",
+              "max_share": 0.82,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.82) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unknown"
             },
@@ -1098,6 +1132,13 @@
               "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unassigned"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "count": 37,
+              "message": "Most frontier candidates carry suspected embedding compression",
+              "severity": "warning",
+              "share": 0.74
             }
           ],
           "count": 50,
@@ -1106,110 +1147,112 @@
               "counts": {
                 "antimicrobial_peptide": 1,
                 "gpcr_peptide": 11,
-                "immune_modulator": 19,
-                "phenotype_first_unknown_target": 5,
-                "receptor_ligand": 14
+                "immune_modulator": 17,
+                "phenotype_first_unknown_target": 10,
+                "receptor_ligand": 11
               },
-              "effective_count": 3.9185,
-              "entropy": 1.3657,
-              "max_share": 0.38,
+              "effective_count": 4.1918,
+              "entropy": 1.4331,
+              "max_share": 0.34,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.8486,
-              "top_count": 19,
+              "normalized_entropy": 0.8905,
+              "top_count": 17,
               "top_value": "immune_modulator",
               "unique": 5
             },
             "evidence_source": {
               "counts": {
                 "chembl_peptide_databases": 2,
-                "chembl_peptide_databases_rcsb_pdb": 5,
-                "chembl_rcsb_pdb": 43
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 44
               },
-              "effective_count": 1.6302,
-              "entropy": 0.4887,
-              "max_share": 0.86,
+              "effective_count": 1.5579,
+              "entropy": 0.4433,
+              "max_share": 0.88,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.4449,
-              "top_count": 43,
+              "normalized_entropy": 0.4035,
+              "top_count": 44,
               "top_value": "chembl_rcsb_pdb",
               "unique": 3
             },
             "family": {
               "counts": {
-                "seqfam:033c23dc": 1,
-                "seqfam:09643bc2": 1,
-                "seqfam:1000b550": 1,
-                "seqfam:1e3c62f4": 1,
-                "seqfam:21d0d333": 1,
-                "seqfam:22208ea6": 1,
-                "seqfam:2777c7ef": 1,
-                "seqfam:2b772ff2": 1,
-                "seqfam:2d0bcda0": 1,
-                "seqfam:2d88dd24": 1,
-                "seqfam:2ef036fe": 1,
-                "seqfam:377243af": 2,
-                "seqfam:3a920c1c": 1,
-                "seqfam:41eaf549": 1,
-                "seqfam:43dfc17b": 1,
+                "seqfam:083c7381": 1,
+                "seqfam:0854cf0d": 1,
+                "seqfam:0e9ab9bf": 1,
+                "seqfam:12447362": 1,
+                "seqfam:1b20b64c": 1,
+                "seqfam:1cd89ce8": 1,
+                "seqfam:2034d15c": 1,
+                "seqfam:21d0d333": 2,
+                "seqfam:2332601a": 1,
+                "seqfam:24a266d1": 1,
+                "seqfam:2892a8f2": 1,
+                "seqfam:29c54fd8": 1,
+                "seqfam:398bea9b": 1,
+                "seqfam:3a3994e0": 1,
+                "seqfam:3d26744a": 1,
                 "seqfam:4e57da74": 2,
-                "seqfam:558274df": 1,
-                "seqfam:58907a6e": 1,
-                "seqfam:5ee6e8c9": 1,
-                "seqfam:5f802564": 1,
+                "seqfam:5469ce62": 1,
                 "seqfam:6153ed07": 1,
-                "seqfam:62a1ac22": 1,
-                "seqfam:64b6824c": 1,
-                "seqfam:64b7c496": 1,
-                "seqfam:694e1542": 1,
-                "seqfam:6d36bfa2": 1,
-                "seqfam:6e1acba5": 1,
-                "seqfam:6eb36fcb": 1,
+                "seqfam:61f74f83": 1,
+                "seqfam:67d1ba13": 1,
+                "seqfam:6acc077f": 1,
+                "seqfam:6e80bb2b": 1,
                 "seqfam:7239ae0a": 1,
-                "seqfam:787d0cbf": 1,
-                "seqfam:7b5cb30f": 2,
-                "seqfam:7b6ca74c": 1,
+                "seqfam:7301bfa4": 1,
+                "seqfam:7c3ba661": 1,
+                "seqfam:7d24e10b": 1,
                 "seqfam:7d29af0f": 1,
-                "seqfam:8ebdeee2": 1,
-                "seqfam:90e4019f": 1,
-                "seqfam:94fe15c2": 1,
-                "seqfam:97e9e225": 1,
-                "seqfam:acf71348": 1,
-                "seqfam:c2436c1c": 1,
-                "seqfam:d582e92c": 1,
-                "seqfam:d696265b": 2,
+                "seqfam:7eafe096": 1,
+                "seqfam:848d426d": 1,
+                "seqfam:852c7590": 1,
+                "seqfam:882cebeb": 1,
+                "seqfam:8d0ae74a": 1,
+                "seqfam:ae9e1545": 1,
+                "seqfam:c72e48a6": 1,
+                "seqfam:c8fa6f6a": 1,
+                "seqfam:cb69969b": 1,
+                "seqfam:cbbe39b3": 1,
+                "seqfam:d1888223": 1,
+                "seqfam:d5d56630": 1,
+                "seqfam:d902ab4d": 1,
+                "seqfam:daccb1e8": 1,
+                "seqfam:dc087ffe": 1,
                 "seqfam:ddc86031": 1,
-                "seqfam:deb25cba": 1,
-                "seqfam:e59c4b4e": 1,
-                "seqfam:e786ed5c": 1,
-                "seqfam:f5bd51ed": 1
+                "seqfam:de4fece9": 1,
+                "seqfam:e33dcadd": 1,
+                "seqfam:e93ba0b9": 1,
+                "seqfam:f6d98542": 1,
+                "seqfam:f7f266a1": 1
               },
-              "effective_count": 44.7513,
-              "entropy": 3.8011,
+              "effective_count": 47.3029,
+              "entropy": 3.8566,
               "max_share": 0.04,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.9928,
+              "normalized_entropy": 0.9962,
               "top_count": 2,
-              "top_value": "seqfam:7b5cb30f",
-              "unique": 46
+              "top_value": "seqfam:21d0d333",
+              "unique": 48
             },
             "generation_method": {
               "counts": {
-                "deterministic_constraint_recombination": 38,
+                "deterministic_constraint_recombination": 41,
                 "persistent_evolutionary_constrained_mutation": 2,
                 "persistent_evolutionary_motif_preserving_mutation": 4,
-                "persistent_evolutionary_novelty_biased_mutation": 2,
-                "persistent_evolutionary_recombination": 4
+                "persistent_evolutionary_novelty_biased_mutation": 1,
+                "persistent_evolutionary_recombination": 2
               },
-              "effective_count": 2.3874,
-              "entropy": 0.8702,
-              "max_share": 0.76,
+              "effective_count": 2.0148,
+              "entropy": 0.7005,
+              "max_share": 0.82,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.5407,
-              "top_count": 38,
+              "normalized_entropy": 0.4353,
+              "top_count": 41,
               "top_value": "deterministic_constraint_recombination",
               "unique": 5
             },
@@ -1229,99 +1272,103 @@
             },
             "lineage": {
               "counts": {
-                "20260607t043309z-005": 1,
-                "20260607t053729z-004": 1,
-                "20260607t073755z-001": 2,
-                "20260607t093833z-001": 1,
-                "20260607t154216z-001": 2,
-                "cycle-20260526t020837z-02-001": 2,
+                "20260607t154216z-001": 1,
+                "20260607t234331z-001": 1,
+                "20260608t134846z-001": 1,
+                "cycle-20260526t020837z-02-001": 1,
+                "cycle-20260526t020837z-02-001_cycle-20260526t020837z-02-005": 1,
                 "cycle-20260526t020837z-02-002": 1,
-                "cycle-20260526t020837z-02-005": 1,
                 "cycle-20260526t020837z-02-010": 1,
-                "unknown": 38
+                "cycle-20260526t020837z-02-010_20260607t154216z-001": 1,
+                "cycle-20260526t020837z-02-013": 1,
+                "unknown": 41
               },
-              "effective_count": 2.8988,
-              "entropy": 1.0643,
-              "max_share": 0.76,
-              "missing_count": 38,
-              "missing_rate": 0.76,
-              "normalized_entropy": 0.4622,
-              "top_count": 38,
+              "effective_count": 2.3795,
+              "entropy": 0.8669,
+              "max_share": 0.82,
+              "missing_count": 41,
+              "missing_rate": 0.82,
+              "normalized_entropy": 0.3765,
+              "top_count": 41,
               "top_value": "unknown",
               "unique": 10
             },
             "motif_signature": {
               "counts": {
-                "aehq": 2,
-                "aehw": 1,
-                "afpq": 1,
-                "cgpp": 1,
-                "cgsl": 1,
-                "ckpg": 1,
-                "dcdw": 1,
-                "demg": 1,
-                "dlpd": 1,
-                "dlpg": 1,
-                "dlpl": 1,
+                "afpa": 1,
+                "afpc": 1,
+                "ckpd": 1,
+                "cpps": 1,
+                "depi": 1,
+                "deqp": 1,
+                "deqw": 1,
+                "dlph": 1,
+                "dlpi": 1,
+                "dlpq": 1,
+                "dnnn": 1,
                 "ehqp": 1,
-                "ekph": 1,
-                "etqr": 1,
                 "fpsq": 1,
-                "fpwq": 1,
-                "gaeh": 1,
-                "ghhp": 1,
                 "ghqm": 2,
-                "hkpt": 1,
+                "hddr": 1,
                 "hqma": 1,
                 "iehq": 1,
-                "ilpy": 1,
-                "iwpp": 2,
-                "kpad": 1,
-                "kpcs": 1,
-                "lpcd": 1,
-                "lpvh": 1,
-                "maae": 1,
-                "mggh": 1,
-                "nfpc": 1,
-                "qhaq": 1,
-                "qhcg": 1,
-                "qhdp": 1,
-                "qhgy": 1,
-                "qhig": 1,
-                "qhpc": 1,
-                "qhpe": 1,
-                "qhph": 2,
-                "qhpr": 1,
-                "qhqp": 1,
-                "qpnh": 1,
-                "qspl": 1,
-                "sisq": 1,
-                "tnfp": 1,
-                "wpph": 1
+                "iehs": 1,
+                "ilpg": 1,
+                "ilpm": 1,
+                "ilpn": 1,
+                "ilpp": 1,
+                "ilpq": 1,
+                "kpad": 2,
+                "lpmk": 1,
+                "maie": 1,
+                "nsic": 1,
+                "nsiw": 1,
+                "pcpp": 1,
+                "pphq": 1,
+                "prpr": 1,
+                "pypc": 1,
+                "qhhn": 1,
+                "qhlp": 1,
+                "rpai": 1,
+                "rpcp": 1,
+                "rppa": 1,
+                "sggv": 1,
+                "sqpp": 1,
+                "tsci": 1,
+                "tscp": 1,
+                "tsic": 1,
+                "tsqp": 1,
+                "vlpm": 1,
+                "vlpq": 1,
+                "wpiw": 1,
+                "wpnc": 1,
+                "ypet": 1
               },
-              "effective_count": 44.7513,
-              "entropy": 3.8011,
+              "effective_count": 47.3029,
+              "entropy": 3.8566,
               "max_share": 0.04,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.9928,
+              "normalized_entropy": 0.9962,
               "top_count": 2,
-              "top_value": "aehq",
-              "unique": 46
+              "top_value": "kpad",
+              "unique": 48
             },
             "source": {
               "counts": {
-                "unknown": 50
+                "chembl_peptide_databases": 2,
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 44
               },
-              "effective_count": 1.0,
-              "entropy": -0.0,
-              "max_share": 1.0,
-              "missing_count": 50,
-              "missing_rate": 1.0,
-              "normalized_entropy": 0.0,
-              "top_count": 50,
-              "top_value": "unknown",
-              "unique": 1
+              "effective_count": 1.5579,
+              "entropy": 0.4433,
+              "max_share": 0.88,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.4035,
+              "top_count": 44,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
             },
             "taxonomy": {
               "counts": {
@@ -1340,31 +1387,10 @@
           },
           "motifs": {
             "markers": {
-              "CG": 10,
-              "CPPC": 3,
-              "CPPG": 2
+              "CG": 7,
+              "CPPG": 3
             },
             "top_kmers": [
-              {
-                "count": 9,
-                "motif": "QQD",
-                "share": 0.18
-              },
-              {
-                "count": 9,
-                "motif": "QDP",
-                "share": 0.18
-              },
-              {
-                "count": 8,
-                "motif": "PHM",
-                "share": 0.16
-              },
-              {
-                "count": 8,
-                "motif": "HQQ",
-                "share": 0.16
-              },
               {
                 "count": 8,
                 "motif": "PHQ",
@@ -1372,23 +1398,18 @@
               },
               {
                 "count": 7,
-                "motif": "HQQD",
+                "motif": "QQD",
                 "share": 0.14
               },
               {
                 "count": 7,
-                "motif": "QQDP",
+                "motif": "HQP",
                 "share": 0.14
               },
               {
-                "count": 6,
-                "motif": "DPH",
-                "share": 0.12
-              },
-              {
-                "count": 6,
-                "motif": "QPP",
-                "share": 0.12
+                "count": 7,
+                "motif": "QHH",
+                "share": 0.14
               },
               {
                 "count": 6,
@@ -1397,42 +1418,67 @@
               },
               {
                 "count": 6,
-                "motif": "PHQQ",
+                "motif": "IEH",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "EHQ",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "ILP",
                 "share": 0.12
               },
               {
                 "count": 5,
-                "motif": "HQP",
+                "motif": "DPH",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HQQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CPP",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HQM",
                 "share": 0.1
               }
             ],
             "top_marker": "CG",
-            "top_marker_share": 0.2
+            "top_marker_share": 0.14
           }
         },
         "top_500": {
           "collapse_flags": [
             {
-              "code": "source_attribution_incomplete",
-              "collapse_class": "source_attribution_failure",
-              "max_share": 1.0,
-              "message": "source is dominated by 'unknown' (1.0) — metadata gap, not scientific collapse",
-              "severity": "warning",
-              "top_value": "unknown"
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.88,
+              "message": "source frontier concentration is 0.88",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
             },
             {
               "code": "lineage_attribution_incomplete",
               "collapse_class": "metadata_collapse",
-              "max_share": 0.76,
-              "message": "lineage is dominated by 'unknown' (0.76) — metadata gap, not scientific collapse",
+              "max_share": 0.82,
+              "message": "lineage is dominated by 'unknown' (0.82) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unknown"
             },
             {
               "code": "generation_method_collapse",
               "collapse_class": "real_scientific_collapse",
-              "max_share": 0.76,
-              "message": "generation_method frontier concentration is 0.76",
+              "max_share": 0.82,
+              "message": "generation_method frontier concentration is 0.82",
               "severity": "review_required",
               "top_value": "deterministic_constraint_recombination"
             },
@@ -1453,8 +1499,8 @@
             {
               "code": "embedding_neighborhood_attribution_incomplete",
               "collapse_class": "metadata_collapse",
-              "max_share": 0.76,
-              "message": "embedding_neighborhood is dominated by 'unknown' (0.76) — metadata gap, not scientific collapse",
+              "max_share": 0.82,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.82) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unknown"
             },
@@ -1465,6 +1511,13 @@
               "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
               "severity": "warning",
               "top_value": "unassigned"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "count": 37,
+              "message": "Most frontier candidates carry suspected embedding compression",
+              "severity": "warning",
+              "share": 0.74
             }
           ],
           "count": 50,
@@ -1473,110 +1526,112 @@
               "counts": {
                 "antimicrobial_peptide": 1,
                 "gpcr_peptide": 11,
-                "immune_modulator": 19,
-                "phenotype_first_unknown_target": 5,
-                "receptor_ligand": 14
+                "immune_modulator": 17,
+                "phenotype_first_unknown_target": 10,
+                "receptor_ligand": 11
               },
-              "effective_count": 3.9185,
-              "entropy": 1.3657,
-              "max_share": 0.38,
+              "effective_count": 4.1918,
+              "entropy": 1.4331,
+              "max_share": 0.34,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.8486,
-              "top_count": 19,
+              "normalized_entropy": 0.8905,
+              "top_count": 17,
               "top_value": "immune_modulator",
               "unique": 5
             },
             "evidence_source": {
               "counts": {
                 "chembl_peptide_databases": 2,
-                "chembl_peptide_databases_rcsb_pdb": 5,
-                "chembl_rcsb_pdb": 43
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 44
               },
-              "effective_count": 1.6302,
-              "entropy": 0.4887,
-              "max_share": 0.86,
+              "effective_count": 1.5579,
+              "entropy": 0.4433,
+              "max_share": 0.88,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.4449,
-              "top_count": 43,
+              "normalized_entropy": 0.4035,
+              "top_count": 44,
               "top_value": "chembl_rcsb_pdb",
               "unique": 3
             },
             "family": {
               "counts": {
-                "seqfam:033c23dc": 1,
-                "seqfam:09643bc2": 1,
-                "seqfam:1000b550": 1,
-                "seqfam:1e3c62f4": 1,
-                "seqfam:21d0d333": 1,
-                "seqfam:22208ea6": 1,
-                "seqfam:2777c7ef": 1,
-                "seqfam:2b772ff2": 1,
-                "seqfam:2d0bcda0": 1,
-                "seqfam:2d88dd24": 1,
-                "seqfam:2ef036fe": 1,
-                "seqfam:377243af": 2,
-                "seqfam:3a920c1c": 1,
-                "seqfam:41eaf549": 1,
-                "seqfam:43dfc17b": 1,
+                "seqfam:083c7381": 1,
+                "seqfam:0854cf0d": 1,
+                "seqfam:0e9ab9bf": 1,
+                "seqfam:12447362": 1,
+                "seqfam:1b20b64c": 1,
+                "seqfam:1cd89ce8": 1,
+                "seqfam:2034d15c": 1,
+                "seqfam:21d0d333": 2,
+                "seqfam:2332601a": 1,
+                "seqfam:24a266d1": 1,
+                "seqfam:2892a8f2": 1,
+                "seqfam:29c54fd8": 1,
+                "seqfam:398bea9b": 1,
+                "seqfam:3a3994e0": 1,
+                "seqfam:3d26744a": 1,
                 "seqfam:4e57da74": 2,
-                "seqfam:558274df": 1,
-                "seqfam:58907a6e": 1,
-                "seqfam:5ee6e8c9": 1,
-                "seqfam:5f802564": 1,
+                "seqfam:5469ce62": 1,
                 "seqfam:6153ed07": 1,
-                "seqfam:62a1ac22": 1,
-                "seqfam:64b6824c": 1,
-                "seqfam:64b7c496": 1,
-                "seqfam:694e1542": 1,
-                "seqfam:6d36bfa2": 1,
-                "seqfam:6e1acba5": 1,
-                "seqfam:6eb36fcb": 1,
+                "seqfam:61f74f83": 1,
+                "seqfam:67d1ba13": 1,
+                "seqfam:6acc077f": 1,
+                "seqfam:6e80bb2b": 1,
                 "seqfam:7239ae0a": 1,
-                "seqfam:787d0cbf": 1,
-                "seqfam:7b5cb30f": 2,
-                "seqfam:7b6ca74c": 1,
+                "seqfam:7301bfa4": 1,
+                "seqfam:7c3ba661": 1,
+                "seqfam:7d24e10b": 1,
                 "seqfam:7d29af0f": 1,
-                "seqfam:8ebdeee2": 1,
-                "seqfam:90e4019f": 1,
-                "seqfam:94fe15c2": 1,
-                "seqfam:97e9e225": 1,
-                "seqfam:acf71348": 1,
-                "seqfam:c2436c1c": 1,
-                "seqfam:d582e92c": 1,
-                "seqfam:d696265b": 2,
+                "seqfam:7eafe096": 1,
+                "seqfam:848d426d": 1,
+                "seqfam:852c7590": 1,
+                "seqfam:882cebeb": 1,
+                "seqfam:8d0ae74a": 1,
+                "seqfam:ae9e1545": 1,
+                "seqfam:c72e48a6": 1,
+                "seqfam:c8fa6f6a": 1,
+                "seqfam:cb69969b": 1,
+                "seqfam:cbbe39b3": 1,
+                "seqfam:d1888223": 1,
+                "seqfam:d5d56630": 1,
+                "seqfam:d902ab4d": 1,
+                "seqfam:daccb1e8": 1,
+                "seqfam:dc087ffe": 1,
                 "seqfam:ddc86031": 1,
-                "seqfam:deb25cba": 1,
-                "seqfam:e59c4b4e": 1,
-                "seqfam:e786ed5c": 1,
-                "seqfam:f5bd51ed": 1
+                "seqfam:de4fece9": 1,
+                "seqfam:e33dcadd": 1,
+                "seqfam:e93ba0b9": 1,
+                "seqfam:f6d98542": 1,
+                "seqfam:f7f266a1": 1
               },
-              "effective_count": 44.7513,
-              "entropy": 3.8011,
+              "effective_count": 47.3029,
+              "entropy": 3.8566,
               "max_share": 0.04,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.9928,
+              "normalized_entropy": 0.9962,
               "top_count": 2,
-              "top_value": "seqfam:7b5cb30f",
-              "unique": 46
+              "top_value": "seqfam:21d0d333",
+              "unique": 48
             },
             "generation_method": {
               "counts": {
-                "deterministic_constraint_recombination": 38,
+                "deterministic_constraint_recombination": 41,
                 "persistent_evolutionary_constrained_mutation": 2,
                 "persistent_evolutionary_motif_preserving_mutation": 4,
-                "persistent_evolutionary_novelty_biased_mutation": 2,
-                "persistent_evolutionary_recombination": 4
+                "persistent_evolutionary_novelty_biased_mutation": 1,
+                "persistent_evolutionary_recombination": 2
               },
-              "effective_count": 2.3874,
-              "entropy": 0.8702,
-              "max_share": 0.76,
+              "effective_count": 2.0148,
+              "entropy": 0.7005,
+              "max_share": 0.82,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.5407,
-              "top_count": 38,
+              "normalized_entropy": 0.4353,
+              "top_count": 41,
               "top_value": "deterministic_constraint_recombination",
               "unique": 5
             },
@@ -1596,99 +1651,103 @@
             },
             "lineage": {
               "counts": {
-                "20260607t043309z-005": 1,
-                "20260607t053729z-004": 1,
-                "20260607t073755z-001": 2,
-                "20260607t093833z-001": 1,
-                "20260607t154216z-001": 2,
-                "cycle-20260526t020837z-02-001": 2,
+                "20260607t154216z-001": 1,
+                "20260607t234331z-001": 1,
+                "20260608t134846z-001": 1,
+                "cycle-20260526t020837z-02-001": 1,
+                "cycle-20260526t020837z-02-001_cycle-20260526t020837z-02-005": 1,
                 "cycle-20260526t020837z-02-002": 1,
-                "cycle-20260526t020837z-02-005": 1,
                 "cycle-20260526t020837z-02-010": 1,
-                "unknown": 38
+                "cycle-20260526t020837z-02-010_20260607t154216z-001": 1,
+                "cycle-20260526t020837z-02-013": 1,
+                "unknown": 41
               },
-              "effective_count": 2.8988,
-              "entropy": 1.0643,
-              "max_share": 0.76,
-              "missing_count": 38,
-              "missing_rate": 0.76,
-              "normalized_entropy": 0.4622,
-              "top_count": 38,
+              "effective_count": 2.3795,
+              "entropy": 0.8669,
+              "max_share": 0.82,
+              "missing_count": 41,
+              "missing_rate": 0.82,
+              "normalized_entropy": 0.3765,
+              "top_count": 41,
               "top_value": "unknown",
               "unique": 10
             },
             "motif_signature": {
               "counts": {
-                "aehq": 2,
-                "aehw": 1,
-                "afpq": 1,
-                "cgpp": 1,
-                "cgsl": 1,
-                "ckpg": 1,
-                "dcdw": 1,
-                "demg": 1,
-                "dlpd": 1,
-                "dlpg": 1,
-                "dlpl": 1,
+                "afpa": 1,
+                "afpc": 1,
+                "ckpd": 1,
+                "cpps": 1,
+                "depi": 1,
+                "deqp": 1,
+                "deqw": 1,
+                "dlph": 1,
+                "dlpi": 1,
+                "dlpq": 1,
+                "dnnn": 1,
                 "ehqp": 1,
-                "ekph": 1,
-                "etqr": 1,
                 "fpsq": 1,
-                "fpwq": 1,
-                "gaeh": 1,
-                "ghhp": 1,
                 "ghqm": 2,
-                "hkpt": 1,
+                "hddr": 1,
                 "hqma": 1,
                 "iehq": 1,
-                "ilpy": 1,
-                "iwpp": 2,
-                "kpad": 1,
-                "kpcs": 1,
-                "lpcd": 1,
-                "lpvh": 1,
-                "maae": 1,
-                "mggh": 1,
-                "nfpc": 1,
-                "qhaq": 1,
-                "qhcg": 1,
-                "qhdp": 1,
-                "qhgy": 1,
-                "qhig": 1,
-                "qhpc": 1,
-                "qhpe": 1,
-                "qhph": 2,
-                "qhpr": 1,
-                "qhqp": 1,
-                "qpnh": 1,
-                "qspl": 1,
-                "sisq": 1,
-                "tnfp": 1,
-                "wpph": 1
+                "iehs": 1,
+                "ilpg": 1,
+                "ilpm": 1,
+                "ilpn": 1,
+                "ilpp": 1,
+                "ilpq": 1,
+                "kpad": 2,
+                "lpmk": 1,
+                "maie": 1,
+                "nsic": 1,
+                "nsiw": 1,
+                "pcpp": 1,
+                "pphq": 1,
+                "prpr": 1,
+                "pypc": 1,
+                "qhhn": 1,
+                "qhlp": 1,
+                "rpai": 1,
+                "rpcp": 1,
+                "rppa": 1,
+                "sggv": 1,
+                "sqpp": 1,
+                "tsci": 1,
+                "tscp": 1,
+                "tsic": 1,
+                "tsqp": 1,
+                "vlpm": 1,
+                "vlpq": 1,
+                "wpiw": 1,
+                "wpnc": 1,
+                "ypet": 1
               },
-              "effective_count": 44.7513,
-              "entropy": 3.8011,
+              "effective_count": 47.3029,
+              "entropy": 3.8566,
               "max_share": 0.04,
               "missing_count": 0,
               "missing_rate": 0.0,
-              "normalized_entropy": 0.9928,
+              "normalized_entropy": 0.9962,
               "top_count": 2,
-              "top_value": "aehq",
-              "unique": 46
+              "top_value": "kpad",
+              "unique": 48
             },
             "source": {
               "counts": {
-                "unknown": 50
+                "chembl_peptide_databases": 2,
+                "chembl_peptide_databases_rcsb_pdb": 4,
+                "chembl_rcsb_pdb": 44
               },
-              "effective_count": 1.0,
-              "entropy": -0.0,
-              "max_share": 1.0,
-              "missing_count": 50,
-              "missing_rate": 1.0,
-              "normalized_entropy": 0.0,
-              "top_count": 50,
-              "top_value": "unknown",
-              "unique": 1
+              "effective_count": 1.5579,
+              "entropy": 0.4433,
+              "max_share": 0.88,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.4035,
+              "top_count": 44,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
             },
             "taxonomy": {
               "counts": {
@@ -1707,31 +1766,10 @@
           },
           "motifs": {
             "markers": {
-              "CG": 10,
-              "CPPC": 3,
-              "CPPG": 2
+              "CG": 7,
+              "CPPG": 3
             },
             "top_kmers": [
-              {
-                "count": 9,
-                "motif": "QQD",
-                "share": 0.18
-              },
-              {
-                "count": 9,
-                "motif": "QDP",
-                "share": 0.18
-              },
-              {
-                "count": 8,
-                "motif": "PHM",
-                "share": 0.16
-              },
-              {
-                "count": 8,
-                "motif": "HQQ",
-                "share": 0.16
-              },
               {
                 "count": 8,
                 "motif": "PHQ",
@@ -1739,23 +1777,18 @@
               },
               {
                 "count": 7,
-                "motif": "HQQD",
+                "motif": "QQD",
                 "share": 0.14
               },
               {
                 "count": 7,
-                "motif": "QQDP",
+                "motif": "HQP",
                 "share": 0.14
               },
               {
-                "count": 6,
-                "motif": "DPH",
-                "share": 0.12
-              },
-              {
-                "count": 6,
-                "motif": "QPP",
-                "share": 0.12
+                "count": 7,
+                "motif": "QHH",
+                "share": 0.14
               },
               {
                 "count": 6,
@@ -1764,49 +1797,74 @@
               },
               {
                 "count": 6,
-                "motif": "PHQQ",
+                "motif": "IEH",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "EHQ",
+                "share": 0.12
+              },
+              {
+                "count": 6,
+                "motif": "ILP",
                 "share": 0.12
               },
               {
                 "count": 5,
-                "motif": "HQP",
+                "motif": "DPH",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HQQ",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "CPP",
+                "share": 0.1
+              },
+              {
+                "count": 5,
+                "motif": "HQM",
                 "share": 0.1
               }
             ],
             "top_marker": "CG",
-            "top_marker_share": 0.2
+            "top_marker_share": 0.14
           }
         }
       },
       "discovery_health": {
         "alignment": {
-          "archive_count": 1274,
+          "archive_count": 1716,
           "generated_count": 50,
           "ranked_count": 50,
           "ranked_in_archive_overlap": 50,
           "ranked_in_generated_overlap": 50
         },
         "metrics": {
-          "effective_family_count": 18.6607,
-          "effective_lineage_count": 4.9907,
-          "effective_motif_count": 18.6607,
-          "effective_source_count": 1.0,
+          "effective_family_count": 17.411,
+          "effective_lineage_count": 5.3489,
+          "effective_motif_count": 17.411,
+          "effective_source_count": 1.4835,
           "effective_taxonomy_count": 1.0,
-          "frontier_family_entropy": 0.9939,
-          "frontier_lineage_entropy": 0.7316,
-          "frontier_motif_entropy": 0.9939,
-          "frontier_source_entropy": 0.0,
+          "frontier_family_entropy": 0.9885,
+          "frontier_lineage_entropy": 0.7283,
+          "frontier_motif_entropy": 0.9885,
+          "frontier_source_entropy": 0.359,
           "frontier_taxonomy_entropy": 0.0,
           "largest_family_share": 0.1,
           "largest_generation_method_share": 0.55,
           "largest_lineage_share": 0.55,
           "largest_motif_share": 0.1,
-          "largest_source_share": 1.0,
+          "largest_source_share": 0.9,
           "largest_taxonomy_share": 1.0,
-          "top_motif_marker_share": 0.15
+          "top_motif_marker_share": 0.25
         },
         "schema": "protean.discovery-health.v1",
-        "status": "warning",
+        "status": "review_required",
         "thresholds": {
           "family": 0.25,
           "generation_method": 0.5,
@@ -1816,21 +1874,22 @@
           "taxonomy": 0.25
         },
         "warning_codes": [
+          "embedding_compression_collapse",
           "generation_method_collapse",
           "hypothesis_attribution_incomplete",
           "hypothesis_linkage_missing",
           "lineage_attribution_incomplete",
-          "source_attribution_incomplete",
+          "source_collapse",
           "taxonomy_attribution_incomplete"
         ]
       },
-      "generated_at": "2026-06-08T00:53:38.609412+00:00"
+      "generated_at": "2026-06-08T17:55:11.237250+00:00"
     },
     "status": "ok"
   },
   "boundary": "Boundary — Computational rankings and the observations in this archive are research-prioritization signals, not biological proof. Nothing here is a clinical claim, a validated therapeutic, a wet-lab result unless an explicit reviewed assay label is cited, an investment or governance promise, or a wet-lab order. The Protean Ledger on Base mainnet is the source of truth; this archive is a supplemental public mirror.",
   "date": "2026-06-08",
-  "generated_at": "2026-06-08T01:00:14+00:00",
+  "generated_at": "2026-06-08T19:49:15+00:00",
   "kind": "frontier-report",
   "schema_version": "protean.public-research-artifact.v1",
   "slug": "frontier-2026-06-08",

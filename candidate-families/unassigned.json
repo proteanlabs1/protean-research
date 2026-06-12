@@ -3,277 +3,7 @@
     "card_count": 60,
     "cards": [
       {
-        "card_id": "pfr_card_6448f34b3121e443da8317fc",
-        "deterministic_summary": {
-          "amp_plausibility": 0.6167,
-          "failure_similarity": 0.0,
-          "novelty_signal": 0.048,
-          "protease_vulnerability_score": 0.8152542372881356,
-          "risk_flag_count": 1,
-          "top_neighbor_similarity": 0.952
-        },
-        "family_id": null,
-        "generated_at": "2026-06-10T01:08:07.327288+00:00",
-        "model": "deterministic_fallback",
-        "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
-        "predicted_classes": [],
-        "reasoning_id": "pfr_reason_d955c9104c23b5bec566bd56",
-        "recommended_assays": [
-          {
-            "assay": "operator_review_only",
-            "catalog_match": null,
-            "catalog_match_score": null,
-            "cost_estimate": null,
-            "expected_information_value": null,
-            "family": null,
-            "information_per_cost": null,
-            "intent": null,
-            "outranks_reasoning": "",
-            "priority": "low",
-            "rank": 1,
-            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
-            "rationale": "Galen reasoning unavailable; assay selection requires operator review.",
-            "reduces_uncertainty": null,
-            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
-          }
-        ],
-        "risk_flags": [
-          "galen_reasoning_unavailable_deterministic_fallback",
-          "high_protease_vulnerability"
-        ],
-        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
-        "scientific_summary": "Deterministic preliminary summary: top-neighbor similarity 0.95; novelty signal 0.05; risk flags 1. Requires Galen reasoning.",
-        "sequence": "MKILSVLLLALIICSIVGWSEAQFTNVSCTTSKECWSVCQRLHNTSRGKCMNKKCRCYS",
-        "sequence_commitment": "keccak256:<redacted-blob>",
-        "sequence_length": 59
-      },
-      {
-        "card_id": "pfr_card_39239c250601541f3c2eba90",
-        "deterministic_summary": {
-          "amp_plausibility": 0.6471,
-          "failure_similarity": 0.0,
-          "novelty_signal": 0.0286,
-          "protease_vulnerability_score": 0.8709090909090909,
-          "risk_flag_count": 1,
-          "top_neighbor_similarity": 0.9714
-        },
-        "family_id": null,
-        "generated_at": "2026-06-10T01:11:29.220485+00:00",
-        "model": "deterministic_fallback",
-        "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
-        "predicted_classes": [],
-        "reasoning_id": "pfr_reason_4f7c812654bc8df4de066a35",
-        "recommended_assays": [
-          {
-            "assay": "operator_review_only",
-            "catalog_match": null,
-            "catalog_match_score": null,
-            "cost_estimate": null,
-            "expected_information_value": null,
-            "family": null,
-            "information_per_cost": null,
-            "intent": null,
-            "outranks_reasoning": "",
-            "priority": "low",
-            "rank": 1,
-            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
-            "rationale": "Galen reasoning unavailable; assay selection requires operator review.",
-            "reduces_uncertainty": null,
-            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
-          }
-        ],
-        "risk_flags": [
-          "galen_reasoning_unavailable_deterministic_fallback",
-          "high_protease_vulnerability"
-        ],
-        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
-        "scientific_summary": "Deterministic preliminary summary: top-neighbor similarity 0.97; novelty signal 0.03; risk flags 1. Requires Galen reasoning.",
-        "sequence": "MKTLALFLVLVCVLGLVQAWEWPWNRKPTKFPIPSPNPRDKWCRLNLGPAWGGRC",
-        "sequence_commitment": "keccak256:<redacted-blob>",
-        "sequence_length": 55
-      },
-      {
-        "card_id": "pfr_card_2def31f87a57badfc68f70b3",
-        "deterministic_summary": {
-          "amp_plausibility": 0.5426,
-          "failure_similarity": 0.0,
-          "novelty_signal": 1.0,
-          "protease_vulnerability_score": 0.6068181818181818,
-          "risk_flag_count": 1,
-          "top_neighbor_similarity": 0.0
-        },
-        "family_id": null,
-        "generated_at": "2026-06-10T01:14:46.982994+00:00",
-        "model": "deterministic_fallback",
-        "novelty_assessment": "candidate for novel chemistry exploration (deterministic fallback; requires validation).",
-        "predicted_classes": [],
-        "reasoning_id": "pfr_reason_4b713924696a064e39fe4c2e",
-        "recommended_assays": [
-          {
-            "assay": "operator_review_only",
-            "catalog_match": null,
-            "catalog_match_score": null,
-            "cost_estimate": null,
-            "expected_information_value": null,
-            "family": null,
-            "information_per_cost": null,
-            "intent": null,
-            "outranks_reasoning": "",
-            "priority": "low",
-            "rank": 1,
-            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
-            "rationale": "Galen reasoning unavailable; assay selection requires operator review.",
-            "reduces_uncertainty": null,
-            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
-          }
-        ],
-        "risk_flags": [
-          "galen_reasoning_unavailable_deterministic_fallback",
-          "high_protease_vulnerability"
-        ],
-        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
-        "scientific_summary": "Deterministic preliminary summary: top-neighbor similarity 0.00; novelty signal 1.00; risk flags 1. Requires Galen reasoning.",
-        "sequence": "LTVHASPLDPLVKRCSAPCSSDEDCGDVNFQCEDGCCKFLIPCC",
-        "sequence_commitment": "keccak256:<redacted-blob>",
-        "sequence_length": 44
-      },
-      {
-        "card_id": "pfr_card_be767286aa9a66f6fd091a7e",
-        "deterministic_summary": {
-          "amp_plausibility": 0.6759,
-          "failure_similarity": 0.0,
-          "novelty_signal": 0.0281,
-          "protease_vulnerability_score": 0.77,
-          "risk_flag_count": 1,
-          "top_neighbor_similarity": 0.9719
-        },
-        "family_id": null,
-        "generated_at": "2026-06-10T03:44:04.959978+00:00",
-        "model": "deterministic_fallback",
-        "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
-        "predicted_classes": [],
-        "reasoning_id": "pfr_reason_f0dc056d3604f7bcb52c8949",
-        "recommended_assays": [
-          {
-            "assay": "operator_review_only",
-            "catalog_match": null,
-            "catalog_match_score": null,
-            "cost_estimate": null,
-            "expected_information_value": null,
-            "family": null,
-            "information_per_cost": null,
-            "intent": null,
-            "outranks_reasoning": "",
-            "priority": "low",
-            "rank": 1,
-            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
-            "rationale": "Galen reasoning unavailable; assay selection requires operator review.",
-            "reduces_uncertainty": null,
-            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
-          }
-        ],
-        "risk_flags": [
-          "galen_reasoning_unavailable_deterministic_fallback",
-          "high_protease_vulnerability"
-        ],
-        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
-        "scientific_summary": "Deterministic preliminary summary: top-neighbor similarity 0.97; novelty signal 0.03; risk flags 1. Requires Galen reasoning.",
-        "sequence": "DLWQFGKMILKVAGKLPFPYYGAYGCYCGWGGRGKPKDPTDRCCFVHDCC",
-        "sequence_commitment": "keccak256:<redacted-blob>",
-        "sequence_length": 50
-      },
-      {
-        "card_id": "pfr_card_3af720c60d3c233b07bfcf29",
-        "deterministic_summary": {
-          "amp_plausibility": 0.5675,
-          "failure_similarity": 0.0,
-          "novelty_signal": 1.0,
-          "protease_vulnerability_score": 0.6428571428571429,
-          "risk_flag_count": 1,
-          "top_neighbor_similarity": 0.0
-        },
-        "family_id": null,
-        "generated_at": "2026-06-10T05:59:51.191979+00:00",
-        "model": "deterministic_fallback",
-        "novelty_assessment": "candidate for novel chemistry exploration (deterministic fallback; requires validation).",
-        "predicted_classes": [],
-        "reasoning_id": "pfr_reason_0673b666c9dcdb233717ebc1",
-        "recommended_assays": [
-          {
-            "assay": "operator_review_only",
-            "catalog_match": null,
-            "catalog_match_score": null,
-            "cost_estimate": null,
-            "expected_information_value": null,
-            "family": null,
-            "information_per_cost": null,
-            "intent": null,
-            "outranks_reasoning": "",
-            "priority": "low",
-            "rank": 1,
-            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
-            "rationale": "Galen reasoning unavailable; assay selection requires operator review.",
-            "reduces_uncertainty": null,
-            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
-          }
-        ],
-        "risk_flags": [
-          "galen_reasoning_unavailable_deterministic_fallback",
-          "high_protease_vulnerability"
-        ],
-        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
-        "scientific_summary": "Deterministic preliminary summary: top-neighbor similarity 0.00; novelty signal 1.00; risk flags 1. Requires Galen reasoning.",
-        "sequence": "SPLHEVRTSLLMKRCTHGGGLGDCNKGEECFFDDDCAPGLYCDNNAICQ",
-        "sequence_commitment": "keccak256:<redacted-blob>",
-        "sequence_length": 49
-      },
-      {
-        "card_id": "pfr_card_82511c6559aa1f7fe8f6693e",
-        "deterministic_summary": {
-          "amp_plausibility": 0.6767,
-          "failure_similarity": 0.0,
-          "novelty_signal": 0.0286,
-          "protease_vulnerability_score": 0.9703703703703703,
-          "risk_flag_count": 1,
-          "top_neighbor_similarity": 0.9714
-        },
-        "family_id": null,
-        "generated_at": "2026-06-10T06:03:12.073228+00:00",
-        "model": "deterministic_fallback",
-        "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
-        "predicted_classes": [],
-        "reasoning_id": "pfr_reason_a1de359938dd0e102a39a732",
-        "recommended_assays": [
-          {
-            "assay": "operator_review_only",
-            "catalog_match": null,
-            "catalog_match_score": null,
-            "cost_estimate": null,
-            "expected_information_value": null,
-            "family": null,
-            "information_per_cost": null,
-            "intent": null,
-            "outranks_reasoning": "",
-            "priority": "low",
-            "rank": 1,
-            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
-            "rationale": "Galen reasoning unavailable; assay selection requires operator review.",
-            "reduces_uncertainty": null,
-            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
-          }
-        ],
-        "risk_flags": [
-          "galen_reasoning_unavailable_deterministic_fallback",
-          "high_protease_vulnerability"
-        ],
-        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
-        "scientific_summary": "Deterministic preliminary summary: top-neighbor similarity 0.97; novelty signal 0.03; risk flags 1. Requires Galen reasoning.",
-        "sequence": "MKTPLFLLLVVLASLLGLALSQDRNDTEWIQSQKDREKWCRLNLGPYLGGRCRK",
-        "sequence_commitment": "keccak256:<redacted-blob>",
-        "sequence_length": 54
-      },
-      {
-        "card_id": "pfr_card_8aebc94748b175d4752bfd97",
+        "card_id": "pfr_card_bb39231d69cd59ef9c42b24c",
         "deterministic_summary": {
           "amp_plausibility": 0.5496,
           "failure_similarity": 0.0,
@@ -283,11 +13,11 @@
           "top_neighbor_similarity": 0.9756
         },
         "family_id": null,
-        "generated_at": "2026-06-10T06:06:31.184850+00:00",
+        "generated_at": "2026-06-10T16:26:56.983614+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_8e70f9994679efe6e964b0f8",
+        "reasoning_id": "pfr_reason_13f4b7e52b1ff42c042ff247",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -318,7 +48,7 @@
         "sequence_length": 43
       },
       {
-        "card_id": "pfr_card_e5915c09682f9e7b7b4746d0",
+        "card_id": "pfr_card_5c229f5ec6bbe60fbfaedf82",
         "deterministic_summary": {
           "amp_plausibility": 0.6723,
           "failure_similarity": 0.0,
@@ -328,11 +58,11 @@
           "top_neighbor_similarity": 0.9532
         },
         "family_id": null,
-        "generated_at": "2026-06-10T06:09:50.857168+00:00",
+        "generated_at": "2026-06-10T16:30:20.620094+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_1e08bebfb84de25e010e6c60",
+        "reasoning_id": "pfr_reason_b34ae19d0c5e84d6c5e7a496",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -363,7 +93,7 @@
         "sequence_length": 46
       },
       {
-        "card_id": "pfr_card_205f702278a4b23ed4b2d541",
+        "card_id": "pfr_card_8117f49cb2b22f8b0c2006b7",
         "deterministic_summary": {
           "amp_plausibility": 0.5422,
           "failure_similarity": 0.0,
@@ -373,11 +103,11 @@
           "top_neighbor_similarity": 0.9829
         },
         "family_id": null,
-        "generated_at": "2026-06-10T06:13:10.144111+00:00",
+        "generated_at": "2026-06-10T16:33:43.744794+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_45ae0ac05ec59e62715bcc5d",
+        "reasoning_id": "pfr_reason_7ad7b182b7df7f011d359591",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -408,7 +138,7 @@
         "sequence_length": 54
       },
       {
-        "card_id": "pfr_card_a20ae89d27b19ae4d1e6190a",
+        "card_id": "pfr_card_72df5a1d285f4f9bd8c8bc21",
         "deterministic_summary": {
           "amp_plausibility": 0.6167,
           "failure_similarity": 0.0,
@@ -418,11 +148,11 @@
           "top_neighbor_similarity": 0.952
         },
         "family_id": null,
-        "generated_at": "2026-06-10T06:16:28.119641+00:00",
+        "generated_at": "2026-06-10T16:37:06.655214+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_10f63feae69bba48bfc8ae93",
+        "reasoning_id": "pfr_reason_c86ac9154775ee5ac372aef0",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -453,7 +183,7 @@
         "sequence_length": 59
       },
       {
-        "card_id": "pfr_card_4ff24d074d61dcebb7434341",
+        "card_id": "pfr_card_207e36d9b4fe5af6dcdc7739",
         "deterministic_summary": {
           "amp_plausibility": 0.6471,
           "failure_similarity": 0.0,
@@ -463,11 +193,11 @@
           "top_neighbor_similarity": 0.9714
         },
         "family_id": null,
-        "generated_at": "2026-06-10T06:19:45.538630+00:00",
+        "generated_at": "2026-06-10T16:40:30.631268+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_bf8694fde1ab859d5bf8badc",
+        "reasoning_id": "pfr_reason_39bba13380e696b8c6f3a7c5",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -498,7 +228,7 @@
         "sequence_length": 55
       },
       {
-        "card_id": "pfr_card_7879a2976c08fd80350888e3",
+        "card_id": "pfr_card_26e4ae2f2e3cffbb5cb8777a",
         "deterministic_summary": {
           "amp_plausibility": 0.5426,
           "failure_similarity": 0.0,
@@ -508,11 +238,11 @@
           "top_neighbor_similarity": 0.0
         },
         "family_id": null,
-        "generated_at": "2026-06-10T06:23:06.163918+00:00",
+        "generated_at": "2026-06-10T16:43:53.527139+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "candidate for novel chemistry exploration (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_32e9614d0387760679257629",
+        "reasoning_id": "pfr_reason_8006d60f93da5759e2723d34",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -543,7 +273,7 @@
         "sequence_length": 44
       },
       {
-        "card_id": "pfr_card_98ecbd5f15e3e6df0aa2cf04",
+        "card_id": "pfr_card_7920d4f33d66b91c311efe57",
         "deterministic_summary": {
           "amp_plausibility": 0.5675,
           "failure_similarity": 0.0,
@@ -553,11 +283,11 @@
           "top_neighbor_similarity": 0.0
         },
         "family_id": null,
-        "generated_at": "2026-06-10T08:44:02.952293+00:00",
+        "generated_at": "2026-06-10T18:53:36.112475+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "candidate for novel chemistry exploration (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_e56502345fc2340c68a218ca",
+        "reasoning_id": "pfr_reason_33c3c68dedf8dabd4c7b922e",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -588,7 +318,7 @@
         "sequence_length": 49
       },
       {
-        "card_id": "pfr_card_b3ef8be2e01412af41833792",
+        "card_id": "pfr_card_bca40aaaffc1c85c7b5874d0",
         "deterministic_summary": {
           "amp_plausibility": 0.6767,
           "failure_similarity": 0.0,
@@ -598,11 +328,11 @@
           "top_neighbor_similarity": 0.9714
         },
         "family_id": null,
-        "generated_at": "2026-06-10T08:47:12.798245+00:00",
+        "generated_at": "2026-06-10T18:57:04.065369+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_31745b4c2f1e6d089dce7337",
+        "reasoning_id": "pfr_reason_c1e931dcdaa335a04f1cee90",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -633,7 +363,7 @@
         "sequence_length": 54
       },
       {
-        "card_id": "pfr_card_00f4a55fc041ae6308a123fe",
+        "card_id": "pfr_card_9790268cc0b18c7e96b13a87",
         "deterministic_summary": {
           "amp_plausibility": 0.5496,
           "failure_similarity": 0.0,
@@ -643,11 +373,11 @@
           "top_neighbor_similarity": 0.9756
         },
         "family_id": null,
-        "generated_at": "2026-06-10T08:50:27.159153+00:00",
+        "generated_at": "2026-06-10T19:00:31.915514+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_d894193b94bc967fba77befa",
+        "reasoning_id": "pfr_reason_244ed8599783c13f63aa4432",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -678,7 +408,7 @@
         "sequence_length": 43
       },
       {
-        "card_id": "pfr_card_6b85916352f5affe5378ea8a",
+        "card_id": "pfr_card_b629ff612ecae4572c6f3eae",
         "deterministic_summary": {
           "amp_plausibility": 0.6723,
           "failure_similarity": 0.0,
@@ -688,11 +418,11 @@
           "top_neighbor_similarity": 0.9532
         },
         "family_id": null,
-        "generated_at": "2026-06-10T08:53:37.945239+00:00",
+        "generated_at": "2026-06-10T19:04:02.108558+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_879a50d0ee55dfb89f2b5823",
+        "reasoning_id": "pfr_reason_b086f2c1505364f20b37a86a",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -723,7 +453,7 @@
         "sequence_length": 46
       },
       {
-        "card_id": "pfr_card_fe2e0f397dabbdc49f386a23",
+        "card_id": "pfr_card_f5e5e13828fa9cc3f6e9292e",
         "deterministic_summary": {
           "amp_plausibility": 0.5422,
           "failure_similarity": 0.0,
@@ -733,11 +463,11 @@
           "top_neighbor_similarity": 0.9829
         },
         "family_id": null,
-        "generated_at": "2026-06-10T08:56:50.624449+00:00",
+        "generated_at": "2026-06-10T19:07:34.689282+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_adf99dd85c69f80a7485ec76",
+        "reasoning_id": "pfr_reason_0bff0a7606ebfd2c2bcbfb10",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -768,7 +498,7 @@
         "sequence_length": 54
       },
       {
-        "card_id": "pfr_card_3c0f4a016bcb0315c0f8c2ae",
+        "card_id": "pfr_card_434e0b52f7b64e5697c54b91",
         "deterministic_summary": {
           "amp_plausibility": 0.6167,
           "failure_similarity": 0.0,
@@ -778,11 +508,11 @@
           "top_neighbor_similarity": 0.952
         },
         "family_id": null,
-        "generated_at": "2026-06-10T09:00:07.628561+00:00",
+        "generated_at": "2026-06-10T19:11:07.054289+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_02ca5bb2e8e1b78b24b080db",
+        "reasoning_id": "pfr_reason_8bc637e3696e390cca4cbe79",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -813,7 +543,7 @@
         "sequence_length": 59
       },
       {
-        "card_id": "pfr_card_299cf9eaafad7164e20fc3b3",
+        "card_id": "pfr_card_0bdc5acc5f0df1bb64fbfefd",
         "deterministic_summary": {
           "amp_plausibility": 0.6471,
           "failure_similarity": 0.0,
@@ -823,11 +553,11 @@
           "top_neighbor_similarity": 0.9714
         },
         "family_id": null,
-        "generated_at": "2026-06-10T09:03:22.018552+00:00",
+        "generated_at": "2026-06-10T19:14:39.451975+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_e01c3aed182b81cbb54e9c51",
+        "reasoning_id": "pfr_reason_86b12ec3ca07a6597d6132b4",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -858,7 +588,7 @@
         "sequence_length": 55
       },
       {
-        "card_id": "pfr_card_e4fdc2c1c8d4231cdaf73c64",
+        "card_id": "pfr_card_8322d52cd2620043aeed464b",
         "deterministic_summary": {
           "amp_plausibility": 0.5426,
           "failure_similarity": 0.0,
@@ -868,11 +598,11 @@
           "top_neighbor_similarity": 0.0
         },
         "family_id": null,
-        "generated_at": "2026-06-10T09:06:35.423688+00:00",
+        "generated_at": "2026-06-10T19:18:08.760570+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "candidate for novel chemistry exploration (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_8f61b7072e170404d72e33ec",
+        "reasoning_id": "pfr_reason_5e355208aab37ac7cbf97815",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -903,7 +633,7 @@
         "sequence_length": 44
       },
       {
-        "card_id": "pfr_card_75e25594011204f5ff32fb01",
+        "card_id": "pfr_card_c8bffe1cbb208e2bc56ae91b",
         "deterministic_summary": {
           "amp_plausibility": 0.5675,
           "failure_similarity": 0.0,
@@ -913,11 +643,11 @@
           "top_neighbor_similarity": 0.0
         },
         "family_id": null,
-        "generated_at": "2026-06-10T11:15:45.514139+00:00",
+        "generated_at": "2026-06-10T21:27:18.406151+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "candidate for novel chemistry exploration (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_7bae336a35a5b7f9f9ae6a2e",
+        "reasoning_id": "pfr_reason_aa90f67296a21f8c21c66633",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -948,7 +678,7 @@
         "sequence_length": 49
       },
       {
-        "card_id": "pfr_card_333964cf6bb6fb6f42711f6a",
+        "card_id": "pfr_card_daadf9a66864d663ad4f39f9",
         "deterministic_summary": {
           "amp_plausibility": 0.6767,
           "failure_similarity": 0.0,
@@ -958,11 +688,11 @@
           "top_neighbor_similarity": 0.9714
         },
         "family_id": null,
-        "generated_at": "2026-06-10T11:19:01.178557+00:00",
+        "generated_at": "2026-06-10T21:30:54.265925+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_30b53fba2057b44cbef786ec",
+        "reasoning_id": "pfr_reason_7e11483d91a3d03a918eaabe",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -993,7 +723,7 @@
         "sequence_length": 54
       },
       {
-        "card_id": "pfr_card_4884670039e45d6452f7a672",
+        "card_id": "pfr_card_641c45d053a4cae7fb9b1681",
         "deterministic_summary": {
           "amp_plausibility": 0.5496,
           "failure_similarity": 0.0,
@@ -1003,11 +733,11 @@
           "top_neighbor_similarity": 0.9756
         },
         "family_id": null,
-        "generated_at": "2026-06-10T11:22:17.226015+00:00",
+        "generated_at": "2026-06-10T21:34:32.845502+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_e3d94a8197f96e1c04dd2b64",
+        "reasoning_id": "pfr_reason_ef5b7df3df11c349b3faf549",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -1038,7 +768,7 @@
         "sequence_length": 43
       },
       {
-        "card_id": "pfr_card_7b2f69e171463721fc205105",
+        "card_id": "pfr_card_92e59cf82f8a3f72a99a5d75",
         "deterministic_summary": {
           "amp_plausibility": 0.6723,
           "failure_similarity": 0.0,
@@ -1048,11 +778,11 @@
           "top_neighbor_similarity": 0.9532
         },
         "family_id": null,
-        "generated_at": "2026-06-10T11:25:34.141600+00:00",
+        "generated_at": "2026-06-10T21:38:08.433244+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_78f468e0ca2e7586ee66682f",
+        "reasoning_id": "pfr_reason_3704773487fe813dddeeea76",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -1083,7 +813,7 @@
         "sequence_length": 46
       },
       {
-        "card_id": "pfr_card_9a752e1b6fa63348669dc861",
+        "card_id": "pfr_card_863bd2355992e2fbd3f6b770",
         "deterministic_summary": {
           "amp_plausibility": 0.5422,
           "failure_similarity": 0.0,
@@ -1093,11 +823,11 @@
           "top_neighbor_similarity": 0.9829
         },
         "family_id": null,
-        "generated_at": "2026-06-10T11:28:50.466843+00:00",
+        "generated_at": "2026-06-10T21:41:45.231107+00:00",
         "model": "deterministic_fallback",
         "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
         "predicted_classes": [],
-        "reasoning_id": "pfr_reason_c811debaa922cbe77656b68e",
+        "reasoning_id": "pfr_reason_9e10e18572cb1276782ef63d",
         "recommended_assays": [
           {
             "assay": "operator_review_only",
@@ -1126,17 +856,383 @@
         "sequence": "MRFQPLFWVFFIFAMSLLFITEEKSVNFPRRRKLYRHNCFRRRCISLHSRVPFP",
         "sequence_commitment": "keccak256:<redacted-blob>",
         "sequence_length": 54
+      },
+      {
+        "card_id": "pfr_card_f39d445a5406acd96a2307ac",
+        "deterministic_summary": {
+          "amp_plausibility": 0.6167,
+          "failure_similarity": 0.0,
+          "novelty_signal": 0.048,
+          "protease_vulnerability_score": 0.8152542372881356,
+          "risk_flag_count": 1,
+          "top_neighbor_similarity": 0.952
+        },
+        "family_id": null,
+        "generated_at": "2026-06-10T21:45:24.356970+00:00",
+        "model": "deterministic_fallback",
+        "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
+        "predicted_classes": [],
+        "reasoning_id": "pfr_reason_a06884f3c5af6f32467980e8",
+        "recommended_assays": [
+          {
+            "assay": "operator_review_only",
+            "catalog_match": null,
+            "catalog_match_score": null,
+            "cost_estimate": null,
+            "expected_information_value": null,
+            "family": null,
+            "information_per_cost": null,
+            "intent": null,
+            "outranks_reasoning": "",
+            "priority": "low",
+            "rank": 1,
+            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
+            "rationale": "Galen reasoning unavailable; assay selection requires operator review.",
+            "reduces_uncertainty": null,
+            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
+          }
+        ],
+        "risk_flags": [
+          "galen_reasoning_unavailable_deterministic_fallback",
+          "high_protease_vulnerability"
+        ],
+        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
+        "scientific_summary": "Deterministic preliminary summary: top-neighbor similarity 0.95; novelty signal 0.05; risk flags 1. Requires Galen reasoning.",
+        "sequence": "MKILSVLLLALIICSIVGWSEAQFTNVSCTTSKECWSVCQRLHNTSRGKCMNKKCRCYS",
+        "sequence_commitment": "keccak256:<redacted-blob>",
+        "sequence_length": 59
+      },
+      {
+        "card_id": "pfr_card_f79ee9863744702e6f585203",
+        "deterministic_summary": {
+          "amp_plausibility": 0.6471,
+          "failure_similarity": 0.0,
+          "novelty_signal": 0.0286,
+          "protease_vulnerability_score": 0.8709090909090909,
+          "risk_flag_count": 1,
+          "top_neighbor_similarity": 0.9714
+        },
+        "family_id": null,
+        "generated_at": "2026-06-10T21:49:01.582855+00:00",
+        "model": "deterministic_fallback",
+        "novelty_assessment": "weakly aligned with prior peptide neighborhood (deterministic fallback; requires validation).",
+        "predicted_classes": [],
+        "reasoning_id": "pfr_reason_e902670e26157c39f6faeeaa",
+        "recommended_assays": [
+          {
+            "assay": "operator_review_only",
+            "catalog_match": null,
+            "catalog_match_score": null,
+            "cost_estimate": null,
+            "expected_information_value": null,
+            "family": null,
+            "information_per_cost": null,
+            "intent": null,
+            "outranks_reasoning": "",
+            "priority": "low",
+            "rank": 1,
+            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
+            "rationale": "Galen reasoning unavailable; assay selection requires operator review.",
+            "reduces_uncertainty": null,
+            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
+          }
+        ],
+        "risk_flags": [
+          "galen_reasoning_unavailable_deterministic_fallback",
+          "high_protease_vulnerability"
+        ],
+        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
+        "scientific_summary": "Deterministic preliminary summary: top-neighbor similarity 0.97; novelty signal 0.03; risk flags 1. Requires Galen reasoning.",
+        "sequence": "MKTLALFLVLVCVLGLVQAWEWPWNRKPTKFPIPSPNPRDKWCRLNLGPAWGGRC",
+        "sequence_commitment": "keccak256:<redacted-blob>",
+        "sequence_length": 55
+      },
+      {
+        "card_id": "pfr_card_e8b54dbaeeabfda29e5be477",
+        "deterministic_summary": {
+          "amp_plausibility": 0.5426,
+          "failure_similarity": 0.0,
+          "novelty_signal": 1.0,
+          "protease_vulnerability_score": 0.6068181818181818,
+          "risk_flag_count": 1,
+          "top_neighbor_similarity": 0.0
+        },
+        "family_id": null,
+        "generated_at": "2026-06-10T21:52:38.983263+00:00",
+        "model": "deterministic_fallback",
+        "novelty_assessment": "candidate for novel chemistry exploration (deterministic fallback; requires validation).",
+        "predicted_classes": [],
+        "reasoning_id": "pfr_reason_b8e292468ff62f196712a9ae",
+        "recommended_assays": [
+          {
+            "assay": "operator_review_only",
+            "catalog_match": null,
+            "catalog_match_score": null,
+            "cost_estimate": null,
+            "expected_information_value": null,
+            "family": null,
+            "information_per_cost": null,
+            "intent": null,
+            "outranks_reasoning": "",
+            "priority": "low",
+            "rank": 1,
+            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
+            "rationale": "Galen reasoning unavailable; assay selection requires operator review.",
+            "reduces_uncertainty": null,
+            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
+          }
+        ],
+        "risk_flags": [
+          "galen_reasoning_unavailable_deterministic_fallback",
+          "high_protease_vulnerability"
+        ],
+        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
+        "scientific_summary": "Deterministic preliminary summary: top-neighbor similarity 0.00; novelty signal 1.00; risk flags 1. Requires Galen reasoning.",
+        "sequence": "LTVHASPLDPLVKRCSAPCSSDEDCGDVNFQCEDGCCKFLIPCC",
+        "sequence_commitment": "keccak256:<redacted-blob>",
+        "sequence_length": 44
+      },
+      {
+        "card_id": "pfr_card_6090f78e5a1fe16a993c6549",
+        "deterministic_summary": {
+          "amp_plausibility": 0.0,
+          "failure_similarity": 0.0,
+          "novelty_signal": 1.0,
+          "protease_vulnerability_score": 0.5055555555555555,
+          "risk_flag_count": 0,
+          "top_neighbor_similarity": 0.0
+        },
+        "family_id": null,
+        "generated_at": "2026-06-11T01:20:04.561712+00:00",
+        "model": "deterministic_fallback",
+        "novelty_assessment": "candidate for novel chemistry exploration (deterministic fallback; requires validation).",
+        "predicted_classes": [],
+        "reasoning_id": "pfr_reason_577399dbba93b434e45dda94",
+        "recommended_assays": [
+          {
+            "assay": "operator_review_only",
+            "catalog_match": null,
+            "catalog_match_score": null,
+            "cost_estimate": null,
+            "expected_information_value": null,
+            "family": null,
+            "information_per_cost": null,
+            "intent": null,
+            "outranks_reasoning": "",
+            "priority": "low",
+            "rank": 1,
+            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
+            "rationale": "Galen reasoning unavailable; assay selection requires operator review.",
+            "reduces_uncertainty": null,
+            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
+          }
+        ],
+        "risk_flags": [
+          "galen_reasoning_unavailable_deterministic_fallback"
+        ],
+        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
+        "scientific_summary": "Deterministic preliminary summary: top-neighbor similarity 0.00; novelty signal 1.00; risk flags 0. Requires Galen reasoning.",
+        "sequence": "MSPQSRNLPRHRRPPEPAREQTQTPTPLPISRLIPTEKERSFVVTSCRPPGCDQGCDECCLIVVERFIQADS",
+        "sequence_commitment": "keccak256:<redacted-blob>",
+        "sequence_length": 72
+      },
+      {
+        "card_id": "pfr_card_35f6ce20a9effbaedbe98e90",
+        "deterministic_summary": {
+          "amp_plausibility": 0.0,
+          "failure_similarity": 0.0,
+          "novelty_signal": 1.0,
+          "protease_vulnerability_score": 0.5789473684210527,
+          "risk_flag_count": 0,
+          "top_neighbor_similarity": 0.0
+        },
+        "family_id": null,
+        "generated_at": "2026-06-11T01:23:17.268120+00:00",
+        "model": "deterministic_fallback",
+        "novelty_assessment": "candidate for novel chemistry exploration (deterministic fallback; requires validation).",
+        "predicted_classes": [],
+        "reasoning_id": "pfr_reason_e3de950b6aea6619078e4bbd",
+        "recommended_assays": [
+          {
+            "assay": "operator_review_only",
+            "catalog_match": null,
+            "catalog_match_score": null,
+            "cost_estimate": null,
+            "expected_information_value": null,
+            "family": null,
+            "information_per_cost": null,
+            "intent": null,
+            "outranks_reasoning": "",
+            "priority": "low",
+            "rank": 1,
+            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
+            "rationale": "Galen reasoning unavailable; assay selection requires operator review.",
+            "reduces_uncertainty": null,
+            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
+          }
+        ],
+        "risk_flags": [
+          "galen_reasoning_unavailable_deterministic_fallback"
+        ],
+        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
+        "scientific_summary": "Deterministic preliminary summary: top-neighbor similarity 0.00; novelty signal 1.00; risk flags 0. Requires Galen reasoning.",
+        "sequence": "APTPGGSGDMSNSCNTGPVQCCNQMFDSNTEQANFLLALVGAVVGPITGQIGANCSPISAIGIAGNSCTQQPVCCANNDFNGLVNIGCTPINVNL",
+        "sequence_commitment": "keccak256:<redacted-blob>",
+        "sequence_length": 95
+      },
+      {
+        "card_id": "pfr_card_51befb48996d74b14220e6ea",
+        "deterministic_summary": {
+          "amp_plausibility": 0.6327,
+          "failure_similarity": 0.0,
+          "novelty_signal": 0.0061,
+          "protease_vulnerability_score": 0.7836538461538461,
+          "risk_flag_count": 2,
+          "top_neighbor_similarity": 0.9939
+        },
+        "family_id": null,
+        "generated_at": "2026-06-11T02:43:07.944738+00:00",
+        "model": "openai-codex/gpt-5.5",
+        "novelty_assessment": "The candidate appears to have low novelty relative to the local archive, with a very high nearest-neighbor embedding similarity and a low deterministic novelty signal. Motif-level novelty is also limited, although the reported cluster novelty values are not fully consistent across bundle sections. Overall, this is best viewed as a close analog within an existing peptide neighborhood rather than a clearly distinct scaffold.",
+        "predicted_classes": [
+          "candidate_amp",
+          "cysteine_rich_peptide_candidate",
+          "solubility_supported_peptide_candidate"
+        ],
+        "reasoning_id": "pfr_reason_9b102b3616d73fbc584a7ebf",
+        "recommended_assays": [
+          {
+            "assay": "Mammalian red blood cell hemolysis assay",
+            "catalog_match": "hemolysis_screen",
+            "catalog_match_score": 0.25,
+            "cost_estimate": 1,
+            "expected_information_value": 0.65,
+            "family": "toxicity",
+            "information_per_cost": 0.65,
+            "intent": "exploratory",
+            "outranks_reasoning": "Outranks subsequent alternative 'Solubility and aggregation assessment under assay-relevan...' because its information_per_cost is 0.650 versus 0.450, consistent with running the cheapest high-information probe first.",
+            "priority": "high",
+            "rank": 1,
+            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
+            "rationale": "Hemolysis-related signals are contradictory and include an elevated proxy risk flag; orthogonal safety-liability screening is important before deeper interpretation.",
+            "reduces_uncertainty": "selectivity between antimicrobial efficacy and mammalian-membrane disruption",
+            "selection_reasoning": "Selected as an exploratory probe (cost_estimate=1, expected_information_value=0.65, information_per_cost=0.650); reduces uncertainty in selectivity between antimicrobial efficacy and mammalian-membrane disruption. Requires wet-lab validation."
+          },
+          {
+            "assay": "Solubility and aggregation assessment under assay-relevant buffers",
+            "catalog_match": "solubility",
+            "catalog_match_score": 0.25,
+            "cost_estimate": 1,
+            "expected_information_value": 0.45,
+            "family": "formulation",
+            "information_per_cost": 0.45,
+            "intent": "exploratory",
+            "outranks_reasoning": "Outranks subsequent alternative 'Antimicrobial susceptibility screen across representative...' because its information_per_cost is 0.450 versus 0.375, consistent with running the cheapest high-information probe first.",
+            "priority": "medium",
+            "rank": 2,
+            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
+            "rationale": "Model support suggests favorable solubility, but the peptide is long and cysteine-rich, so empirical formulation behavior remains uncertain.",
+            "reduces_uncertainty": "formulation-feasibility risk before more expensive assays",
+            "selection_reasoning": "Selected as an exploratory probe (cost_estimate=1, expected_information_value=0.45, information_per_cost=0.450); reduces uncertainty in formulation-feasibility risk before more expensive assays. Requires wet-lab validation."
+          },
+          {
+            "assay": "Antimicrobial susceptibility screen across representative Gram-positive, Gram-negative, and fungal panels",
+            "catalog_match": "amp_mic_panel",
+            "catalog_match_score": 0.1053,
+            "cost_estimate": 2,
+            "expected_information_value": 0.75,
+            "family": "antimicrobial_efficacy",
+            "information_per_cost": 0.375,
+            "intent": "confirmatory",
+            "outranks_reasoning": "Outranks subsequent alternative 'Protease and serum stability profiling' because its information_per_cost is 0.375 versus 0.350, consistent with running the cheapest high-information probe first.",
+            "priority": "high",
+            "rank": 3,
+            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
+            "rationale": "AMP candidacy is suggested but relies on uncalibrated or proxy model support and requires direct experimental validation.",
+            "reduces_uncertainty": "whether the candidate has measurable antimicrobial activity against a representative bacterial panel",
+            "selection_reasoning": "Selected as a confirmatory check (cost_estimate=2, expected_information_value=0.75, information_per_cost=0.375); reduces uncertainty in whether the candidate has measurable antimicrobial activity against a representative bacterial panel. Requires wet-lab validation."
+          },
+          {
+            "assay": "Protease and serum stability profiling",
+            "catalog_match": "serum_stability",
+            "catalog_match_score": 0.3333,
+            "cost_estimate": 2,
+            "expected_information_value": 0.7,
+            "family": "stability",
+            "information_per_cost": 0.35,
+            "intent": "failure_oriented",
+            "outranks_reasoning": "Outranks subsequent alternative 'General mammalian cell viability/cytotoxicity assay' because its information_per_cost is 0.350 versus 0.300, consistent with running the cheapest high-information probe first.",
+            "priority": "high",
+            "rank": 4,
+            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
+            "rationale": "The candidate shows high predicted vulnerability to multiple protease classes, especially elastase-associated cleavage patterns.",
+            "reduces_uncertainty": "proteolytic degradation risk in serum or plasma",
+            "selection_reasoning": "Selected to interrogate a known failure-neighborhood concern (cost_estimate=2, expected_information_value=0.70, information_per_cost=0.350); reduces uncertainty in proteolytic degradation risk in serum or plasma. Requires wet-lab validation."
+          },
+          {
+            "assay": "General mammalian cell viability/cytotoxicity assay",
+            "catalog_match": "cytotoxicity",
+            "catalog_match_score": 0.5,
+            "cost_estimate": 2,
+            "expected_information_value": 0.6,
+            "family": "toxicity",
+            "information_per_cost": 0.3,
+            "intent": "confirmatory",
+            "outranks_reasoning": "No lower-ranked alternatives carry catalog-aware ranking data; remaining items retain original order.",
+            "priority": "high",
+            "rank": 5,
+            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
+            "rationale": "A broad liability signal is present in one model path, and activity-selectivity cannot be inferred from the current bundle.",
+            "reduces_uncertainty": "broader cytotoxic liability beyond direct membrane lysis",
+            "selection_reasoning": "Selected as a confirmatory check (cost_estimate=2, expected_information_value=0.60, information_per_cost=0.300); reduces uncertainty in broader cytotoxic liability beyond direct membrane lysis. Requires wet-lab validation."
+          },
+          {
+            "assay": "Mass spectrometry and disulfide/connectivity characterization",
+            "catalog_match": null,
+            "catalog_match_score": null,
+            "cost_estimate": null,
+            "expected_information_value": null,
+            "family": null,
+            "information_per_cost": null,
+            "intent": null,
+            "outranks_reasoning": "",
+            "priority": "medium",
+            "rank": 6,
+            "ranking_schema_version": "protean.peptide-function-router.assay-ranking.v1",
+            "rationale": "Multiple cysteine residues may create heterogeneous oxidation or folding states that could affect downstream assay interpretation.",
+            "reduces_uncertainty": null,
+            "selection_reasoning": "Retained in the recommendation list with the original priority assignment; catalog-aware ranking was not applicable because no catalog entry matched the assay name."
+          }
+        ],
+        "risk_flags": [
+          "high_protease_vulnerability",
+          "conflicting_hemolysis_risk_models",
+          "low_novelty_high_neighbor_similarity",
+          "uncalibrated_model_outputs",
+          "long_peptide_synthesis_and_folding_complexity",
+          "cysteine_rich_disulfide_state_uncertainty"
+        ],
+        "schema_version": "protean.peptide-function-router.hypothesis-card.public.v1",
+        "scientific_summary": "This 104-residue, neutral, compositionally balanced peptide is consistent with a cysteine-rich peptide candidate with moderate uncalibrated AMP plausibility and favorable predicted solubility support. However, the candidate is very close to existing archive neighbors, has substantial predicted protease susceptibility, and shows discordant hemolysis/liability estimates across model routes. No biological activity or safety conclusion can be drawn without validation.",
+        "sequence": "GLSQAYVVQLYTGTECTGDSWERNVWDNTCAHEKGFQSFRMTTNGGSLQLMTIYSPQACAGVSTFQGCVTGVNSITLGQCFNAVNGAGGSNALSSYSSAAHCPN",
+        "sequence_commitment": "keccak256:<redacted-blob>",
+        "sequence_length": 104
       }
     ],
     "family_id": "unassigned",
     "known_risks": [
+      "conflicting_hemolysis_risk_models",
+      "cysteine_rich_disulfide_state_uncertainty",
       "galen_reasoning_unavailable_deterministic_fallback",
-      "high_protease_vulnerability"
+      "high_protease_vulnerability",
+      "long_peptide_synthesis_and_folding_complexity",
+      "low_novelty_high_neighbor_similarity",
+      "uncalibrated_model_outputs"
     ]
   },
   "boundary": "Boundary — Computational rankings and the observations in this archive are research-prioritization signals, not biological proof. Nothing here is a clinical claim, a validated therapeutic, a wet-lab result unless an explicit reviewed assay label is cited, an investment or governance promise, or a wet-lab order. The Protean Ledger on Base mainnet is the source of truth; this archive is a supplemental public mirror.",
-  "date": "2026-06-11",
-  "generated_at": "2026-06-11T01:00:09+00:00",
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T01:00:08+00:00",
   "kind": "candidate-family",
   "schema_version": "protean.public-research-artifact.v1",
   "slug": "unassigned",

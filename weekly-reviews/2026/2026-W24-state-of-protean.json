@@ -1,0 +1,21 @@
+{
+  "body": {
+    "cards": 60,
+    "frontier_health": "ok",
+    "iso_week": "2026-W24",
+    "open_contradictions": 0,
+    "resolved_contradictions": 0,
+    "theses": 0
+  },
+  "boundary": "Boundary — Computational rankings and the observations in this archive are research-prioritization signals, not biological proof. Nothing here is a clinical claim, a validated therapeutic, a wet-lab result unless an explicit reviewed assay label is cited, an investment or governance promise, or a wet-lab order. The Protean Ledger on Base mainnet is the source of truth; this archive is a supplemental public mirror.",
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14T16:00:17+00:00",
+  "kind": "weekly-review",
+  "schema_version": "protean.public-research-artifact.v1",
+  "slug": "2026-W24-state-of-protean",
+  "title": "State of Protean — 2026-W24",
+  "topics": [
+    "weekly",
+    "state-of-protean"
+  ]
+}

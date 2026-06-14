@@ -75,13 +75,15 @@
       "runtime-audits/2026/2026-06-14-runtime.md"
     ],
     "state-of-protean": [
-      "weekly-reviews/2026/2026-W23-state-of-protean.md"
+      "weekly-reviews/2026/2026-W23-state-of-protean.md",
+      "weekly-reviews/2026/2026-W24-state-of-protean.md"
     ],
     "unassigned": [
       "candidate-families/unassigned.md"
     ],
     "weekly": [
-      "weekly-reviews/2026/2026-W23-state-of-protean.md"
+      "weekly-reviews/2026/2026-W23-state-of-protean.md",
+      "weekly-reviews/2026/2026-W24-state-of-protean.md"
     ]
   }
 }

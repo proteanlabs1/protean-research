@@ -2,7 +2,7 @@
 
 _Protean Labs — peptide discovery, under provenance._
 
-Generated 2026-06-14T01:00:10+00:00 · maintained by **Galen**, the operational auditor and narrator for Protean. This is a public research notebook, not a source of truth.
+Generated 2026-06-15T01:00:11+00:00 · maintained by **Galen**, the operational auditor and narrator for Protean. This is a public research notebook, not a source of truth.
 
 ## Family
 
@@ -12,23 +12,6 @@ Generated 2026-06-14T01:00:10+00:00 · maintained by **Galen**, the operational 
 
 | Card | Sequence / commitment | AMP plausibility | Risk flags |
 | --- | --- | --- | --- |
-| `pfr_card_5f1deb4143769905bcb20e31` | `MPTLGKRSILGKDDDCPVCYDWMQRVKVESLVRCEECGNALHEACFGQWKQTARPQHNLRLVRAS` | 0.6714 | 6 |
-| `pfr_card_06dbb95a7acba5b55bfc4350` | `VPVPVANGELVNVERRITHVGRGTWFYPGLGNCGWRNGNNDLILAIGKGFYDRNGGGNCGQYVQITNTANGKTAYGLTVDSCQSCGDNDIDMSPGLFSQISTLATGQIQVSWHFMAMGWHP` | 0.6742 | 6 |
-| `pfr_card_aba06bfe3bba4ddff3c07776` | `SAWEFTGWADQNYSGDLVIYRSGNGLVNNLCVDIIQNNNRMSSFKWYRGTNVGCSMKLFDGHGCSGALIASSTGNWNVPAISNANNDRVSSLWVDCL` | 0.6451 | 6 |
-| `pfr_card_35f27adb95ab69d7557fefcf` | `ITVSYDTAYDKSSQSLSSVACSDGSNGLLTRGFTTFGSLPRFPRIGGVPAVAGWNSPACGTCWALTYTNGQGVKKTVNILAVDHSDAPDYNISLAAMNELTGGNAAQLGRVTVTAAQVAPSNCGMKNW` | 0.6848 | 6 |
-| `pfr_card_4814d9ca4d87d5956f0f5da6` | `QVQEWHQCKHLFSSSLGIIHYAYAVVLRRRYRLDRPNGIDDLSSKKVLANGSLFLFFLSLASLSRISPSPFPKRKVCADGTTCVQFNMSPYFSTCSPIAQSTSQSLPGSIPTPTTTPVAPV` | 0.5615 | 6 |
-| `pfr_card_42e56811da1606216bbc8512` | `TTASTLTARSPGWWSEMPECGLNSLFESAEMVGCQLWDLDCMCKTLRRFQLVFEERIVKVKCTRSDYELALKVIYNVPCAVNTIGHGLIPTATAAAVRVEL` | 0.6508 | 6 |
-| `pfr_card_bfc33e62881155cba55b1a82` | `AVWKVDTSLFPSASPVQYCLHNAAHNPTTLSLSSTGRTFLNSTLVSQSDVEHEMPAYPGSICAHQYLGKGVEDEVVGMRDNSACEGCRALGGAANQVNVGSAWVEIRRGELSAY` | 0.644 | 5 |
-| `pfr_card_07dd437fc642d1b33e69c670` | `LRTVAGVVQHLGNASPPVQNECLRRSSFTLLSHPSHTVCVSATWALCSFCYSTPLCHPKVIMVIVEKLQRDLCMILTPGSTSDVPPRAFGHAYGLAAVVCIIPNDHCTSPTTSATRCWTWPRRC` | 0.547 | 6 |
-| `pfr_card_243359aa6284868c1fe42bf5` | `AFARGGVPASIDEIVARHENDMALEARGEMTEFEARAMLIARAPPNGDCDTASPSHMGALDCYHAHGHGWKYLGRCYGHQQMMLQGNQFKGWCYF` | 0.7093 | 6 |
-| `pfr_card_cb90d6c1ba08f7d34ffc6cfd` | `AACLASPAADLAQEEATFAKRVWLSNIDVQAACKQQYTDAYVAITVNNGCGGWKCILNNSQYSVNMDGYCVQRWGGEAYASCGGGTVWDWQCHDRT` | 0.6107 | 5 |
-| `pfr_card_ed9179857c4dc3438f3906bc` | `SHLLFDNFPGYNRVNPNNNPMCGRTVTATFQGKSITVALTDRCTGCAVTDLDFSPSAFAALTDGNFGLGRINGVKWEWN` | 0.6609 | 5 |
-| `pfr_card_fbfa0f36766a36e572575579` | `SVAMSATITFFAGADCTGAQGPATNVPSGECLTLASNSAKSVRYSGVPSQIQFFISGGGHDSCTHGASLVRGGGSGCATAPAGVNWESVAVF` | 0.6582 | 6 |
-| `pfr_card_859bef4bed616952e60a26e1` | `MIIPVRCFSCGKVIGDKWNAYLELLARDMSEGDALDELQLKRYCCRRMVLTHVDLIEKLLHYNPMERTKDKSNY` | 0.7099 | 8 |
-| `pfr_card_e323959a04c1b9b174c8efe9` | `GCIASPAALPQEEAVVVNKRVWLSNVDVNEACKQQHGRVYYASAAGGVNCGAWRCYEAGGNIFSIDMNRYCVNRHPHRPGVYASCYMTPNDWQCHDNA` | 0.6869 | 6 |
-| `pfr_card_5498acfb840076cf240d382b` | `SVAMSATITGFAGADCTGTQGQSFNIPSNECFSLGGGSTKSIRYSGVPSQIQFFISGGGHDSCTNGASLVLGGGSGCATAPAGVNWESVAVF` | 0.6055 | 5 |
-| `pfr_card_fc00dc9b897b84a586a74a5d` | `FGGVGSSSSSSSGKRGTGSGMRCGLQKCAWTAKEGEEGCVQEMEKNDPSSIVDWYSGMHY` | 0.5993 | 6 |
-| `pfr_card_38a0b7931388724d3ab06a06` | `VVANPLNWGERDFHPVHFDYADSITSTMTGILCREGCRTNITMFYNTCKSFFLNQDTEAVEYCRLTWAEKLQLMFDTCHSRGARCTGPSGTWSLTYVELIGRMFFHVTLTDVWPCKSDTNTNKWHLWIRE` | 0.7022 | 6 |
 | `pfr_card_e2542e759674309b83d02df7` | `APVPVEDGELVELEPRKTRVGRGTWFHPGLGNCGKRDNDNSLILAMGKQFYDRNNGSNCDQYVEIVNTKNGKKAYGRLRDSCQSCRDQDIDMSPALFKKLAPLSTGVIQVSWKFMNKSWKP` | 0.6287 | 6 |
 | `pfr_card_723ecb50b62290ac17cb7442` | `LSSFLGAWIDALVQIRFVNDITACVAALNLSDTMGHTSGSENIVFGNAPFPTNPTTFADPIEQSSYLSMPTTDDGCLTCSHPSNSVIGDLFSPDYLPVEDNNVKCEPCQMGSE` | 0.5376 | 6 |
 | `pfr_card_aaddf707116fc6eb6b653c6d` | `HSALTLKLYTNPIFDDEDYKTWADTLHTLDKELRNKDKRFEAKMTAGKADKKSLLSHLMDCKDSSSTTFPSANTSTSSSSGHARSHGLTEAEHALFVEFKGCNCFYQFFAGHETLDCPMAKNNTWPDWATY` | 0.6707 | 5 |
@@ -37,76 +20,92 @@ Generated 2026-06-14T01:00:10+00:00 · maintained by **Galen**, the operational 
 | `pfr_card_e1caf51b114df61899d5f50f` | `VPVPVANGELVNVERRITHVGRGTWFYPGLGNCGNVNTSNDLILAIGKGLYDRNGGGNCGQYVEIVNVANGKTAYGLTEDSCQSCGDNDIDMSPALFQKLSTLGTGQIQVSWHFMAKGFQP` | 0.6342 | 6 |
 | `pfr_card_ed78c3e4c462adfe6883352c` | `ILWPITPGYWHVEWKNEGEMVILPLDEHAKYVKKLSKEGLASSAIDKNTVIAWIMMKIWVGTHDISQNCPGNYGFIANMQCLEWSELSKAKEYYVHSNKAR` | 0.6882 | 6 |
 | `pfr_card_cef326bdcb96c101d30e54bc` | `WLIKTPFRIGDFYRGCGHFHGRYYTGETIDCNNVCCKTSRFHKHKTANNCGCAEVVIEERRIQNMFQIPFPECQRITR` | 0.5651 | 6 |
+| `pfr_card_f62ad693fdb94698939aa5b1` | `AATPTRRNEPASQCNTGGLQCCDSLTTANSSAASKIISLLGIVVQDVTATVGLTCSPISVIGLGGDSWYTPSYMLCSDLNSELFFSSTAQPVCCQDNSFHGLIALGCTPVDLNL` | 0.5567 | 6 |
+| `pfr_card_aa80f60b1739abdb2b12547a` | `SLAMSATITGFAGADCSGTQGQSFNVPSGECFSLGGGSTKSIRYSGVPSEIEFYISGGGHDSCTNGAQLTLGGGSGCGTAPAGVNWESVAVF` | 0.5561 | 5 |
+| `pfr_card_9fd9ec150fcc0e992e089d20` | `SAMAAKAAPPVARAPDAMSIIFFDDTFLTGDSYSPANSGPDVCITLASNWRNRAESLVIASGYSCAFHAFTNCQGTARTLSGTINQLPQTGNPVLYQNIESFECTKLG` | 0.6274 | 6 |
+| `pfr_card_33668dbbd96e9bf553e78af2` | `APSSDVEARAMINNCGSSTFINQSSTASPLVKDCQQIVRNISGSGTWTTPLWRQRKLVSYGTCAFGVEGVMPLGITGFKVGNSDIVDLINDSIKLFQWKGKVGAKGEMRCQPEPAIGMPHIKVEWTIYHN` | 0.6596 | 6 |
+| `pfr_card_85aad740075741b18b348e85` | `GVLIGAGCLGCFPSGSRDVITQKYELLLVVLATSQEAAPNLENDGRTAWGEVQNMKVPSSSLAVLLDLRRSQHRSTVQGGSISDEDDITDVAFDLLCAECTKQMY` | 0.5438 | 6 |
+| `pfr_card_35595cc0e5113f95317ca1a3` | `IPAELEHRLVWLPFTLPFTFPCIIEPTPALELTLCIRGKLSNSAKVDVNDANGEVEEAGGVMVMCEYEQQWPGRLYEGATGEC` | 0.5501 | 7 |
+| `pfr_card_0254c5eddb5a711b633a0ef6` | `SMAMSATITGFAGADCTGNKGKSFNVPANECFSYGADSFKSIKYSGVPNQIKFFISGGHHDSCTHGANLTRGGGSGCATAPAGVNWESVSVF` | 0.6699 | 5 |
+| `pfr_card_539ec27b36433c522aae1938` | `VLAYEHNIDAIVARHELDNELEARGMRTEFETRALLVARAPPNGDCSTGLPQPNVSGPQCAQMHGYGWKFNGRCYGPRQMILQGNTVKGFCYF` | 0.7019 | 5 |
+| `pfr_card_37f8eb5448afc8c0700deb0b` | `MYCAVSSKKFDCFGSHLLIQYPAGKNYLEKELYHCHEKWAWAWEFRQMDELRLRAESTNSLVIQNPPFFNCSMLK` | 0.6975 | 5 |
+| `pfr_card_4fcf1406ba4a8220a90d1a8c` | `LKVLHELRCLKNRYHSSHTGKLSAFHIRLWGKSPEVQSVSSTAYGKRPALSTTIRSRMDENVLAGARVSCSRCFHLIHSAAFLYEIPSVKARVCEDTSMLVARWYTRADKLFVAHRHSYAIV` | 0.5542 | 7 |
+| `pfr_card_77f394a09a51e60442014926` | `FTGKVHHYMVPSIPGACGFTNTNAERVAALPTGHLAGGANCGRNIQVTYGGASVVAKVVEYCSACGTNDIDLSQVAFQVLAPLSVGVIHGVNWNFI` | 0.6849 | 6 |
+| `pfr_card_d0f9ab3192e293a454bb556a` | `SPVPVMNGELVNLEARLTRVGRGTWYYPGLGNCGDDNNSSELVLAIGKSLYDQNGGGNCNQYVQITNVANGKTAIGQTKDSCPGCGDNDLDMSPALFEKLGSLSTGVLDISWHFMAKDWKP` | 0.5709 | 6 |
+| `pfr_card_8d4cad9039066cd0cb5f02e5` | `MCVISFPWQIESWNTGTCLYMAWAGLGCLNQFVNSVVWNHVYLNRAPVWCDICKIGPILYPEDRQAEQN` | 0.6291 | 6 |
+| `pfr_card_0a634a35b09988df1df0cb18` | `HVQLNQPTNQPPFLPSHNHTVRPHPKEDTIRYQKGDLDAASIIAYISHMRKTGDMPKDILRVRGRLRNAFPGCGVNKLQIQNAYARAGWDVNEICWLTKKQVRVVFCVRDFVKGCTDDGFMGT` | 0.5388 | 6 |
+| `pfr_card_2a07dd37ca3686a319b2d2f2` | `LYMAWCGDALIPPSLSHSFETELCYCQRAEQDEETISRGKQAGVSPADSIRVQGLRVVGYRDVQVCVLATSSSEKSRADNHCGY` | 0.6173 | 6 |
+| `pfr_card_ab7c8ff547ed4d7ff4894dea` | `SIACIVLGPAPQTIGFWGSGVTILSDRSLWVWWNFALHPCLTPKAAPDVWYDDEKPKYRYHLEQNTGDWERCAMA` | 0.6535 | 5 |
+| `pfr_card_1a068a65da748e79ca441a04` | `VNHASAQCTPTGPGVCNVGFVGHIGLPLSSPMKWDRMNIYDRYCNTIGGRDYPTQGMAVPSQLPYTVVITRLQSGGDYNRIGFCYAGQCFDGGFWGNIIVGWFKQSGVYVDKEQDED` | 0.6365 | 5 |
 
 Full amino-acid sequences are intentionally public when the source card carries them; otherwise the on-chain sequence commitment is shown.
 
 ## Known risks / counter-screens
 
+- ambiguous_novelty_signal
+- anionic_charge_may_limit_canonical_amp_alignment
+- anionic_charge_may_reduce_canonical_cationic_amp_alignment
+- conflicting_hemolysis_liability_signals
 - conflicting_hemolysis_predictions
 - conflicting_hemolysis_risk_models
+- conflicting_hemolysis_risk_predictions
 - conflicting_hemolysis_risk_signal
-- conflicting_hemolysis_risk_signals
+- conflicting_hemolysis_signal
 - conflicting_hemolysis_signals
 - conflicting_liability_models
+- cysteine_oxidation_or_disulfide_state_uncertainty
 - cysteine_redox_or_disulfide_state_uncertainty
-- cysteine_related_oxidation_or_disulfide_complexity
-- cysteine_rich_disulfide_state_uncertainty
+- cysteine_redox_state_ambiguity
 - cysteine_rich_redox_or_disulfide_state_uncertainty
+- cysteine_rich_structural_uncertainty
 - discordant_hemolysis_prediction
-- discordant_hemolysis_predictions
-- divergent_liability_predictions
-- high_embedding_similarity_to_archive
-- high_embedding_similarity_to_existing_neighbors
+- hemolysis_signal_disagreement
+- high_embedding_similarity_to_existing_records
 - high_embedding_similarity_to_neighbors
+- high_nearest_neighbor_similarity
+- high_net_cationic_charge
 - high_protease_vulnerability
-- limited_assay-neighbor_context
-- limited_assay-neighbor_evidence
 - limited_assay-neighbor_support
-- limited_assay_neighbor_context
 - limited_assay_neighbor_support
-- limited_assay_neighborhood
 - long_neutral_peptide
-- long_neutral_peptide_for_amp_hypothesis
-- long_peptide_60aa
-- long_peptide_candidate
+- long_peptide_developability_risk
 - long_peptide_length
 - long_peptide_synthesis_and_characterization_burden
 - long_peptide_synthesis_and_characterization_complexity
 - long_peptide_synthesis_and_folding_complexity
 - long_peptide_synthesis_and_folding_uncertainty
 - long_peptide_synthesis_complexity
-- long_sequence_synthesis_and_folding_complexity
+- long_sequence_130aa
+- long_sequence_length
+- low_embedding_novelty
+- low_model_calibration
 - low_net_positive_charge_for_typical_amp_profiles
 - low_novelty_relative_to_local_neighbors
 - low_novelty_signal
-- low_sequence-neighborhood_novelty
 - low_sequence_novelty
-- mixed_hemolysis_signal
-- mixed_solubility_signal
+- low_sequence_novelty_signal
+- low_validated_assay_support
+- many_predicted_cleavage_sites
 - model_calibration_limited
 - model_disagreement_on_hemolysis
-- moderate_cationic_charge
 - moderate_liability_signal
-- moderate_liability_uncertainty
-- multiple_basic_and_aromatic_cleavage_liability_sites
 - multiple_basic_residue_cleavage_liability
-- multiple_cysteine_redox_or_disulfide_state_uncertainty
-- multiple_predicted_protease_cleavage_sites
-- near_identical_family_neighbor
-- neutral_net_charge_for_amp_candidate
-- neutral_net_charge_for_amp_hypothesis
-- no_assay_neighbor_support
+- net_anionic_profile
+- neutral_charge_for_amp_candidate
 - no_assay_neighbors
-- possible_liability_signal
+- no_direct_assay_neighbors
+- possible_cysteine_pairing_or_redox_liability
+- possible_hemolysis_liability_signal
+- potential_solubility_concern
 - predicted_hemolysis_risk
-- predicted_hemolysis_risk_signal
-- predicted_hemolysis_risk_uncertain
+- solubility_uncertainty
 - sparse_assay_neighborhood
 - uncalibrated_activity_and_liability_models
-- uncalibrated_activity_models
 - uncalibrated_activity_proxy
 - uncalibrated_model_outputs
+- uncalibrated_model_support
 - uncalibrated_prediction_models
+- uncertain_solubility_support
 
 ## Provenance
 

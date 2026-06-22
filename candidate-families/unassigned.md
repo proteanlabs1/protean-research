@@ -2,7 +2,7 @@
 
 _Protean Labs — peptide discovery, under provenance._
 
-Generated 2026-06-21T01:00:07+00:00 · maintained by **Galen**, the operational auditor and narrator for Protean. This is a public research notebook, not a source of truth.
+Generated 2026-06-22T01:17:20+00:00 · maintained by **Galen**, the operational auditor and narrator for Protean. This is a public research notebook, not a source of truth.
 
 ## Family
 
@@ -12,11 +12,6 @@ Generated 2026-06-21T01:00:07+00:00 · maintained by **Galen**, the operational 
 
 | Card | Sequence / commitment | AMP plausibility | Risk flags |
 | --- | --- | --- | --- |
-| `pfr_card_a8f3fca0980f4748bd93f75f` | `LIILAFEQCPPRKLKEIRPLNKLLIVGISKSNVEQLLIVLKCLVLHEISQLLNTQLDKSTLAKCIGMIENGVNPEALAAVIQELRREGAKSG` | 0.6745 | 5 |
-| `pfr_card_339f45bcde93a2e5d5b1cb2f` | `LTAPSLSRDLPAVEDEKLLALCNAAEQNTYLAVRFGDDYYTTFDYNVCYPYKIGDKVAQQAFFCKAATCYNNANEDCTGGSIPPAPIIIPTRISLPNTADFIHFLGQGALCHANALS` | 0.5868 | 6 |
-| `pfr_card_26e8f9d2b4564a1e168b86ff` | `MLDDDCNPFIIDFNCCTAIGTPAKGGTPGWTSWPELASVENDLNALSLVAQFIREECREDTTTTGLVEDEDSKLLANDA` | 0.5348 | 6 |
-| `pfr_card_c714b195c9c4fa6bbb316f90` | `FAGAVPAPTNNGGIMSLEEMKAWVSALPPDEVTLVGDPFAALSSRAALSVTVTFCSTQSSTICTGPCTVKTVAGGTCIAAPDTNCLSATSQVTFCDRSGCGGSCNELNSCGTRLENNFCFTPGTESIGVPAGS` | 0.5284 | 7 |
-| `pfr_card_08258136644b8b1064871e8b` | `LNNCVKTYSQQHSELHLPPRAPLLRRVGSSSCVSEYSTLYIMWLTETYVQLHCWHRSLYVGHTVIYIHELCNN` | 0.6292 | 6 |
 | `pfr_card_ee814fc7d39d3b40977d48ce` | `TVSIGQDALPSGSCFDCAKNFTNKGEVYRLADQVGESPFLQCFYIASSDVASQTFCIYETTVLVSRGRRDVRLIEMLIRMGPSLRTAMASVPLLLRGVLPALYDGRSKETYTYFVPKA` | 0.6922 | 5 |
 | `pfr_card_0d274f6dee0c2730392e860d` | `AAQDNIVHTVDPINPEKEQQQYELCKAASKADDGQTFAAVRYGYDGVPFSVKYGQCVPVRDANNNFVATTVFCKSATCNIYKDRACQGVATPIALDFPTADGNVPLEFPIVADFAELEGASASCTPNKVI` | 0.5474 | 6 |
 | `pfr_card_7e2bace2e8d1d0157e54856c` | `ASPTKTERQDLIGDVINAVGLGLVTKINAYITAIFSRDFSLTSASRSLSFELTFERVVSKAGVNRTVYASFDHTFATPVVVGGPQTVICSGIYCSKKALRGRLIIPTT` | 0.6517 | 6 |
@@ -37,6 +32,11 @@ Generated 2026-06-21T01:00:07+00:00 · maintained by **Galen**, the operational 
 | `pfr_card_4fb5705cf88d2e5a92d0d134` | `MLAESSAPVDACRQVKCPKCGKITWAGCGQHVEAVMQTVKEEDKCTCPRN` | 0.6563 | 6 |
 | `pfr_card_d48e231df8a5ca40cd45965b` | `ISPLKILRRVLNAHFYSGGGAAYFTSEKQQLAIPVIEYASLKVCMSSIRERASGTCKQILECTRKNVFTVPSKELGICICIPISNV` | 0.6348 | 6 |
 | `pfr_card_20bda4182e6d451c551b41cf` | `IMGLVAMIAGCLECIIGSIAGFIATVVDCLTCGCCRWVLSKEYRKDVKLIIAIGLVEQGSRTEQLSWSRP` | 0.6564 | 6 |
+| `pfr_card_7d41311285ebcb2150db059a` | `SRCWAPAASVSASYGPLKDLRTDATLFCNRFSSDTTAIVSSGGKYVFGFQSAMFTGTFASSTSCLNTFNQLVTDCYGAGPTVPATIGGTIVDAGGANLAISFGTGAQF` | 0.6502 | 6 |
+| `pfr_card_57eebcff70c926c60a43689f` | `LSGVAAQTTSRCWTSATPVAANYGPLADLRIDAGIFCNEYAAGPGISSAGRLIFGFQSAGFFGNFASNSSCLSTFNQLVTDCYGTNPSRPATLGGVRTDPGGAELIIAFGDGTKL` | 0.6265 | 6 |
+| `pfr_card_749714457369fc89867f0e3d` | `LSGVAAQTTSRCWTSATPVAANYGPLADLRTDAGIFCNEYAAGPGISSAGRLIFGFQSAGFFGNFASNSSCLATFNQLVTDCYGTNPSRPATLGGVRTDPGGAELVIAFGDGTKL` | 0.6265 | 6 |
+| `pfr_card_3b1ef7c63a9b19350b81f760` | `AAIGAQAAPGAAMADLGAREADTAAVDGHLFVCVNANFGAPCNNFNFNNGQCINFVAPFQDSISSLGPDPGFTCIVFKDANCSGQSFNVANPGITDLSSTGLNDQLSSFQCFTN` | 0.5463 | 8 |
+| `pfr_card_cba0fc4714663aaac66932f6` | `MEHERCMHRYEADDMDTVSCDGACRQHQRARVNLSSSSTPLLGKDGGESITRNATHIKEYGVGSGNAIEYASCRGTGNGT` | 0.6479 | 5 |
 
 Full amino-acid sequences are intentionally public when the source card carries them; otherwise the on-chain sequence commitment is shown.
 
@@ -45,6 +45,7 @@ Full amino-acid sequences are intentionally public when the source card carries 
 - anionic_charge_may_limit_typical_amp_alignment
 - anionic_net_charge
 - conflicting_hemolysis_predictions
+- conflicting_hemolysis_proxy_outputs
 - conflicting_hemolysis_risk_models
 - conflicting_hemolysis_signals
 - cysteine_disulfide_state_uncertainty
@@ -52,6 +53,7 @@ Full amino-acid sequences are intentionally public when the source card carries 
 - cysteine_redox_state_uncertainty
 - cysteine_rich_disulfide_state_uncertainty
 - cysteine_rich_redox_or_disulfide_uncertainty
+- cysteine_rich_sequence_context
 - cysteine_rich_sequence_features
 - hemolysis_liability_uncertain
 - hemolysis_liability_uncertainty
@@ -63,28 +65,26 @@ Full amino-acid sequences are intentionally public when the source card carries 
 - high_protease_vulnerability
 - high_similarity_to_archive_neighbors
 - limited_assay-neighbor_support
-- limited_assay_neighbor_context
 - limited_assay_neighbor_support
 - limited_direct_assay_neighbors
 - limited_model_calibration
 - long_cysteine_rich_peptide
 - long_cysteine_rich_peptide_complexity
-- long_peptide
+- long_neutral_peptide
 - long_peptide_candidate
 - long_peptide_developability_risk
 - long_peptide_length
 - long_peptide_synthesis_and_folding_complexity
+- long_peptide_synthesis_and_handling_complexity
 - long_peptide_synthesis_complexity
-- long_sequence_synthesis_and_characterization_burden
 - long_sequence_synthesis_and_stability_risk
-- low_direct_assay_context
 - low_local_novelty
 - low_net_charge_for_typical_cationic_amp
 - low_novelty_relative_to_local_family
 - low_novelty_signal
 - low_sequence_novelty
 - low_sequence_novelty_signal
-- mixed_solubility_support
+- mixed_liability_signals
 - model_calibration_limitations
 - model_calibration_limited
 - model_disagreement_on_hemolysis
@@ -96,22 +96,25 @@ Full amino-acid sequences are intentionally public when the source card carries 
 - multiple_predicted_elastase_sites
 - multiple_predicted_trypsin_sites
 - near_identical_family_neighbors
-- net_anionic_charge
 - no_assay_neighbors
+- no_assay_neighbors_available
 - no_direct_assay_neighbors
 - possible_cysteine_redox_or_disulfide_complexity
 - possible_disulfide_folding_ambiguity
 - possible_solubility_or_aggregation_liability
 - possible_solubility_or_aggregation_uncertainty
+- predicted_hemolysis_or_liability_signal
 - predicted_hemolysis_risk
 - predicted_hemolysis_risk_conflict
+- predicted_hemolysis_risk_disagreement
 - predicted_hemolysis_risk_signal
 - protease_degradation_vulnerability
 - solubility_uncertainty
 - sparse_assay_neighbor_support
-- strong_anionic_charge
+- uncalibrated_activity_prediction
 - uncalibrated_activity_proxy
 - uncalibrated_hemolysis_liability_signal
+- uncalibrated_hemolysis_signal
 - uncalibrated_model_outputs
 - uncertain_hemolysis_signal
 - very_high_nearest_neighbor_similarity

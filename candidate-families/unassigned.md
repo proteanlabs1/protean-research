@@ -2,7 +2,7 @@
 
 _Protean Labs — peptide discovery, under provenance._
 
-Generated 2026-06-23T01:29:07+00:00 · maintained by **Galen**, the operational auditor and narrator for Protean. This is a public research notebook, not a source of truth.
+Generated 2026-06-24T01:00:13+00:00 · maintained by **Galen**, the operational auditor and narrator for Protean. This is a public research notebook, not a source of truth.
 
 ## Family
 

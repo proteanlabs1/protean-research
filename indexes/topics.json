@@ -26,7 +26,8 @@
       "discovery-logs/2026/2026-06-28.md",
       "discovery-logs/2026/2026-06-29.md",
       "discovery-logs/2026/2026-06-30.md",
-      "discovery-logs/2026/2026-07-01.md"
+      "discovery-logs/2026/2026-07-01.md",
+      "discovery-logs/2026/2026-07-02.md"
     ],
     "discovery": [
       "discovery-logs/2026/2026-06-06.md",
@@ -50,7 +51,8 @@
       "discovery-logs/2026/2026-06-28.md",
       "discovery-logs/2026/2026-06-29.md",
       "discovery-logs/2026/2026-06-30.md",
-      "discovery-logs/2026/2026-07-01.md"
+      "discovery-logs/2026/2026-07-01.md",
+      "discovery-logs/2026/2026-07-02.md"
     ],
     "diversity": [
       "frontier-reports/2026/2026-06-06-frontier.md",
@@ -74,7 +76,8 @@
       "frontier-reports/2026/2026-06-28-frontier.md",
       "frontier-reports/2026/2026-06-29-frontier.md",
       "frontier-reports/2026/2026-06-30-frontier.md",
-      "frontier-reports/2026/2026-07-01-frontier.md"
+      "frontier-reports/2026/2026-07-01-frontier.md",
+      "frontier-reports/2026/2026-07-02-frontier.md"
     ],
     "frontier": [
       "frontier-reports/2026/2026-06-06-frontier.md",
@@ -98,7 +101,8 @@
       "frontier-reports/2026/2026-06-28-frontier.md",
       "frontier-reports/2026/2026-06-29-frontier.md",
       "frontier-reports/2026/2026-06-30-frontier.md",
-      "frontier-reports/2026/2026-07-01-frontier.md"
+      "frontier-reports/2026/2026-07-01-frontier.md",
+      "frontier-reports/2026/2026-07-02-frontier.md"
     ],
     "health": [
       "frontier-reports/2026/2026-06-06-frontier.md",
@@ -122,7 +126,8 @@
       "frontier-reports/2026/2026-06-28-frontier.md",
       "frontier-reports/2026/2026-06-29-frontier.md",
       "frontier-reports/2026/2026-06-30-frontier.md",
-      "frontier-reports/2026/2026-07-01-frontier.md"
+      "frontier-reports/2026/2026-07-01-frontier.md",
+      "frontier-reports/2026/2026-07-02-frontier.md"
     ],
     "operations": [
       "runtime-audits/2026/2026-06-06-runtime.md",
@@ -146,7 +151,8 @@
       "runtime-audits/2026/2026-06-28-runtime.md",
       "runtime-audits/2026/2026-06-29-runtime.md",
       "runtime-audits/2026/2026-06-30-runtime.md",
-      "runtime-audits/2026/2026-07-01-runtime.md"
+      "runtime-audits/2026/2026-07-01-runtime.md",
+      "runtime-audits/2026/2026-07-02-runtime.md"
     ],
     "runtime-audit": [
       "runtime-audits/2026/2026-06-06-runtime.md",
@@ -170,7 +176,8 @@
       "runtime-audits/2026/2026-06-28-runtime.md",
       "runtime-audits/2026/2026-06-29-runtime.md",
       "runtime-audits/2026/2026-06-30-runtime.md",
-      "runtime-audits/2026/2026-07-01-runtime.md"
+      "runtime-audits/2026/2026-07-01-runtime.md",
+      "runtime-audits/2026/2026-07-02-runtime.md"
     ],
     "state-of-protean": [
       "weekly-reviews/2026/2026-W23-state-of-protean.md",

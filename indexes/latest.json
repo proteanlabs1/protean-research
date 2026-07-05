@@ -1,6 +1,6 @@
 {
-  "artifact_count": 81,
-  "generated_at": "2026-07-05T01:12:09+00:00",
+  "artifact_count": 82,
+  "generated_at": "2026-07-05T16:35:33+00:00",
   "latest_by_kind": {
     "candidate-family": {
       "content_hash": "sha256:c17de62f7f9ef622da8f21965daae5b7a24af820e576ec3579cadb9c01616de1",
@@ -52,12 +52,12 @@
       ]
     },
     "weekly-review": {
-      "content_hash": "sha256:a9129339a6c3053594735ba7c862f519e1f35f57fc92711a3462bada680d1ad4",
-      "generated_at": "2026-06-28T16:02:47+00:00",
+      "content_hash": "sha256:9e8cd38c1a42947b58cc7ef48b61b9ba2cae20e45fad8a93b7f081bf23dd7f02",
+      "generated_at": "2026-07-05T16:35:33+00:00",
       "kind": "weekly-review",
-      "path": "weekly-reviews/2026/2026-W26-state-of-protean.md",
-      "slug": "2026-W26-state-of-protean",
-      "title": "State of Protean — 2026-W26",
+      "path": "weekly-reviews/2026/2026-W27-state-of-protean.md",
+      "slug": "2026-W27-state-of-protean",
+      "title": "State of Protean — 2026-W27",
       "topics": [
         "weekly",
         "state-of-protean"
@@ -73,6 +73,6 @@
       "topics": []
     }
   },
-  "manifest_hash": "sha256:3f57e83857b5ba0ccecdd34fbc61e34cdb533e3526b68a9503698e8b10637ca1",
+  "manifest_hash": "sha256:99cc8d2864cc5e910966b0d79e784fbfb756c0f27b1a333d11bbe7ecc37dd80f",
   "schema_version": "protean.public-research-manifest.v1"
 }

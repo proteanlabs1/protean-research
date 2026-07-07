@@ -1,10 +1,10 @@
 {
   "artifact_count": 88,
-  "generated_at": "2026-07-07T01:00:07+00:00",
+  "generated_at": "2026-07-07T01:45:56+00:00",
   "latest_by_kind": {
     "candidate-family": {
-      "content_hash": "sha256:1d2f1c7670c0bd0e1d46723d223e50990d67e5bb03046e369879c8dc6dd3cda0",
-      "generated_at": "2026-07-07T01:00:07+00:00",
+      "content_hash": "sha256:3976c93db9a5c5e71623456506fe7f5334012dad8e76cc1f408f7205db8a2be3",
+      "generated_at": "2026-07-07T01:45:56+00:00",
       "kind": "candidate-family",
       "path": "candidate-families/unassigned.md",
       "slug": "unassigned",
@@ -15,8 +15,8 @@
       ]
     },
     "discovery-log": {
-      "content_hash": "sha256:880d6351432ca641502530633a03ba77b3b261e72403f19935f7b7bfa9a206f8",
-      "generated_at": "2026-07-07T01:00:07+00:00",
+      "content_hash": "sha256:7f18a8ea542d7c1596a99733f2ef4cb290bb4a61fd669ad7165286396a499072",
+      "generated_at": "2026-07-07T01:45:56+00:00",
       "kind": "discovery-log",
       "path": "discovery-logs/2026/2026-07-07.md",
       "slug": "discovery-2026-07-07",
@@ -27,8 +27,8 @@
       ]
     },
     "frontier-report": {
-      "content_hash": "sha256:a84ba2f8e7d5e419d2717a1631585a00f16056dc2e4f527e9110b9ed976fd505",
-      "generated_at": "2026-07-07T01:00:07+00:00",
+      "content_hash": "sha256:f24b2732c5b49de63dbbd69c3fe004bcdec975475f6269aad2a3aeb975f04b01",
+      "generated_at": "2026-07-07T01:45:56+00:00",
       "kind": "frontier-report",
       "path": "frontier-reports/2026/2026-07-07-frontier.md",
       "slug": "frontier-2026-07-07",
@@ -40,8 +40,8 @@
       ]
     },
     "runtime-audit": {
-      "content_hash": "sha256:7a48548719863341fc1b28901009081bf162da56c63b18effd810f5bda0a1820",
-      "generated_at": "2026-07-07T01:00:07+00:00",
+      "content_hash": "sha256:3c9345679293b81aaf9d51c496801265f62ca3f383655b045516547293599011",
+      "generated_at": "2026-07-07T01:45:56+00:00",
       "kind": "runtime-audit",
       "path": "runtime-audits/2026/2026-07-07-runtime.md",
       "slug": "runtime-2026-07-07",
@@ -73,6 +73,6 @@
       "topics": []
     }
   },
-  "manifest_hash": "sha256:979eacdd9464498cfedc29e1deb2619aa3805071b115c7323f218a40c1a9d358",
+  "manifest_hash": "sha256:0435cf407257f5b03d3c58a362e21aa3e83ef6b2efa0ad686b325e25418f11cc",
   "schema_version": "protean.public-research-manifest.v1"
 }

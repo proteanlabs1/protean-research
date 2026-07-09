@@ -1,0 +1,3019 @@
+{
+  "body": {
+    "frontier_audit": {
+      "alignment": {
+        "archive_count": 8924,
+        "generated_count": 50,
+        "ranked_count": 50,
+        "ranked_in_archive_overlap": 50,
+        "ranked_in_generated_overlap": 50
+      },
+      "cutoffs": {
+        "top_100": {
+          "collapse_flags": [
+            {
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.74,
+              "message": "source frontier concentration is 0.74",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
+            },
+            {
+              "code": "lineage_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 0.9,
+              "message": "lineage is dominated by 'unknown' (0.9) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "generation_method_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.9,
+              "message": "generation_method frontier concentration is 0.9",
+              "severity": "review_required",
+              "top_value": "deterministic_constraint_recombination"
+            },
+            {
+              "code": "hypothesis_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 1.0,
+              "message": "hypothesis is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "hypothesis_linkage_missing",
+              "collapse_class": "review_gate",
+              "message": "hypothesis linkage is missing for most frontier candidates",
+              "missing_rate": 1.0,
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_neighborhood_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 0.9,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.9) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "taxonomy_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 1.0,
+              "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "motif_marker_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.84,
+              "message": "A recurring motif marker dominates the frontier",
+              "metrics": {
+                "effective_motif_marker_count": 1.6983,
+                "largest_motif_marker_share": 0.84,
+                "motif_marker_entropy": 0.5296
+              },
+              "severity": "warning",
+              "top_marker": "no_known_marker"
+            },
+            {
+              "code": "cysteine_pattern_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.68,
+              "message": "cysteine pattern dominance is 0.68",
+              "severity": "warning",
+              "top_value": "cys0"
+            },
+            {
+              "code": "structural_annotation_missing",
+              "collapse_class": "metadata_gap",
+              "coverage": 0.0,
+              "message": "Insufficient fold-family annotations for structural collapse validation",
+              "metrics": {
+                "annotation_policy": "missing_or_unknown_fold_labels_are_metadata_gap_not_structural_collapse",
+                "dominant_structural_neighborhood": "",
+                "effective_fold_family_count": 0.0,
+                "effective_structural_neighborhood_count": 0.0,
+                "elite_fold_family_dominance": 0.0,
+                "fold_families": {},
+                "fold_family_entropy": 0.0,
+                "fold_family_normalized_entropy": 0.0,
+                "largest_fold_family": "",
+                "largest_fold_family_share": 0.0,
+                "structural_annotation_count": 0,
+                "structural_assessment_status": "not_assessed_missing_annotations",
+                "structural_blocks_interpretation": false,
+                "structural_caveat": "Structural diversity is not assessed because fold-family annotations are absent.",
+                "structural_coverage": 0.0,
+                "structural_coverage_count": 0,
+                "structural_coverage_fraction": 0.0,
+                "structural_near_duplicate_share": 0.0,
+                "structural_neighborhood_concentration": 0.0,
+                "structural_neighborhoods": {},
+                "structural_warning_class": "metadata_gap"
+              },
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "count": 36,
+              "message": "Frontier embeddings are present but occupy an overly concentrated neighborhood",
+              "metrics": {
+                "cluster_dominance": 0.0,
+                "compression_metric_source": "embedding_neighborhood_ids",
+                "effective_neighborhood_diversity": 1.5814,
+                "effective_vector_diversity": 0.0,
+                "nearest_neighbor_distance": {
+                  "max": 0.0,
+                  "mean": 0.0,
+                  "min": 0.0,
+                  "p10": 0.0
+                },
+                "neighborhood_concentration": 0.9,
+                "recompute_required_count": 0
+              },
+              "reasons": [
+                "candidate_rows_marked_embedding_compression_suspected"
+              ],
+              "severity": "warning",
+              "share": 0.72
+            }
+          ],
+          "count": 50,
+          "dimensions": {
+            "campaign": {
+              "counts": {
+                "gpcr_peptide": 10,
+                "immune_modulator": 25,
+                "phenotype_first_unknown_target": 9,
+                "receptor_ligand": 6
+              },
+              "effective_count": 3.4266,
+              "entropy": 1.2316,
+              "max_share": 0.5,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.8884,
+              "top_count": 25,
+              "top_value": "immune_modulator",
+              "unique": 4
+            },
+            "evidence_source": {
+              "counts": {
+                "chembl_dbaasp_peptide_databases_rcsb_pdb": 1,
+                "chembl_peptide_databases_rcsb_pdb": 12,
+                "chembl_rcsb_pdb": 37
+              },
+              "effective_count": 1.9033,
+              "entropy": 0.6436,
+              "max_share": 0.74,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.5858,
+              "top_count": 37,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "family": {
+              "counts": {
+                "seqfam:00242531": 1,
+                "seqfam:0c08e865": 1,
+                "seqfam:12447362": 1,
+                "seqfam:1f747506": 1,
+                "seqfam:1ff1937b": 1,
+                "seqfam:25c67330": 2,
+                "seqfam:355ec5e6": 1,
+                "seqfam:3a88b69e": 1,
+                "seqfam:3b6124fb": 1,
+                "seqfam:3d95b6fb": 1,
+                "seqfam:425bbf68": 1,
+                "seqfam:4b34ef37": 1,
+                "seqfam:51490eb6": 1,
+                "seqfam:58c9a160": 1,
+                "seqfam:5a2715e7": 1,
+                "seqfam:5b587dd5": 2,
+                "seqfam:5c1e5027": 1,
+                "seqfam:5d61561f": 1,
+                "seqfam:5ee6e8c9": 1,
+                "seqfam:60ace8f2": 1,
+                "seqfam:67677c42": 2,
+                "seqfam:6982be1c": 1,
+                "seqfam:6acc077f": 1,
+                "seqfam:6bb0c98d": 1,
+                "seqfam:71f5c825": 1,
+                "seqfam:8c1c1ab5": 1,
+                "seqfam:8f4151e0": 1,
+                "seqfam:9200429c": 1,
+                "seqfam:94b4953a": 1,
+                "seqfam:95227b67": 1,
+                "seqfam:a0490c4d": 1,
+                "seqfam:a1bb24f2": 1,
+                "seqfam:abbe0fe5": 1,
+                "seqfam:af7b78be": 1,
+                "seqfam:b4a6f42c": 2,
+                "seqfam:b8f9fc27": 1,
+                "seqfam:bc770cb2": 1,
+                "seqfam:c87af352": 1,
+                "seqfam:ca2c4f9f": 2,
+                "seqfam:cf2dd465": 1,
+                "seqfam:d07488f0": 1,
+                "seqfam:e564fcd9": 1,
+                "seqfam:efc064a7": 1,
+                "seqfam:fb311d38": 1,
+                "seqfam:ffa990db": 1
+              },
+              "effective_count": 43.5275,
+              "entropy": 3.7734,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9913,
+              "top_count": 2,
+              "top_value": "seqfam:25c67330",
+              "unique": 45
+            },
+            "generation_method": {
+              "counts": {
+                "deterministic_constraint_recombination": 45,
+                "persistent_evolutionary_constrained_mutation": 2,
+                "persistent_evolutionary_motif_preserving_mutation": 1,
+                "persistent_evolutionary_novelty_biased_mutation": 1,
+                "persistent_evolutionary_recombination": 1
+              },
+              "effective_count": 1.5814,
+              "entropy": 0.4583,
+              "max_share": 0.9,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.2848,
+              "top_count": 45,
+              "top_value": "deterministic_constraint_recombination",
+              "unique": 5
+            },
+            "hypothesis": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            },
+            "lineage": {
+              "counts": {
+                "20260622t184442z-001": 1,
+                "20260622t184442z-001_20260626t021110z-001": 1,
+                "20260624t051137z-001": 1,
+                "20260626t021110z-001": 1,
+                "20260704t190854z-001": 1,
+                "unknown": 45
+              },
+              "effective_count": 1.6258,
+              "entropy": 0.486,
+              "max_share": 0.9,
+              "missing_count": 45,
+              "missing_rate": 0.9,
+              "normalized_entropy": 0.2713,
+              "top_count": 45,
+              "top_value": "unknown",
+              "unique": 6
+            },
+            "motif_signature": {
+              "counts": {
+                "afpq": 1,
+                "afpr": 1,
+                "ansi": 1,
+                "cgcd": 1,
+                "cghh": 1,
+                "cgva": 1,
+                "cntq": 1,
+                "deap": 2,
+                "deaq": 1,
+                "deav": 1,
+                "deaw": 1,
+                "decs": 1,
+                "dehq": 1,
+                "depa": 1,
+                "dlph": 1,
+                "dvap": 1,
+                "ekpl": 1,
+                "emgy": 1,
+                "fpgk": 1,
+                "gecp": 1,
+                "gehq": 1,
+                "gelp": 1,
+                "geqd": 2,
+                "gerp": 2,
+                "hhap": 1,
+                "hqde": 2,
+                "hqhh": 1,
+                "hqhq": 2,
+                "kphq": 1,
+                "nsiw": 1,
+                "papq": 1,
+                "pgwp": 1,
+                "pqeh": 1,
+                "pqnh": 1,
+                "qdea": 1,
+                "qgcg": 1,
+                "qhde": 1,
+                "qhqd": 1,
+                "sgpr": 1,
+                "tncs": 1,
+                "vlpe": 1,
+                "vlpi": 1,
+                "vlps": 1,
+                "wpde": 1,
+                "wppp": 1
+              },
+              "effective_count": 43.5275,
+              "entropy": 3.7734,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9913,
+              "top_count": 2,
+              "top_value": "deap",
+              "unique": 45
+            },
+            "source": {
+              "counts": {
+                "chembl_dbaasp_peptide_databases_rcsb_pdb": 1,
+                "chembl_peptide_databases_rcsb_pdb": 12,
+                "chembl_rcsb_pdb": 37
+              },
+              "effective_count": 1.9033,
+              "entropy": 0.6436,
+              "max_share": 0.74,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.5858,
+              "top_count": 37,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "structural_fold_family": {
+              "counts": {
+                "unknown": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unknown",
+              "unique": 1
+            },
+            "structural_neighborhood": {
+              "counts": {
+                "unknown": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unknown",
+              "unique": 1
+            },
+            "taxonomy": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            }
+          },
+          "motifs": {
+            "cysteine_pattern_dominance": 0.68,
+            "cysteine_patterns": {
+              "cys0": 34,
+              "cys1:": 10,
+              "cys2:10": 2,
+              "cys2:3": 1,
+              "cys2:9": 1,
+              "cys3:2-5": 1,
+              "cys3:9-3": 1
+            },
+            "dominant_cysteine_pattern": "cys0",
+            "dominant_motif_family": "unknown",
+            "dominant_motif_neighborhood": "unknown",
+            "dominant_motif_scaffold": "cg",
+            "effective_cysteine_pattern_count": 2.7895,
+            "effective_motif_family_count": 1.5814,
+            "effective_motif_marker_count": 1.6983,
+            "effective_motif_neighborhood_count": 1.5814,
+            "effective_motif_scaffold_count": 34.1464,
+            "largest_motif_marker": "no_known_marker",
+            "largest_motif_marker_share": 0.84,
+            "markers": {
+              "CG": 6,
+              "CPPG": 2
+            },
+            "motif_families": {
+              "motifcluster:3d518f30ab": 2,
+              "motifcluster:567f8f73b2": 1,
+              "motifcluster:76c3589b6b": 1,
+              "motifcluster:ef24566c0f": 1,
+              "unknown": 45
+            },
+            "motif_family_dominance": 0.9,
+            "motif_family_entropy": 0.4583,
+            "motif_marker_entropy": 0.5296,
+            "motif_marker_normalized_entropy": 0.4821,
+            "motif_neighborhoods": {
+              "motifcluster:3d518f30ab": 2,
+              "motifcluster:567f8f73b2": 1,
+              "motifcluster:76c3589b6b": 1,
+              "motifcluster:ef24566c0f": 1,
+              "unknown": 45
+            },
+            "near_duplicate_motif_neighborhood_share": 0.9,
+            "primary_markers": {
+              "cg": 6,
+              "cppg": 2,
+              "no_known_marker": 42
+            },
+            "repeated_motif_scaffold_dominance": 0.12,
+            "repeated_motif_scaffolds": {
+              "afpq": 1,
+              "afpr": 1,
+              "ansi": 1,
+              "cg": 6,
+              "cntq": 1,
+              "cppg": 2,
+              "deap": 2,
+              "deaq": 1,
+              "deav": 1,
+              "deaw": 1,
+              "decs": 1,
+              "dehq": 1,
+              "depa": 1,
+              "dlph": 1,
+              "dvap": 1,
+              "ekpl": 1,
+              "emgy": 1,
+              "fpgk": 1,
+              "gehq": 1,
+              "gelp": 1,
+              "geqd": 2,
+              "gerp": 2,
+              "hhap": 1,
+              "hqde": 2,
+              "hqhh": 1,
+              "hqhq": 2,
+              "kphq": 1,
+              "nsiw": 1,
+              "papq": 1,
+              "pgwp": 1,
+              "pqeh": 1,
+              "pqnh": 1,
+              "qdea": 1,
+              "qhqd": 1,
+              "sgpr": 1,
+              "vlpe": 1,
+              "vlpi": 1,
+              "vlps": 1,
+              "wpde": 1
+            },
+            "top_kmers": [
+              {
+                "count": 16,
+                "motif": "QHQ",
+                "share": 0.32
+              },
+              {
+                "count": 15,
+                "motif": "HQH",
+                "share": 0.3
+              },
+              {
+                "count": 12,
+                "motif": "APA",
+                "share": 0.24
+              },
+              {
+                "count": 12,
+                "motif": "HHQ",
+                "share": 0.24
+              },
+              {
+                "count": 12,
+                "motif": "HQD",
+                "share": 0.24
+              },
+              {
+                "count": 11,
+                "motif": "PAP",
+                "share": 0.22
+              },
+              {
+                "count": 11,
+                "motif": "DEA",
+                "share": 0.22
+              },
+              {
+                "count": 10,
+                "motif": "HQHQ",
+                "share": 0.2
+              },
+              {
+                "count": 10,
+                "motif": "QDE",
+                "share": 0.2
+              },
+              {
+                "count": 9,
+                "motif": "PHH",
+                "share": 0.18
+              },
+              {
+                "count": 9,
+                "motif": "QHQD",
+                "share": 0.18
+              },
+              {
+                "count": 8,
+                "motif": "QPH",
+                "share": 0.16
+              }
+            ],
+            "top_marker": "CG",
+            "top_marker_share": 0.12
+          },
+          "structural_diversity": {
+            "annotation_policy": "missing_or_unknown_fold_labels_are_metadata_gap_not_structural_collapse",
+            "dominant_structural_neighborhood": "",
+            "effective_fold_family_count": 0.0,
+            "effective_structural_neighborhood_count": 0.0,
+            "elite_fold_family_dominance": 0.0,
+            "fold_families": {},
+            "fold_family_entropy": 0.0,
+            "fold_family_normalized_entropy": 0.0,
+            "largest_fold_family": "",
+            "largest_fold_family_share": 0.0,
+            "structural_annotation_count": 0,
+            "structural_assessment_status": "not_assessed_missing_annotations",
+            "structural_blocks_interpretation": false,
+            "structural_caveat": "Structural diversity is not assessed because fold-family annotations are absent.",
+            "structural_coverage": 0.0,
+            "structural_coverage_count": 0,
+            "structural_coverage_fraction": 0.0,
+            "structural_near_duplicate_share": 0.0,
+            "structural_neighborhood_concentration": 0.0,
+            "structural_neighborhoods": {},
+            "structural_warning_class": "metadata_gap"
+          }
+        },
+        "top_20": {
+          "collapse_flags": [
+            {
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.65,
+              "message": "source frontier concentration is 0.65",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
+            },
+            {
+              "code": "lineage_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 0.8,
+              "message": "lineage is dominated by 'unknown' (0.8) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "generation_method_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.8,
+              "message": "generation_method frontier concentration is 0.8",
+              "severity": "review_required",
+              "top_value": "deterministic_constraint_recombination"
+            },
+            {
+              "code": "campaign_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.8,
+              "message": "campaign frontier concentration is 0.8",
+              "severity": "warning",
+              "top_value": "immune_modulator"
+            },
+            {
+              "code": "hypothesis_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 1.0,
+              "message": "hypothesis is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "hypothesis_linkage_missing",
+              "collapse_class": "review_gate",
+              "message": "hypothesis linkage is missing for most frontier candidates",
+              "missing_rate": 1.0,
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_neighborhood_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 0.8,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.8) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "taxonomy_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 1.0,
+              "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "motif_marker_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.9,
+              "message": "A recurring motif marker dominates the frontier",
+              "metrics": {
+                "effective_motif_marker_count": 1.3841,
+                "largest_motif_marker_share": 0.9,
+                "motif_marker_entropy": 0.3251
+              },
+              "severity": "warning",
+              "top_marker": "no_known_marker"
+            },
+            {
+              "code": "cysteine_pattern_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.75,
+              "message": "cysteine pattern dominance is 0.75",
+              "severity": "warning",
+              "top_value": "cys0"
+            },
+            {
+              "code": "structural_annotation_missing",
+              "collapse_class": "metadata_gap",
+              "coverage": 0.0,
+              "message": "Insufficient fold-family annotations for structural collapse validation",
+              "metrics": {
+                "annotation_policy": "missing_or_unknown_fold_labels_are_metadata_gap_not_structural_collapse",
+                "dominant_structural_neighborhood": "",
+                "effective_fold_family_count": 0.0,
+                "effective_structural_neighborhood_count": 0.0,
+                "elite_fold_family_dominance": 0.0,
+                "fold_families": {},
+                "fold_family_entropy": 0.0,
+                "fold_family_normalized_entropy": 0.0,
+                "largest_fold_family": "",
+                "largest_fold_family_share": 0.0,
+                "structural_annotation_count": 0,
+                "structural_assessment_status": "not_assessed_missing_annotations",
+                "structural_blocks_interpretation": false,
+                "structural_caveat": "Structural diversity is not assessed because fold-family annotations are absent.",
+                "structural_coverage": 0.0,
+                "structural_coverage_count": 0,
+                "structural_coverage_fraction": 0.0,
+                "structural_near_duplicate_share": 0.0,
+                "structural_neighborhood_concentration": 0.0,
+                "structural_neighborhoods": {},
+                "structural_warning_class": "metadata_gap"
+              },
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "count": 11,
+              "message": "Frontier embeddings are present but occupy an overly concentrated neighborhood",
+              "metrics": {
+                "cluster_dominance": 0.0,
+                "compression_metric_source": "embedding_neighborhood_ids",
+                "effective_neighborhood_diversity": 2.0306,
+                "effective_vector_diversity": 0.0,
+                "nearest_neighbor_distance": {
+                  "max": 0.0,
+                  "mean": 0.0,
+                  "min": 0.0,
+                  "p10": 0.0
+                },
+                "neighborhood_concentration": 0.8,
+                "recompute_required_count": 0
+              },
+              "reasons": [
+                "candidate_rows_marked_embedding_compression_suspected"
+              ],
+              "severity": "warning",
+              "share": 0.55
+            }
+          ],
+          "count": 20,
+          "dimensions": {
+            "campaign": {
+              "counts": {
+                "gpcr_peptide": 1,
+                "immune_modulator": 16,
+                "phenotype_first_unknown_target": 2,
+                "receptor_ligand": 1
+              },
+              "effective_count": 2.0306,
+              "entropy": 0.7083,
+              "max_share": 0.8,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.511,
+              "top_count": 16,
+              "top_value": "immune_modulator",
+              "unique": 4
+            },
+            "evidence_source": {
+              "counts": {
+                "chembl_peptide_databases_rcsb_pdb": 7,
+                "chembl_rcsb_pdb": 13
+              },
+              "effective_count": 1.9107,
+              "entropy": 0.6474,
+              "max_share": 0.65,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9341,
+              "top_count": 13,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 2
+            },
+            "family": {
+              "counts": {
+                "seqfam:00242531": 1,
+                "seqfam:25c67330": 2,
+                "seqfam:355ec5e6": 1,
+                "seqfam:3d95b6fb": 1,
+                "seqfam:4b34ef37": 1,
+                "seqfam:58c9a160": 1,
+                "seqfam:5a2715e7": 1,
+                "seqfam:5b587dd5": 2,
+                "seqfam:5c1e5027": 1,
+                "seqfam:67677c42": 1,
+                "seqfam:71f5c825": 1,
+                "seqfam:95227b67": 1,
+                "seqfam:b4a6f42c": 1,
+                "seqfam:b8f9fc27": 1,
+                "seqfam:bc770cb2": 1,
+                "seqfam:c87af352": 1,
+                "seqfam:ca2c4f9f": 1,
+                "seqfam:e564fcd9": 1
+              },
+              "effective_count": 17.411,
+              "entropy": 2.8571,
+              "max_share": 0.1,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9885,
+              "top_count": 2,
+              "top_value": "seqfam:25c67330",
+              "unique": 18
+            },
+            "generation_method": {
+              "counts": {
+                "deterministic_constraint_recombination": 16,
+                "persistent_evolutionary_constrained_mutation": 2,
+                "persistent_evolutionary_motif_preserving_mutation": 1,
+                "persistent_evolutionary_recombination": 1
+              },
+              "effective_count": 2.0306,
+              "entropy": 0.7083,
+              "max_share": 0.8,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.511,
+              "top_count": 16,
+              "top_value": "deterministic_constraint_recombination",
+              "unique": 4
+            },
+            "hypothesis": {
+              "counts": {
+                "unassigned": 20
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 20,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 20,
+              "top_value": "unassigned",
+              "unique": 1
+            },
+            "lineage": {
+              "counts": {
+                "20260622t184442z-001": 1,
+                "20260622t184442z-001_20260626t021110z-001": 1,
+                "20260624t051137z-001": 1,
+                "20260626t021110z-001": 1,
+                "unknown": 16
+              },
+              "effective_count": 2.1764,
+              "entropy": 0.7777,
+              "max_share": 0.8,
+              "missing_count": 16,
+              "missing_rate": 0.8,
+              "normalized_entropy": 0.4832,
+              "top_count": 16,
+              "top_value": "unknown",
+              "unique": 5
+            },
+            "motif_signature": {
+              "counts": {
+                "afpr": 1,
+                "cghh": 1,
+                "cntq": 1,
+                "deap": 2,
+                "deaq": 1,
+                "dehq": 1,
+                "dvap": 1,
+                "fpgk": 1,
+                "gehq": 1,
+                "gelp": 1,
+                "geqd": 2,
+                "gerp": 1,
+                "hqde": 1,
+                "hqhq": 1,
+                "papq": 1,
+                "qgcg": 1,
+                "qhqd": 1,
+                "wpde": 1
+              },
+              "effective_count": 17.411,
+              "entropy": 2.8571,
+              "max_share": 0.1,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9885,
+              "top_count": 2,
+              "top_value": "deap",
+              "unique": 18
+            },
+            "source": {
+              "counts": {
+                "chembl_peptide_databases_rcsb_pdb": 7,
+                "chembl_rcsb_pdb": 13
+              },
+              "effective_count": 1.9107,
+              "entropy": 0.6474,
+              "max_share": 0.65,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9341,
+              "top_count": 13,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 2
+            },
+            "structural_fold_family": {
+              "counts": {
+                "unknown": 20
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 20,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 20,
+              "top_value": "unknown",
+              "unique": 1
+            },
+            "structural_neighborhood": {
+              "counts": {
+                "unknown": 20
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 20,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 20,
+              "top_value": "unknown",
+              "unique": 1
+            },
+            "taxonomy": {
+              "counts": {
+                "unassigned": 20
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 20,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 20,
+              "top_value": "unassigned",
+              "unique": 1
+            }
+          },
+          "motifs": {
+            "cysteine_pattern_dominance": 0.75,
+            "cysteine_patterns": {
+              "cys0": 15,
+              "cys1:": 4,
+              "cys2:10": 1
+            },
+            "dominant_cysteine_pattern": "cys0",
+            "dominant_motif_family": "unknown",
+            "dominant_motif_neighborhood": "unknown",
+            "dominant_motif_scaffold": "deap",
+            "effective_cysteine_pattern_count": 1.9886,
+            "effective_motif_family_count": 2.0306,
+            "effective_motif_marker_count": 1.3841,
+            "effective_motif_neighborhood_count": 2.0306,
+            "effective_motif_scaffold_count": 16.245,
+            "largest_motif_marker": "no_known_marker",
+            "largest_motif_marker_share": 0.9,
+            "markers": {
+              "CG": 2
+            },
+            "motif_families": {
+              "motifcluster:3d518f30ab": 2,
+              "motifcluster:567f8f73b2": 1,
+              "motifcluster:ef24566c0f": 1,
+              "unknown": 16
+            },
+            "motif_family_dominance": 0.8,
+            "motif_family_entropy": 0.7083,
+            "motif_marker_entropy": 0.3251,
+            "motif_marker_normalized_entropy": 0.469,
+            "motif_neighborhoods": {
+              "motifcluster:3d518f30ab": 2,
+              "motifcluster:567f8f73b2": 1,
+              "motifcluster:ef24566c0f": 1,
+              "unknown": 16
+            },
+            "near_duplicate_motif_neighborhood_share": 0.8,
+            "primary_markers": {
+              "cg": 2,
+              "no_known_marker": 18
+            },
+            "repeated_motif_scaffold_dominance": 0.1,
+            "repeated_motif_scaffolds": {
+              "afpr": 1,
+              "cg": 2,
+              "cntq": 1,
+              "deap": 2,
+              "deaq": 1,
+              "dehq": 1,
+              "dvap": 1,
+              "fpgk": 1,
+              "gehq": 1,
+              "gelp": 1,
+              "geqd": 2,
+              "gerp": 1,
+              "hqde": 1,
+              "hqhq": 1,
+              "papq": 1,
+              "qhqd": 1,
+              "wpde": 1
+            },
+            "top_kmers": [
+              {
+                "count": 11,
+                "motif": "QHQ",
+                "share": 0.55
+              },
+              {
+                "count": 8,
+                "motif": "HQH",
+                "share": 0.4
+              },
+              {
+                "count": 8,
+                "motif": "PAP",
+                "share": 0.4
+              },
+              {
+                "count": 8,
+                "motif": "HHQ",
+                "share": 0.4
+              },
+              {
+                "count": 8,
+                "motif": "HQD",
+                "share": 0.4
+              },
+              {
+                "count": 7,
+                "motif": "DEA",
+                "share": 0.35
+              },
+              {
+                "count": 7,
+                "motif": "APA",
+                "share": 0.35
+              },
+              {
+                "count": 6,
+                "motif": "HQHQ",
+                "share": 0.3
+              },
+              {
+                "count": 6,
+                "motif": "APAP",
+                "share": 0.3
+              },
+              {
+                "count": 6,
+                "motif": "QHQD",
+                "share": 0.3
+              },
+              {
+                "count": 6,
+                "motif": "QDE",
+                "share": 0.3
+              },
+              {
+                "count": 5,
+                "motif": "APQ",
+                "share": 0.25
+              }
+            ],
+            "top_marker": "CG",
+            "top_marker_share": 0.1
+          },
+          "structural_diversity": {
+            "annotation_policy": "missing_or_unknown_fold_labels_are_metadata_gap_not_structural_collapse",
+            "dominant_structural_neighborhood": "",
+            "effective_fold_family_count": 0.0,
+            "effective_structural_neighborhood_count": 0.0,
+            "elite_fold_family_dominance": 0.0,
+            "fold_families": {},
+            "fold_family_entropy": 0.0,
+            "fold_family_normalized_entropy": 0.0,
+            "largest_fold_family": "",
+            "largest_fold_family_share": 0.0,
+            "structural_annotation_count": 0,
+            "structural_assessment_status": "not_assessed_missing_annotations",
+            "structural_blocks_interpretation": false,
+            "structural_caveat": "Structural diversity is not assessed because fold-family annotations are absent.",
+            "structural_coverage": 0.0,
+            "structural_coverage_count": 0,
+            "structural_coverage_fraction": 0.0,
+            "structural_near_duplicate_share": 0.0,
+            "structural_neighborhood_concentration": 0.0,
+            "structural_neighborhoods": {},
+            "structural_warning_class": "metadata_gap"
+          }
+        },
+        "top_250": {
+          "collapse_flags": [
+            {
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.74,
+              "message": "source frontier concentration is 0.74",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
+            },
+            {
+              "code": "lineage_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 0.9,
+              "message": "lineage is dominated by 'unknown' (0.9) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "generation_method_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.9,
+              "message": "generation_method frontier concentration is 0.9",
+              "severity": "review_required",
+              "top_value": "deterministic_constraint_recombination"
+            },
+            {
+              "code": "hypothesis_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 1.0,
+              "message": "hypothesis is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "hypothesis_linkage_missing",
+              "collapse_class": "review_gate",
+              "message": "hypothesis linkage is missing for most frontier candidates",
+              "missing_rate": 1.0,
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_neighborhood_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 0.9,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.9) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "taxonomy_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 1.0,
+              "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "motif_marker_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.84,
+              "message": "A recurring motif marker dominates the frontier",
+              "metrics": {
+                "effective_motif_marker_count": 1.6983,
+                "largest_motif_marker_share": 0.84,
+                "motif_marker_entropy": 0.5296
+              },
+              "severity": "warning",
+              "top_marker": "no_known_marker"
+            },
+            {
+              "code": "cysteine_pattern_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.68,
+              "message": "cysteine pattern dominance is 0.68",
+              "severity": "warning",
+              "top_value": "cys0"
+            },
+            {
+              "code": "structural_annotation_missing",
+              "collapse_class": "metadata_gap",
+              "coverage": 0.0,
+              "message": "Insufficient fold-family annotations for structural collapse validation",
+              "metrics": {
+                "annotation_policy": "missing_or_unknown_fold_labels_are_metadata_gap_not_structural_collapse",
+                "dominant_structural_neighborhood": "",
+                "effective_fold_family_count": 0.0,
+                "effective_structural_neighborhood_count": 0.0,
+                "elite_fold_family_dominance": 0.0,
+                "fold_families": {},
+                "fold_family_entropy": 0.0,
+                "fold_family_normalized_entropy": 0.0,
+                "largest_fold_family": "",
+                "largest_fold_family_share": 0.0,
+                "structural_annotation_count": 0,
+                "structural_assessment_status": "not_assessed_missing_annotations",
+                "structural_blocks_interpretation": false,
+                "structural_caveat": "Structural diversity is not assessed because fold-family annotations are absent.",
+                "structural_coverage": 0.0,
+                "structural_coverage_count": 0,
+                "structural_coverage_fraction": 0.0,
+                "structural_near_duplicate_share": 0.0,
+                "structural_neighborhood_concentration": 0.0,
+                "structural_neighborhoods": {},
+                "structural_warning_class": "metadata_gap"
+              },
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "count": 36,
+              "message": "Frontier embeddings are present but occupy an overly concentrated neighborhood",
+              "metrics": {
+                "cluster_dominance": 0.0,
+                "compression_metric_source": "embedding_neighborhood_ids",
+                "effective_neighborhood_diversity": 1.5814,
+                "effective_vector_diversity": 0.0,
+                "nearest_neighbor_distance": {
+                  "max": 0.0,
+                  "mean": 0.0,
+                  "min": 0.0,
+                  "p10": 0.0
+                },
+                "neighborhood_concentration": 0.9,
+                "recompute_required_count": 0
+              },
+              "reasons": [
+                "candidate_rows_marked_embedding_compression_suspected"
+              ],
+              "severity": "warning",
+              "share": 0.72
+            }
+          ],
+          "count": 50,
+          "dimensions": {
+            "campaign": {
+              "counts": {
+                "gpcr_peptide": 10,
+                "immune_modulator": 25,
+                "phenotype_first_unknown_target": 9,
+                "receptor_ligand": 6
+              },
+              "effective_count": 3.4266,
+              "entropy": 1.2316,
+              "max_share": 0.5,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.8884,
+              "top_count": 25,
+              "top_value": "immune_modulator",
+              "unique": 4
+            },
+            "evidence_source": {
+              "counts": {
+                "chembl_dbaasp_peptide_databases_rcsb_pdb": 1,
+                "chembl_peptide_databases_rcsb_pdb": 12,
+                "chembl_rcsb_pdb": 37
+              },
+              "effective_count": 1.9033,
+              "entropy": 0.6436,
+              "max_share": 0.74,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.5858,
+              "top_count": 37,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "family": {
+              "counts": {
+                "seqfam:00242531": 1,
+                "seqfam:0c08e865": 1,
+                "seqfam:12447362": 1,
+                "seqfam:1f747506": 1,
+                "seqfam:1ff1937b": 1,
+                "seqfam:25c67330": 2,
+                "seqfam:355ec5e6": 1,
+                "seqfam:3a88b69e": 1,
+                "seqfam:3b6124fb": 1,
+                "seqfam:3d95b6fb": 1,
+                "seqfam:425bbf68": 1,
+                "seqfam:4b34ef37": 1,
+                "seqfam:51490eb6": 1,
+                "seqfam:58c9a160": 1,
+                "seqfam:5a2715e7": 1,
+                "seqfam:5b587dd5": 2,
+                "seqfam:5c1e5027": 1,
+                "seqfam:5d61561f": 1,
+                "seqfam:5ee6e8c9": 1,
+                "seqfam:60ace8f2": 1,
+                "seqfam:67677c42": 2,
+                "seqfam:6982be1c": 1,
+                "seqfam:6acc077f": 1,
+                "seqfam:6bb0c98d": 1,
+                "seqfam:71f5c825": 1,
+                "seqfam:8c1c1ab5": 1,
+                "seqfam:8f4151e0": 1,
+                "seqfam:9200429c": 1,
+                "seqfam:94b4953a": 1,
+                "seqfam:95227b67": 1,
+                "seqfam:a0490c4d": 1,
+                "seqfam:a1bb24f2": 1,
+                "seqfam:abbe0fe5": 1,
+                "seqfam:af7b78be": 1,
+                "seqfam:b4a6f42c": 2,
+                "seqfam:b8f9fc27": 1,
+                "seqfam:bc770cb2": 1,
+                "seqfam:c87af352": 1,
+                "seqfam:ca2c4f9f": 2,
+                "seqfam:cf2dd465": 1,
+                "seqfam:d07488f0": 1,
+                "seqfam:e564fcd9": 1,
+                "seqfam:efc064a7": 1,
+                "seqfam:fb311d38": 1,
+                "seqfam:ffa990db": 1
+              },
+              "effective_count": 43.5275,
+              "entropy": 3.7734,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9913,
+              "top_count": 2,
+              "top_value": "seqfam:25c67330",
+              "unique": 45
+            },
+            "generation_method": {
+              "counts": {
+                "deterministic_constraint_recombination": 45,
+                "persistent_evolutionary_constrained_mutation": 2,
+                "persistent_evolutionary_motif_preserving_mutation": 1,
+                "persistent_evolutionary_novelty_biased_mutation": 1,
+                "persistent_evolutionary_recombination": 1
+              },
+              "effective_count": 1.5814,
+              "entropy": 0.4583,
+              "max_share": 0.9,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.2848,
+              "top_count": 45,
+              "top_value": "deterministic_constraint_recombination",
+              "unique": 5
+            },
+            "hypothesis": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            },
+            "lineage": {
+              "counts": {
+                "20260622t184442z-001": 1,
+                "20260622t184442z-001_20260626t021110z-001": 1,
+                "20260624t051137z-001": 1,
+                "20260626t021110z-001": 1,
+                "20260704t190854z-001": 1,
+                "unknown": 45
+              },
+              "effective_count": 1.6258,
+              "entropy": 0.486,
+              "max_share": 0.9,
+              "missing_count": 45,
+              "missing_rate": 0.9,
+              "normalized_entropy": 0.2713,
+              "top_count": 45,
+              "top_value": "unknown",
+              "unique": 6
+            },
+            "motif_signature": {
+              "counts": {
+                "afpq": 1,
+                "afpr": 1,
+                "ansi": 1,
+                "cgcd": 1,
+                "cghh": 1,
+                "cgva": 1,
+                "cntq": 1,
+                "deap": 2,
+                "deaq": 1,
+                "deav": 1,
+                "deaw": 1,
+                "decs": 1,
+                "dehq": 1,
+                "depa": 1,
+                "dlph": 1,
+                "dvap": 1,
+                "ekpl": 1,
+                "emgy": 1,
+                "fpgk": 1,
+                "gecp": 1,
+                "gehq": 1,
+                "gelp": 1,
+                "geqd": 2,
+                "gerp": 2,
+                "hhap": 1,
+                "hqde": 2,
+                "hqhh": 1,
+                "hqhq": 2,
+                "kphq": 1,
+                "nsiw": 1,
+                "papq": 1,
+                "pgwp": 1,
+                "pqeh": 1,
+                "pqnh": 1,
+                "qdea": 1,
+                "qgcg": 1,
+                "qhde": 1,
+                "qhqd": 1,
+                "sgpr": 1,
+                "tncs": 1,
+                "vlpe": 1,
+                "vlpi": 1,
+                "vlps": 1,
+                "wpde": 1,
+                "wppp": 1
+              },
+              "effective_count": 43.5275,
+              "entropy": 3.7734,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9913,
+              "top_count": 2,
+              "top_value": "deap",
+              "unique": 45
+            },
+            "source": {
+              "counts": {
+                "chembl_dbaasp_peptide_databases_rcsb_pdb": 1,
+                "chembl_peptide_databases_rcsb_pdb": 12,
+                "chembl_rcsb_pdb": 37
+              },
+              "effective_count": 1.9033,
+              "entropy": 0.6436,
+              "max_share": 0.74,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.5858,
+              "top_count": 37,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "structural_fold_family": {
+              "counts": {
+                "unknown": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unknown",
+              "unique": 1
+            },
+            "structural_neighborhood": {
+              "counts": {
+                "unknown": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unknown",
+              "unique": 1
+            },
+            "taxonomy": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            }
+          },
+          "motifs": {
+            "cysteine_pattern_dominance": 0.68,
+            "cysteine_patterns": {
+              "cys0": 34,
+              "cys1:": 10,
+              "cys2:10": 2,
+              "cys2:3": 1,
+              "cys2:9": 1,
+              "cys3:2-5": 1,
+              "cys3:9-3": 1
+            },
+            "dominant_cysteine_pattern": "cys0",
+            "dominant_motif_family": "unknown",
+            "dominant_motif_neighborhood": "unknown",
+            "dominant_motif_scaffold": "cg",
+            "effective_cysteine_pattern_count": 2.7895,
+            "effective_motif_family_count": 1.5814,
+            "effective_motif_marker_count": 1.6983,
+            "effective_motif_neighborhood_count": 1.5814,
+            "effective_motif_scaffold_count": 34.1464,
+            "largest_motif_marker": "no_known_marker",
+            "largest_motif_marker_share": 0.84,
+            "markers": {
+              "CG": 6,
+              "CPPG": 2
+            },
+            "motif_families": {
+              "motifcluster:3d518f30ab": 2,
+              "motifcluster:567f8f73b2": 1,
+              "motifcluster:76c3589b6b": 1,
+              "motifcluster:ef24566c0f": 1,
+              "unknown": 45
+            },
+            "motif_family_dominance": 0.9,
+            "motif_family_entropy": 0.4583,
+            "motif_marker_entropy": 0.5296,
+            "motif_marker_normalized_entropy": 0.4821,
+            "motif_neighborhoods": {
+              "motifcluster:3d518f30ab": 2,
+              "motifcluster:567f8f73b2": 1,
+              "motifcluster:76c3589b6b": 1,
+              "motifcluster:ef24566c0f": 1,
+              "unknown": 45
+            },
+            "near_duplicate_motif_neighborhood_share": 0.9,
+            "primary_markers": {
+              "cg": 6,
+              "cppg": 2,
+              "no_known_marker": 42
+            },
+            "repeated_motif_scaffold_dominance": 0.12,
+            "repeated_motif_scaffolds": {
+              "afpq": 1,
+              "afpr": 1,
+              "ansi": 1,
+              "cg": 6,
+              "cntq": 1,
+              "cppg": 2,
+              "deap": 2,
+              "deaq": 1,
+              "deav": 1,
+              "deaw": 1,
+              "decs": 1,
+              "dehq": 1,
+              "depa": 1,
+              "dlph": 1,
+              "dvap": 1,
+              "ekpl": 1,
+              "emgy": 1,
+              "fpgk": 1,
+              "gehq": 1,
+              "gelp": 1,
+              "geqd": 2,
+              "gerp": 2,
+              "hhap": 1,
+              "hqde": 2,
+              "hqhh": 1,
+              "hqhq": 2,
+              "kphq": 1,
+              "nsiw": 1,
+              "papq": 1,
+              "pgwp": 1,
+              "pqeh": 1,
+              "pqnh": 1,
+              "qdea": 1,
+              "qhqd": 1,
+              "sgpr": 1,
+              "vlpe": 1,
+              "vlpi": 1,
+              "vlps": 1,
+              "wpde": 1
+            },
+            "top_kmers": [
+              {
+                "count": 16,
+                "motif": "QHQ",
+                "share": 0.32
+              },
+              {
+                "count": 15,
+                "motif": "HQH",
+                "share": 0.3
+              },
+              {
+                "count": 12,
+                "motif": "APA",
+                "share": 0.24
+              },
+              {
+                "count": 12,
+                "motif": "HHQ",
+                "share": 0.24
+              },
+              {
+                "count": 12,
+                "motif": "HQD",
+                "share": 0.24
+              },
+              {
+                "count": 11,
+                "motif": "PAP",
+                "share": 0.22
+              },
+              {
+                "count": 11,
+                "motif": "DEA",
+                "share": 0.22
+              },
+              {
+                "count": 10,
+                "motif": "HQHQ",
+                "share": 0.2
+              },
+              {
+                "count": 10,
+                "motif": "QDE",
+                "share": 0.2
+              },
+              {
+                "count": 9,
+                "motif": "PHH",
+                "share": 0.18
+              },
+              {
+                "count": 9,
+                "motif": "QHQD",
+                "share": 0.18
+              },
+              {
+                "count": 8,
+                "motif": "QPH",
+                "share": 0.16
+              }
+            ],
+            "top_marker": "CG",
+            "top_marker_share": 0.12
+          },
+          "structural_diversity": {
+            "annotation_policy": "missing_or_unknown_fold_labels_are_metadata_gap_not_structural_collapse",
+            "dominant_structural_neighborhood": "",
+            "effective_fold_family_count": 0.0,
+            "effective_structural_neighborhood_count": 0.0,
+            "elite_fold_family_dominance": 0.0,
+            "fold_families": {},
+            "fold_family_entropy": 0.0,
+            "fold_family_normalized_entropy": 0.0,
+            "largest_fold_family": "",
+            "largest_fold_family_share": 0.0,
+            "structural_annotation_count": 0,
+            "structural_assessment_status": "not_assessed_missing_annotations",
+            "structural_blocks_interpretation": false,
+            "structural_caveat": "Structural diversity is not assessed because fold-family annotations are absent.",
+            "structural_coverage": 0.0,
+            "structural_coverage_count": 0,
+            "structural_coverage_fraction": 0.0,
+            "structural_near_duplicate_share": 0.0,
+            "structural_neighborhood_concentration": 0.0,
+            "structural_neighborhoods": {},
+            "structural_warning_class": "metadata_gap"
+          }
+        },
+        "top_50": {
+          "collapse_flags": [
+            {
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.74,
+              "message": "source frontier concentration is 0.74",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
+            },
+            {
+              "code": "lineage_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 0.9,
+              "message": "lineage is dominated by 'unknown' (0.9) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "generation_method_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.9,
+              "message": "generation_method frontier concentration is 0.9",
+              "severity": "review_required",
+              "top_value": "deterministic_constraint_recombination"
+            },
+            {
+              "code": "hypothesis_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 1.0,
+              "message": "hypothesis is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "hypothesis_linkage_missing",
+              "collapse_class": "review_gate",
+              "message": "hypothesis linkage is missing for most frontier candidates",
+              "missing_rate": 1.0,
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_neighborhood_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 0.9,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.9) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "taxonomy_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 1.0,
+              "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "motif_marker_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.84,
+              "message": "A recurring motif marker dominates the frontier",
+              "metrics": {
+                "effective_motif_marker_count": 1.6983,
+                "largest_motif_marker_share": 0.84,
+                "motif_marker_entropy": 0.5296
+              },
+              "severity": "warning",
+              "top_marker": "no_known_marker"
+            },
+            {
+              "code": "cysteine_pattern_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.68,
+              "message": "cysteine pattern dominance is 0.68",
+              "severity": "warning",
+              "top_value": "cys0"
+            },
+            {
+              "code": "structural_annotation_missing",
+              "collapse_class": "metadata_gap",
+              "coverage": 0.0,
+              "message": "Insufficient fold-family annotations for structural collapse validation",
+              "metrics": {
+                "annotation_policy": "missing_or_unknown_fold_labels_are_metadata_gap_not_structural_collapse",
+                "dominant_structural_neighborhood": "",
+                "effective_fold_family_count": 0.0,
+                "effective_structural_neighborhood_count": 0.0,
+                "elite_fold_family_dominance": 0.0,
+                "fold_families": {},
+                "fold_family_entropy": 0.0,
+                "fold_family_normalized_entropy": 0.0,
+                "largest_fold_family": "",
+                "largest_fold_family_share": 0.0,
+                "structural_annotation_count": 0,
+                "structural_assessment_status": "not_assessed_missing_annotations",
+                "structural_blocks_interpretation": false,
+                "structural_caveat": "Structural diversity is not assessed because fold-family annotations are absent.",
+                "structural_coverage": 0.0,
+                "structural_coverage_count": 0,
+                "structural_coverage_fraction": 0.0,
+                "structural_near_duplicate_share": 0.0,
+                "structural_neighborhood_concentration": 0.0,
+                "structural_neighborhoods": {},
+                "structural_warning_class": "metadata_gap"
+              },
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "count": 36,
+              "message": "Frontier embeddings are present but occupy an overly concentrated neighborhood",
+              "metrics": {
+                "cluster_dominance": 0.0,
+                "compression_metric_source": "embedding_neighborhood_ids",
+                "effective_neighborhood_diversity": 1.5814,
+                "effective_vector_diversity": 0.0,
+                "nearest_neighbor_distance": {
+                  "max": 0.0,
+                  "mean": 0.0,
+                  "min": 0.0,
+                  "p10": 0.0
+                },
+                "neighborhood_concentration": 0.9,
+                "recompute_required_count": 0
+              },
+              "reasons": [
+                "candidate_rows_marked_embedding_compression_suspected"
+              ],
+              "severity": "warning",
+              "share": 0.72
+            }
+          ],
+          "count": 50,
+          "dimensions": {
+            "campaign": {
+              "counts": {
+                "gpcr_peptide": 10,
+                "immune_modulator": 25,
+                "phenotype_first_unknown_target": 9,
+                "receptor_ligand": 6
+              },
+              "effective_count": 3.4266,
+              "entropy": 1.2316,
+              "max_share": 0.5,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.8884,
+              "top_count": 25,
+              "top_value": "immune_modulator",
+              "unique": 4
+            },
+            "evidence_source": {
+              "counts": {
+                "chembl_dbaasp_peptide_databases_rcsb_pdb": 1,
+                "chembl_peptide_databases_rcsb_pdb": 12,
+                "chembl_rcsb_pdb": 37
+              },
+              "effective_count": 1.9033,
+              "entropy": 0.6436,
+              "max_share": 0.74,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.5858,
+              "top_count": 37,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "family": {
+              "counts": {
+                "seqfam:00242531": 1,
+                "seqfam:0c08e865": 1,
+                "seqfam:12447362": 1,
+                "seqfam:1f747506": 1,
+                "seqfam:1ff1937b": 1,
+                "seqfam:25c67330": 2,
+                "seqfam:355ec5e6": 1,
+                "seqfam:3a88b69e": 1,
+                "seqfam:3b6124fb": 1,
+                "seqfam:3d95b6fb": 1,
+                "seqfam:425bbf68": 1,
+                "seqfam:4b34ef37": 1,
+                "seqfam:51490eb6": 1,
+                "seqfam:58c9a160": 1,
+                "seqfam:5a2715e7": 1,
+                "seqfam:5b587dd5": 2,
+                "seqfam:5c1e5027": 1,
+                "seqfam:5d61561f": 1,
+                "seqfam:5ee6e8c9": 1,
+                "seqfam:60ace8f2": 1,
+                "seqfam:67677c42": 2,
+                "seqfam:6982be1c": 1,
+                "seqfam:6acc077f": 1,
+                "seqfam:6bb0c98d": 1,
+                "seqfam:71f5c825": 1,
+                "seqfam:8c1c1ab5": 1,
+                "seqfam:8f4151e0": 1,
+                "seqfam:9200429c": 1,
+                "seqfam:94b4953a": 1,
+                "seqfam:95227b67": 1,
+                "seqfam:a0490c4d": 1,
+                "seqfam:a1bb24f2": 1,
+                "seqfam:abbe0fe5": 1,
+                "seqfam:af7b78be": 1,
+                "seqfam:b4a6f42c": 2,
+                "seqfam:b8f9fc27": 1,
+                "seqfam:bc770cb2": 1,
+                "seqfam:c87af352": 1,
+                "seqfam:ca2c4f9f": 2,
+                "seqfam:cf2dd465": 1,
+                "seqfam:d07488f0": 1,
+                "seqfam:e564fcd9": 1,
+                "seqfam:efc064a7": 1,
+                "seqfam:fb311d38": 1,
+                "seqfam:ffa990db": 1
+              },
+              "effective_count": 43.5275,
+              "entropy": 3.7734,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9913,
+              "top_count": 2,
+              "top_value": "seqfam:25c67330",
+              "unique": 45
+            },
+            "generation_method": {
+              "counts": {
+                "deterministic_constraint_recombination": 45,
+                "persistent_evolutionary_constrained_mutation": 2,
+                "persistent_evolutionary_motif_preserving_mutation": 1,
+                "persistent_evolutionary_novelty_biased_mutation": 1,
+                "persistent_evolutionary_recombination": 1
+              },
+              "effective_count": 1.5814,
+              "entropy": 0.4583,
+              "max_share": 0.9,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.2848,
+              "top_count": 45,
+              "top_value": "deterministic_constraint_recombination",
+              "unique": 5
+            },
+            "hypothesis": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            },
+            "lineage": {
+              "counts": {
+                "20260622t184442z-001": 1,
+                "20260622t184442z-001_20260626t021110z-001": 1,
+                "20260624t051137z-001": 1,
+                "20260626t021110z-001": 1,
+                "20260704t190854z-001": 1,
+                "unknown": 45
+              },
+              "effective_count": 1.6258,
+              "entropy": 0.486,
+              "max_share": 0.9,
+              "missing_count": 45,
+              "missing_rate": 0.9,
+              "normalized_entropy": 0.2713,
+              "top_count": 45,
+              "top_value": "unknown",
+              "unique": 6
+            },
+            "motif_signature": {
+              "counts": {
+                "afpq": 1,
+                "afpr": 1,
+                "ansi": 1,
+                "cgcd": 1,
+                "cghh": 1,
+                "cgva": 1,
+                "cntq": 1,
+                "deap": 2,
+                "deaq": 1,
+                "deav": 1,
+                "deaw": 1,
+                "decs": 1,
+                "dehq": 1,
+                "depa": 1,
+                "dlph": 1,
+                "dvap": 1,
+                "ekpl": 1,
+                "emgy": 1,
+                "fpgk": 1,
+                "gecp": 1,
+                "gehq": 1,
+                "gelp": 1,
+                "geqd": 2,
+                "gerp": 2,
+                "hhap": 1,
+                "hqde": 2,
+                "hqhh": 1,
+                "hqhq": 2,
+                "kphq": 1,
+                "nsiw": 1,
+                "papq": 1,
+                "pgwp": 1,
+                "pqeh": 1,
+                "pqnh": 1,
+                "qdea": 1,
+                "qgcg": 1,
+                "qhde": 1,
+                "qhqd": 1,
+                "sgpr": 1,
+                "tncs": 1,
+                "vlpe": 1,
+                "vlpi": 1,
+                "vlps": 1,
+                "wpde": 1,
+                "wppp": 1
+              },
+              "effective_count": 43.5275,
+              "entropy": 3.7734,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9913,
+              "top_count": 2,
+              "top_value": "deap",
+              "unique": 45
+            },
+            "source": {
+              "counts": {
+                "chembl_dbaasp_peptide_databases_rcsb_pdb": 1,
+                "chembl_peptide_databases_rcsb_pdb": 12,
+                "chembl_rcsb_pdb": 37
+              },
+              "effective_count": 1.9033,
+              "entropy": 0.6436,
+              "max_share": 0.74,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.5858,
+              "top_count": 37,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "structural_fold_family": {
+              "counts": {
+                "unknown": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unknown",
+              "unique": 1
+            },
+            "structural_neighborhood": {
+              "counts": {
+                "unknown": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unknown",
+              "unique": 1
+            },
+            "taxonomy": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            }
+          },
+          "motifs": {
+            "cysteine_pattern_dominance": 0.68,
+            "cysteine_patterns": {
+              "cys0": 34,
+              "cys1:": 10,
+              "cys2:10": 2,
+              "cys2:3": 1,
+              "cys2:9": 1,
+              "cys3:2-5": 1,
+              "cys3:9-3": 1
+            },
+            "dominant_cysteine_pattern": "cys0",
+            "dominant_motif_family": "unknown",
+            "dominant_motif_neighborhood": "unknown",
+            "dominant_motif_scaffold": "cg",
+            "effective_cysteine_pattern_count": 2.7895,
+            "effective_motif_family_count": 1.5814,
+            "effective_motif_marker_count": 1.6983,
+            "effective_motif_neighborhood_count": 1.5814,
+            "effective_motif_scaffold_count": 34.1464,
+            "largest_motif_marker": "no_known_marker",
+            "largest_motif_marker_share": 0.84,
+            "markers": {
+              "CG": 6,
+              "CPPG": 2
+            },
+            "motif_families": {
+              "motifcluster:3d518f30ab": 2,
+              "motifcluster:567f8f73b2": 1,
+              "motifcluster:76c3589b6b": 1,
+              "motifcluster:ef24566c0f": 1,
+              "unknown": 45
+            },
+            "motif_family_dominance": 0.9,
+            "motif_family_entropy": 0.4583,
+            "motif_marker_entropy": 0.5296,
+            "motif_marker_normalized_entropy": 0.4821,
+            "motif_neighborhoods": {
+              "motifcluster:3d518f30ab": 2,
+              "motifcluster:567f8f73b2": 1,
+              "motifcluster:76c3589b6b": 1,
+              "motifcluster:ef24566c0f": 1,
+              "unknown": 45
+            },
+            "near_duplicate_motif_neighborhood_share": 0.9,
+            "primary_markers": {
+              "cg": 6,
+              "cppg": 2,
+              "no_known_marker": 42
+            },
+            "repeated_motif_scaffold_dominance": 0.12,
+            "repeated_motif_scaffolds": {
+              "afpq": 1,
+              "afpr": 1,
+              "ansi": 1,
+              "cg": 6,
+              "cntq": 1,
+              "cppg": 2,
+              "deap": 2,
+              "deaq": 1,
+              "deav": 1,
+              "deaw": 1,
+              "decs": 1,
+              "dehq": 1,
+              "depa": 1,
+              "dlph": 1,
+              "dvap": 1,
+              "ekpl": 1,
+              "emgy": 1,
+              "fpgk": 1,
+              "gehq": 1,
+              "gelp": 1,
+              "geqd": 2,
+              "gerp": 2,
+              "hhap": 1,
+              "hqde": 2,
+              "hqhh": 1,
+              "hqhq": 2,
+              "kphq": 1,
+              "nsiw": 1,
+              "papq": 1,
+              "pgwp": 1,
+              "pqeh": 1,
+              "pqnh": 1,
+              "qdea": 1,
+              "qhqd": 1,
+              "sgpr": 1,
+              "vlpe": 1,
+              "vlpi": 1,
+              "vlps": 1,
+              "wpde": 1
+            },
+            "top_kmers": [
+              {
+                "count": 16,
+                "motif": "QHQ",
+                "share": 0.32
+              },
+              {
+                "count": 15,
+                "motif": "HQH",
+                "share": 0.3
+              },
+              {
+                "count": 12,
+                "motif": "APA",
+                "share": 0.24
+              },
+              {
+                "count": 12,
+                "motif": "HHQ",
+                "share": 0.24
+              },
+              {
+                "count": 12,
+                "motif": "HQD",
+                "share": 0.24
+              },
+              {
+                "count": 11,
+                "motif": "PAP",
+                "share": 0.22
+              },
+              {
+                "count": 11,
+                "motif": "DEA",
+                "share": 0.22
+              },
+              {
+                "count": 10,
+                "motif": "HQHQ",
+                "share": 0.2
+              },
+              {
+                "count": 10,
+                "motif": "QDE",
+                "share": 0.2
+              },
+              {
+                "count": 9,
+                "motif": "PHH",
+                "share": 0.18
+              },
+              {
+                "count": 9,
+                "motif": "QHQD",
+                "share": 0.18
+              },
+              {
+                "count": 8,
+                "motif": "QPH",
+                "share": 0.16
+              }
+            ],
+            "top_marker": "CG",
+            "top_marker_share": 0.12
+          },
+          "structural_diversity": {
+            "annotation_policy": "missing_or_unknown_fold_labels_are_metadata_gap_not_structural_collapse",
+            "dominant_structural_neighborhood": "",
+            "effective_fold_family_count": 0.0,
+            "effective_structural_neighborhood_count": 0.0,
+            "elite_fold_family_dominance": 0.0,
+            "fold_families": {},
+            "fold_family_entropy": 0.0,
+            "fold_family_normalized_entropy": 0.0,
+            "largest_fold_family": "",
+            "largest_fold_family_share": 0.0,
+            "structural_annotation_count": 0,
+            "structural_assessment_status": "not_assessed_missing_annotations",
+            "structural_blocks_interpretation": false,
+            "structural_caveat": "Structural diversity is not assessed because fold-family annotations are absent.",
+            "structural_coverage": 0.0,
+            "structural_coverage_count": 0,
+            "structural_coverage_fraction": 0.0,
+            "structural_near_duplicate_share": 0.0,
+            "structural_neighborhood_concentration": 0.0,
+            "structural_neighborhoods": {},
+            "structural_warning_class": "metadata_gap"
+          }
+        },
+        "top_500": {
+          "collapse_flags": [
+            {
+              "code": "source_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.74,
+              "message": "source frontier concentration is 0.74",
+              "severity": "review_required",
+              "top_value": "chembl_rcsb_pdb"
+            },
+            {
+              "code": "lineage_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 0.9,
+              "message": "lineage is dominated by 'unknown' (0.9) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "generation_method_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.9,
+              "message": "generation_method frontier concentration is 0.9",
+              "severity": "review_required",
+              "top_value": "deterministic_constraint_recombination"
+            },
+            {
+              "code": "hypothesis_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 1.0,
+              "message": "hypothesis is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "hypothesis_linkage_missing",
+              "collapse_class": "review_gate",
+              "message": "hypothesis linkage is missing for most frontier candidates",
+              "missing_rate": 1.0,
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_neighborhood_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 0.9,
+              "message": "embedding_neighborhood is dominated by 'unknown' (0.9) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unknown"
+            },
+            {
+              "code": "taxonomy_attribution_incomplete",
+              "collapse_class": "metadata_gap",
+              "max_share": 1.0,
+              "message": "taxonomy is dominated by 'unassigned' (1.0) — metadata gap, not scientific collapse",
+              "severity": "warning",
+              "top_value": "unassigned"
+            },
+            {
+              "code": "motif_marker_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.84,
+              "message": "A recurring motif marker dominates the frontier",
+              "metrics": {
+                "effective_motif_marker_count": 1.6983,
+                "largest_motif_marker_share": 0.84,
+                "motif_marker_entropy": 0.5296
+              },
+              "severity": "warning",
+              "top_marker": "no_known_marker"
+            },
+            {
+              "code": "cysteine_pattern_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "max_share": 0.68,
+              "message": "cysteine pattern dominance is 0.68",
+              "severity": "warning",
+              "top_value": "cys0"
+            },
+            {
+              "code": "structural_annotation_missing",
+              "collapse_class": "metadata_gap",
+              "coverage": 0.0,
+              "message": "Insufficient fold-family annotations for structural collapse validation",
+              "metrics": {
+                "annotation_policy": "missing_or_unknown_fold_labels_are_metadata_gap_not_structural_collapse",
+                "dominant_structural_neighborhood": "",
+                "effective_fold_family_count": 0.0,
+                "effective_structural_neighborhood_count": 0.0,
+                "elite_fold_family_dominance": 0.0,
+                "fold_families": {},
+                "fold_family_entropy": 0.0,
+                "fold_family_normalized_entropy": 0.0,
+                "largest_fold_family": "",
+                "largest_fold_family_share": 0.0,
+                "structural_annotation_count": 0,
+                "structural_assessment_status": "not_assessed_missing_annotations",
+                "structural_blocks_interpretation": false,
+                "structural_caveat": "Structural diversity is not assessed because fold-family annotations are absent.",
+                "structural_coverage": 0.0,
+                "structural_coverage_count": 0,
+                "structural_coverage_fraction": 0.0,
+                "structural_near_duplicate_share": 0.0,
+                "structural_neighborhood_concentration": 0.0,
+                "structural_neighborhoods": {},
+                "structural_warning_class": "metadata_gap"
+              },
+              "severity": "warning"
+            },
+            {
+              "code": "embedding_compression_collapse",
+              "collapse_class": "real_scientific_collapse",
+              "count": 36,
+              "message": "Frontier embeddings are present but occupy an overly concentrated neighborhood",
+              "metrics": {
+                "cluster_dominance": 0.0,
+                "compression_metric_source": "embedding_neighborhood_ids",
+                "effective_neighborhood_diversity": 1.5814,
+                "effective_vector_diversity": 0.0,
+                "nearest_neighbor_distance": {
+                  "max": 0.0,
+                  "mean": 0.0,
+                  "min": 0.0,
+                  "p10": 0.0
+                },
+                "neighborhood_concentration": 0.9,
+                "recompute_required_count": 0
+              },
+              "reasons": [
+                "candidate_rows_marked_embedding_compression_suspected"
+              ],
+              "severity": "warning",
+              "share": 0.72
+            }
+          ],
+          "count": 50,
+          "dimensions": {
+            "campaign": {
+              "counts": {
+                "gpcr_peptide": 10,
+                "immune_modulator": 25,
+                "phenotype_first_unknown_target": 9,
+                "receptor_ligand": 6
+              },
+              "effective_count": 3.4266,
+              "entropy": 1.2316,
+              "max_share": 0.5,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.8884,
+              "top_count": 25,
+              "top_value": "immune_modulator",
+              "unique": 4
+            },
+            "evidence_source": {
+              "counts": {
+                "chembl_dbaasp_peptide_databases_rcsb_pdb": 1,
+                "chembl_peptide_databases_rcsb_pdb": 12,
+                "chembl_rcsb_pdb": 37
+              },
+              "effective_count": 1.9033,
+              "entropy": 0.6436,
+              "max_share": 0.74,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.5858,
+              "top_count": 37,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "family": {
+              "counts": {
+                "seqfam:00242531": 1,
+                "seqfam:0c08e865": 1,
+                "seqfam:12447362": 1,
+                "seqfam:1f747506": 1,
+                "seqfam:1ff1937b": 1,
+                "seqfam:25c67330": 2,
+                "seqfam:355ec5e6": 1,
+                "seqfam:3a88b69e": 1,
+                "seqfam:3b6124fb": 1,
+                "seqfam:3d95b6fb": 1,
+                "seqfam:425bbf68": 1,
+                "seqfam:4b34ef37": 1,
+                "seqfam:51490eb6": 1,
+                "seqfam:58c9a160": 1,
+                "seqfam:5a2715e7": 1,
+                "seqfam:5b587dd5": 2,
+                "seqfam:5c1e5027": 1,
+                "seqfam:5d61561f": 1,
+                "seqfam:5ee6e8c9": 1,
+                "seqfam:60ace8f2": 1,
+                "seqfam:67677c42": 2,
+                "seqfam:6982be1c": 1,
+                "seqfam:6acc077f": 1,
+                "seqfam:6bb0c98d": 1,
+                "seqfam:71f5c825": 1,
+                "seqfam:8c1c1ab5": 1,
+                "seqfam:8f4151e0": 1,
+                "seqfam:9200429c": 1,
+                "seqfam:94b4953a": 1,
+                "seqfam:95227b67": 1,
+                "seqfam:a0490c4d": 1,
+                "seqfam:a1bb24f2": 1,
+                "seqfam:abbe0fe5": 1,
+                "seqfam:af7b78be": 1,
+                "seqfam:b4a6f42c": 2,
+                "seqfam:b8f9fc27": 1,
+                "seqfam:bc770cb2": 1,
+                "seqfam:c87af352": 1,
+                "seqfam:ca2c4f9f": 2,
+                "seqfam:cf2dd465": 1,
+                "seqfam:d07488f0": 1,
+                "seqfam:e564fcd9": 1,
+                "seqfam:efc064a7": 1,
+                "seqfam:fb311d38": 1,
+                "seqfam:ffa990db": 1
+              },
+              "effective_count": 43.5275,
+              "entropy": 3.7734,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9913,
+              "top_count": 2,
+              "top_value": "seqfam:25c67330",
+              "unique": 45
+            },
+            "generation_method": {
+              "counts": {
+                "deterministic_constraint_recombination": 45,
+                "persistent_evolutionary_constrained_mutation": 2,
+                "persistent_evolutionary_motif_preserving_mutation": 1,
+                "persistent_evolutionary_novelty_biased_mutation": 1,
+                "persistent_evolutionary_recombination": 1
+              },
+              "effective_count": 1.5814,
+              "entropy": 0.4583,
+              "max_share": 0.9,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.2848,
+              "top_count": 45,
+              "top_value": "deterministic_constraint_recombination",
+              "unique": 5
+            },
+            "hypothesis": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            },
+            "lineage": {
+              "counts": {
+                "20260622t184442z-001": 1,
+                "20260622t184442z-001_20260626t021110z-001": 1,
+                "20260624t051137z-001": 1,
+                "20260626t021110z-001": 1,
+                "20260704t190854z-001": 1,
+                "unknown": 45
+              },
+              "effective_count": 1.6258,
+              "entropy": 0.486,
+              "max_share": 0.9,
+              "missing_count": 45,
+              "missing_rate": 0.9,
+              "normalized_entropy": 0.2713,
+              "top_count": 45,
+              "top_value": "unknown",
+              "unique": 6
+            },
+            "motif_signature": {
+              "counts": {
+                "afpq": 1,
+                "afpr": 1,
+                "ansi": 1,
+                "cgcd": 1,
+                "cghh": 1,
+                "cgva": 1,
+                "cntq": 1,
+                "deap": 2,
+                "deaq": 1,
+                "deav": 1,
+                "deaw": 1,
+                "decs": 1,
+                "dehq": 1,
+                "depa": 1,
+                "dlph": 1,
+                "dvap": 1,
+                "ekpl": 1,
+                "emgy": 1,
+                "fpgk": 1,
+                "gecp": 1,
+                "gehq": 1,
+                "gelp": 1,
+                "geqd": 2,
+                "gerp": 2,
+                "hhap": 1,
+                "hqde": 2,
+                "hqhh": 1,
+                "hqhq": 2,
+                "kphq": 1,
+                "nsiw": 1,
+                "papq": 1,
+                "pgwp": 1,
+                "pqeh": 1,
+                "pqnh": 1,
+                "qdea": 1,
+                "qgcg": 1,
+                "qhde": 1,
+                "qhqd": 1,
+                "sgpr": 1,
+                "tncs": 1,
+                "vlpe": 1,
+                "vlpi": 1,
+                "vlps": 1,
+                "wpde": 1,
+                "wppp": 1
+              },
+              "effective_count": 43.5275,
+              "entropy": 3.7734,
+              "max_share": 0.04,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.9913,
+              "top_count": 2,
+              "top_value": "deap",
+              "unique": 45
+            },
+            "source": {
+              "counts": {
+                "chembl_dbaasp_peptide_databases_rcsb_pdb": 1,
+                "chembl_peptide_databases_rcsb_pdb": 12,
+                "chembl_rcsb_pdb": 37
+              },
+              "effective_count": 1.9033,
+              "entropy": 0.6436,
+              "max_share": 0.74,
+              "missing_count": 0,
+              "missing_rate": 0.0,
+              "normalized_entropy": 0.5858,
+              "top_count": 37,
+              "top_value": "chembl_rcsb_pdb",
+              "unique": 3
+            },
+            "structural_fold_family": {
+              "counts": {
+                "unknown": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unknown",
+              "unique": 1
+            },
+            "structural_neighborhood": {
+              "counts": {
+                "unknown": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unknown",
+              "unique": 1
+            },
+            "taxonomy": {
+              "counts": {
+                "unassigned": 50
+              },
+              "effective_count": 1.0,
+              "entropy": -0.0,
+              "max_share": 1.0,
+              "missing_count": 50,
+              "missing_rate": 1.0,
+              "normalized_entropy": 0.0,
+              "top_count": 50,
+              "top_value": "unassigned",
+              "unique": 1
+            }
+          },
+          "motifs": {
+            "cysteine_pattern_dominance": 0.68,
+            "cysteine_patterns": {
+              "cys0": 34,
+              "cys1:": 10,
+              "cys2:10": 2,
+              "cys2:3": 1,
+              "cys2:9": 1,
+              "cys3:2-5": 1,
+              "cys3:9-3": 1
+            },
+            "dominant_cysteine_pattern": "cys0",
+            "dominant_motif_family": "unknown",
+            "dominant_motif_neighborhood": "unknown",
+            "dominant_motif_scaffold": "cg",
+            "effective_cysteine_pattern_count": 2.7895,
+            "effective_motif_family_count": 1.5814,
+            "effective_motif_marker_count": 1.6983,
+            "effective_motif_neighborhood_count": 1.5814,
+            "effective_motif_scaffold_count": 34.1464,
+            "largest_motif_marker": "no_known_marker",
+            "largest_motif_marker_share": 0.84,
+            "markers": {
+              "CG": 6,
+              "CPPG": 2
+            },
+            "motif_families": {
+              "motifcluster:3d518f30ab": 2,
+              "motifcluster:567f8f73b2": 1,
+              "motifcluster:76c3589b6b": 1,
+              "motifcluster:ef24566c0f": 1,
+              "unknown": 45
+            },
+            "motif_family_dominance": 0.9,
+            "motif_family_entropy": 0.4583,
+            "motif_marker_entropy": 0.5296,
+            "motif_marker_normalized_entropy": 0.4821,
+            "motif_neighborhoods": {
+              "motifcluster:3d518f30ab": 2,
+              "motifcluster:567f8f73b2": 1,
+              "motifcluster:76c3589b6b": 1,
+              "motifcluster:ef24566c0f": 1,
+              "unknown": 45
+            },
+            "near_duplicate_motif_neighborhood_share": 0.9,
+            "primary_markers": {
+              "cg": 6,
+              "cppg": 2,
+              "no_known_marker": 42
+            },
+            "repeated_motif_scaffold_dominance": 0.12,
+            "repeated_motif_scaffolds": {
+              "afpq": 1,
+              "afpr": 1,
+              "ansi": 1,
+              "cg": 6,
+              "cntq": 1,
+              "cppg": 2,
+              "deap": 2,
+              "deaq": 1,
+              "deav": 1,
+              "deaw": 1,
+              "decs": 1,
+              "dehq": 1,
+              "depa": 1,
+              "dlph": 1,
+              "dvap": 1,
+              "ekpl": 1,
+              "emgy": 1,
+              "fpgk": 1,
+              "gehq": 1,
+              "gelp": 1,
+              "geqd": 2,
+              "gerp": 2,
+              "hhap": 1,
+              "hqde": 2,
+              "hqhh": 1,
+              "hqhq": 2,
+              "kphq": 1,
+              "nsiw": 1,
+              "papq": 1,
+              "pgwp": 1,
+              "pqeh": 1,
+              "pqnh": 1,
+              "qdea": 1,
+              "qhqd": 1,
+              "sgpr": 1,
+              "vlpe": 1,
+              "vlpi": 1,
+              "vlps": 1,
+              "wpde": 1
+            },
+            "top_kmers": [
+              {
+                "count": 16,
+                "motif": "QHQ",
+                "share": 0.32
+              },
+              {
+                "count": 15,
+                "motif": "HQH",
+                "share": 0.3
+              },
+              {
+                "count": 12,
+                "motif": "APA",
+                "share": 0.24
+              },
+              {
+                "count": 12,
+                "motif": "HHQ",
+                "share": 0.24
+              },
+              {
+                "count": 12,
+                "motif": "HQD",
+                "share": 0.24
+              },
+              {
+                "count": 11,
+                "motif": "PAP",
+                "share": 0.22
+              },
+              {
+                "count": 11,
+                "motif": "DEA",
+                "share": 0.22
+              },
+              {
+                "count": 10,
+                "motif": "HQHQ",
+                "share": 0.2
+              },
+              {
+                "count": 10,
+                "motif": "QDE",
+                "share": 0.2
+              },
+              {
+                "count": 9,
+                "motif": "PHH",
+                "share": 0.18
+              },
+              {
+                "count": 9,
+                "motif": "QHQD",
+                "share": 0.18
+              },
+              {
+                "count": 8,
+                "motif": "QPH",
+                "share": 0.16
+              }
+            ],
+            "top_marker": "CG",
+            "top_marker_share": 0.12
+          },
+          "structural_diversity": {
+            "annotation_policy": "missing_or_unknown_fold_labels_are_metadata_gap_not_structural_collapse",
+            "dominant_structural_neighborhood": "",
+            "effective_fold_family_count": 0.0,
+            "effective_structural_neighborhood_count": 0.0,
+            "elite_fold_family_dominance": 0.0,
+            "fold_families": {},
+            "fold_family_entropy": 0.0,
+            "fold_family_normalized_entropy": 0.0,
+            "largest_fold_family": "",
+            "largest_fold_family_share": 0.0,
+            "structural_annotation_count": 0,
+            "structural_assessment_status": "not_assessed_missing_annotations",
+            "structural_blocks_interpretation": false,
+            "structural_caveat": "Structural diversity is not assessed because fold-family annotations are absent.",
+            "structural_coverage": 0.0,
+            "structural_coverage_count": 0,
+            "structural_coverage_fraction": 0.0,
+            "structural_near_duplicate_share": 0.0,
+            "structural_neighborhood_concentration": 0.0,
+            "structural_neighborhoods": {},
+            "structural_warning_class": "metadata_gap"
+          }
+        }
+      },
+      "discovery_health": {
+        "alignment": {
+          "archive_count": 8924,
+          "generated_count": 50,
+          "ranked_count": 50,
+          "ranked_in_archive_overlap": 50,
+          "ranked_in_generated_overlap": 50
+        },
+        "frontier_status": "collapsed_or_diversity_blocked",
+        "interpretation_blocked": true,
+        "metrics": {
+          "effective_family_count": 17.411,
+          "effective_lineage_count": 2.1764,
+          "effective_motif_count": 17.411,
+          "effective_source_count": 1.9107,
+          "effective_taxonomy_count": 1.0,
+          "frontier_family_entropy": 0.9885,
+          "frontier_lineage_entropy": 0.4832,
+          "frontier_motif_entropy": 0.9885,
+          "frontier_source_entropy": 0.9341,
+          "frontier_taxonomy_entropy": 0.0,
+          "largest_family_share": 0.1,
+          "largest_generation_method_share": 0.8,
+          "largest_lineage_share": 0.8,
+          "largest_motif_share": 0.1,
+          "largest_source_share": 0.65,
+          "largest_taxonomy_share": 1.0,
+          "motif_marker": {
+            "cysteine_pattern_dominance": 0.75,
+            "dominant_cysteine_pattern": "cys0",
+            "dominant_motif_family": "unknown",
+            "dominant_motif_neighborhood": "unknown",
+            "dominant_motif_scaffold": "deap",
+            "effective_cysteine_pattern_count": 1.9886,
+            "effective_motif_family_count": 2.0306,
+            "effective_motif_marker_count": 1.3841,
+            "effective_motif_neighborhood_count": 2.0306,
+            "effective_motif_scaffold_count": 16.245,
+            "largest_motif_marker": "no_known_marker",
+            "largest_motif_marker_share": 0.9,
+            "motif_family_dominance": 0.8,
+            "motif_marker_entropy": 0.3251,
+            "motif_marker_normalized_entropy": 0.469,
+            "near_duplicate_motif_neighborhood_share": 0.8,
+            "repeated_motif_scaffold_dominance": 0.1
+          },
+          "source_dimension": {
+            "counts": {
+              "chembl_peptide_databases_rcsb_pdb": 7,
+              "chembl_rcsb_pdb": 13
+            },
+            "effective_count": 1.9107,
+            "entropy": 0.6474,
+            "max_share": 0.65,
+            "missing_count": 0,
+            "missing_rate": 0.0,
+            "normalized_entropy": 0.9341,
+            "top_count": 13,
+            "top_value": "chembl_rcsb_pdb",
+            "unique": 2
+          },
+          "source_entropy": 0.6474,
+          "structural_diversity": {
+            "annotation_policy": "missing_or_unknown_fold_labels_are_metadata_gap_not_structural_collapse",
+            "dominant_structural_neighborhood": "",
+            "effective_fold_family_count": 0.0,
+            "effective_structural_neighborhood_count": 0.0,
+            "elite_fold_family_dominance": 0.0,
+            "fold_families": {},
+            "fold_family_entropy": 0.0,
+            "fold_family_normalized_entropy": 0.0,
+            "largest_fold_family": "",
+            "largest_fold_family_share": 0.0,
+            "structural_annotation_count": 0,
+            "structural_assessment_status": "not_assessed_missing_annotations",
+            "structural_blocks_interpretation": false,
+            "structural_caveat": "Structural diversity is not assessed because fold-family annotations are absent.",
+            "structural_coverage": 0.0,
+            "structural_coverage_count": 0,
+            "structural_coverage_fraction": 0.0,
+            "structural_near_duplicate_share": 0.0,
+            "structural_neighborhood_concentration": 0.0,
+            "structural_neighborhoods": {},
+            "structural_warning_class": "metadata_gap"
+          },
+          "top_motif_marker_share": 0.1
+        },
+        "schema": "protean.discovery-health.v1",
+        "scientific_confidence": "degraded",
+        "status": "collapsed_or_diversity_blocked",
+        "threshold_categories": {
+          "epsilon_buffer_policy": {
+            "display_precision": 4,
+            "epsilon": 1e-09,
+            "raw_metrics_control_validation": true,
+            "rounding_never_clears_hard_failures": true
+          },
+          "hard_blocking_thresholds": {
+            "cysteine_pattern_largest_share_max_allowed": 0.6,
+            "motif_family_largest_share_max_allowed": 0.5,
+            "motif_marker_effective_count_hard_min": 3.0,
+            "motif_marker_largest_share_max_allowed": 0.5,
+            "motif_neighborhood_largest_share_max_allowed": 0.5,
+            "motif_scaffold_largest_share_max_allowed": 0.5,
+            "source_largest_share_max_allowed": 0.5,
+            "structural_fold_effective_count_hard_min": 3.0,
+            "structural_fold_largest_share_max_allowed": 0.5,
+            "structural_neighborhood_largest_share_max_allowed": 0.5
+          },
+          "preferred_thresholds": {
+            "motif_marker_effective_count_preferred": 3.25,
+            "motif_marker_largest_share_preferred": 0.35,
+            "source_effective_count_preferred": 3.0,
+            "source_largest_share_preferred": 0.35,
+            "structural_fold_effective_count_preferred": 3.25,
+            "structural_fold_largest_share_preferred": 0.35
+          },
+          "warning_only_thresholds": {
+            "motif_marker_effective_count_repair_buffer": 3.1
+          }
+        },
+        "thresholds": {
+          "cysteine_pattern_largest_share_max_allowed": 0.6,
+          "family": 0.25,
+          "generation_method": 0.5,
+          "generation_method_largest_share_max": 0.5,
+          "lineage": 0.2,
+          "minimum_repair_records_for_clear": 6,
+          "motif_family_largest_share_max_allowed": 0.5,
+          "motif_marker_effective_count_hard_min": 3.0,
+          "motif_marker_effective_count_preferred": 3.25,
+          "motif_marker_effective_count_repair_buffer": 3.1,
+          "motif_marker_largest_share_max_allowed": 0.5,
+          "motif_marker_largest_share_preferred": 0.35,
+          "motif_neighborhood_largest_share_max_allowed": 0.5,
+          "motif_scaffold_largest_share_max_allowed": 0.5,
+          "motif_signature": 0.25,
+          "source": 0.35,
+          "source_effective_count_preferred": 3.0,
+          "source_largest_share_max_allowed": 0.5,
+          "source_largest_share_preferred": 0.35,
+          "structural_fold_effective_count_hard_min": 3.0,
+          "structural_fold_effective_count_preferred": 3.25,
+          "structural_fold_largest_share_max_allowed": 0.5,
+          "structural_fold_largest_share_preferred": 0.35,
+          "structural_min_coverage_for_block": 0.5,
+          "structural_neighborhood_largest_share_max_allowed": 0.5,
+          "taxonomy": 0.25
+        },
+        "warning_classes": {
+          "degraded_explanation_mode": [],
+          "dormant_capability_readiness": [],
+          "evidence_completeness_gap": [],
+          "manifest_awaiting_export": [],
+          "metadata_gap": [
+            "embedding_neighborhood_attribution_incomplete",
+            "hypothesis_attribution_incomplete",
+            "lineage_attribution_incomplete",
+            "structural_annotation_missing",
+            "taxonomy_attribution_incomplete"
+          ],
+          "real_scientific_collapse": [
+            "campaign_collapse",
+            "cysteine_pattern_collapse",
+            "embedding_compression_collapse",
+            "generation_method_collapse",
+            "motif_marker_collapse",
+            "source_collapse"
+          ],
+          "review_gate": [
+            "hypothesis_linkage_missing"
+          ],
+          "source_activation_gap": [],
+          "stale_artifact": []
+        },
+        "warning_codes": [
+          "campaign_collapse",
+          "cysteine_pattern_collapse",
+          "embedding_compression_collapse",
+          "embedding_neighborhood_attribution_incomplete",
+          "generation_method_collapse",
+          "hypothesis_attribution_incomplete",
+          "hypothesis_linkage_missing",
+          "lineage_attribution_incomplete",
+          "motif_marker_collapse",
+          "source_collapse",
+          "structural_annotation_missing",
+          "taxonomy_attribution_incomplete"
+        ]
+      },
+      "generated_at": "2026-07-09T00:37:32.209935+00:00"
+    },
+    "status": "ok"
+  },
+  "boundary": "Boundary — Computational rankings and the observations in this archive are research-prioritization signals, not biological proof. Nothing here is a clinical claim, a validated therapeutic, a wet-lab result unless an explicit reviewed assay label is cited, an investment or governance promise, or a wet-lab order. The Protean Ledger on Base mainnet is the source of truth; this archive is a supplemental public mirror.",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T01:00:08+00:00",
+  "kind": "frontier-report",
+  "schema_version": "protean.public-research-artifact.v1",
+  "slug": "frontier-2026-07-09",
+  "title": "Frontier health report — 2026-07-09",
+  "topics": [
+    "frontier",
+    "diversity",
+    "health"
+  ]
+}

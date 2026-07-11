@@ -1,0 +1,28 @@
+{
+  "body": {
+    "cards_available": 60,
+    "ledger_artifacts": 26,
+    "open_unresolved": 502,
+    "source_status": {
+      "bio_frontier_audit": "active",
+      "bio_ledger_artifacts": "active",
+      "bio_public_cards": "active",
+      "bio_public_export": "active",
+      "galen_public_genome_export": "active",
+      "galen_runtime_audit_index": "active",
+      "galen_unresolved_snapshot": "active"
+    },
+    "theses_published": 0
+  },
+  "boundary": "Boundary — Computational rankings and the observations in this archive are research-prioritization signals, not biological proof. Nothing here is a clinical claim, a validated therapeutic, a wet-lab result unless an explicit reviewed assay label is cited, an investment or governance promise, or a wet-lab order. The Protean Ledger on Base mainnet is the source of truth; this archive is a supplemental public mirror.",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T01:06:01+00:00",
+  "kind": "discovery-log",
+  "schema_version": "protean.public-research-artifact.v1",
+  "slug": "discovery-2026-07-11",
+  "title": "Discovery log — 2026-07-11",
+  "topics": [
+    "discovery",
+    "daily-log"
+  ]
+}
